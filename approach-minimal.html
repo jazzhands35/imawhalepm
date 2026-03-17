@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imawhale PM — Approach B: Ultra-Minimal</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #fafaf8; color: #1a1a1a; font-family: 'DM Sans', sans-serif; line-height: 1.6; }
+
+    /* NAV */
+    nav { display: flex; align-items: center; justify-content: space-between; padding: 28px 64px; }
+    .logo { font-family: 'DM Serif Display', serif; font-size: 24px; color: #1a1a1a; letter-spacing: -0.02em; }
+    .nav-links { display: flex; gap: 40px; list-style: none; }
+    .nav-links a { color: #888; text-decoration: none; font-size: 14px; font-weight: 400; transition: color 0.2s; }
+    .nav-links a:hover { color: #1a1a1a; }
+
+    /* HERO */
+    .hero {
+      min-height: 90vh;
+      display: flex; flex-direction: column;
+      justify-content: center;
+      padding: 120px 64px;
+      max-width: 900px;
+    }
+    .hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 80px; font-weight: 400;
+      line-height: 1.02; letter-spacing: -0.04em;
+      color: #1a1a1a;
+      margin-bottom: 32px;
+    }
+    .hero p {
+      font-size: 20px; color: #666;
+      max-width: 480px; line-height: 1.7;
+      font-weight: 300;
+      margin-bottom: 48px;
+    }
+    .hero-link {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 15px; font-weight: 500; color: #1a1a1a;
+      text-decoration: none;
+      border-bottom: 1px solid #1a1a1a;
+      padding-bottom: 4px;
+      transition: gap 0.2s;
+    }
+    .hero-link:hover { gap: 14px; }
+
+    /* THIN DIVIDER */
+    .line { height: 1px; background: #e5e5e0; margin: 0 64px; }
+
+    /* STATS */
+    .stats {
+      display: grid; grid-template-columns: repeat(4,1fr);
+      padding: 80px 64px;
+      max-width: 1100px;
+    }
+    .stat-item { padding-right: 40px; }
+    .stat-item:not(:last-child) { border-right: 1px solid #e5e5e0; padding-left: 40px; }
+    .stat-item:first-child { padding-left: 0; }
+    .stat-val {
+      font-family: 'DM Serif Display', serif;
+      font-size: 40px; color: #1a1a1a;
+      letter-spacing: -0.03em;
+      margin-bottom: 4px;
+    }
+    .stat-desc { font-size: 13px; color: #999; text-transform: uppercase; letter-spacing: 0.06em; }
+
+    /* SECTION */
+    section { padding: 100px 64px; max-width: 1100px; }
+    .s-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; color: #999; margin-bottom: 24px; }
+    .s-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 48px; font-weight: 400;
+      letter-spacing: -0.03em; line-height: 1.1;
+      margin-bottom: 20px; max-width: 600px;
+    }
+    .s-text { font-size: 17px; color: #666; max-width: 500px; line-height: 1.8; font-weight: 300; }
+
+    /* SIMPLE GRID */
+    .grid-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 48px; margin-top: 64px; }
+    .grid-item h3 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+    .grid-item p { font-size: 15px; color: #888; line-height: 1.6; }
+    .grid-item-num {
+      font-family: 'DM Serif Display', serif;
+      font-size: 14px; color: #ccc;
+      margin-bottom: 16px;
+    }
+
+    /* EXCHANGE LIST */
+    .exchange-list { margin-top: 64px; }
+    .exchange-row {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 24px 0;
+      border-bottom: 1px solid #e5e5e0;
+    }
+    .exchange-row:first-child { border-top: 1px solid #e5e5e0; }
+    .ex-name { font-size: 22px; font-weight: 500; }
+    .ex-status { font-size: 13px; color: #999; text-transform: uppercase; letter-spacing: 0.06em; }
+    .ex-status.active { color: #2d8a56; }
+
+    /* FOOTER */
+    footer {
+      padding: 64px;
+      display: flex; justify-content: space-between; align-items: flex-end;
+    }
+    .foot-left { }
+    .foot-left h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 36px; font-weight: 400;
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+      max-width: 400px;
+      line-height: 1.15;
+    }
+    .foot-email {
+      font-size: 15px; color: #1a1a1a;
+      text-decoration: none;
+      border-bottom: 1px solid #1a1a1a;
+      padding-bottom: 2px;
+    }
+    .foot-right { text-align: right; }
+    .foot-copy { font-size: 13px; color: #bbb; }
+    .foot-links-b { display: flex; gap: 24px; margin-bottom: 12px; }
+    .foot-links-b a { font-size: 13px; color: #888; text-decoration: none; }
+    .foot-links-b a:hover { color: #1a1a1a; }
+
+    /* LABEL */
+    .approach-label {
+      position: fixed; top: 0; left: 50%; transform: translateX(-50%);
+      background: #1a1a1a; color: #fafaf8;
+      padding: 6px 20px; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.1em;
+      border-radius: 0 0 8px 8px; z-index: 200;
+    }
+  </style>
+</head>
+<body>
+
+<div class="approach-label">Approach B — Ultra-Minimal (Citadel / RenTech)</div>
+
+<nav>
+  <div class="logo">Imawhale PM</div>
+  <ul class="nav-links">
+    <li><a href="#">About</a></li>
+    <li><a href="#">Research</a></li>
+    <li><a href="#">Careers</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="hero">
+  <h1>We make prediction markets work.</h1>
+  <p>Institutional liquidity provision across sports and global events. Tight spreads. Deep books. Every exchange.</p>
+  <a href="#" class="hero-link">Learn what we do →</a>
+</div>
+
+<div class="line"></div>
+
+<div class="stats">
+  <div class="stat-item">
+    <div class="stat-val">$128M+</div>
+    <div class="stat-desc">Volume Traded</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-val">12,657</div>
+    <div class="stat-desc">Markets Quoted</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-val">$2.4M</div>
+    <div class="stat-desc">Liquidity</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-val">25+</div>
+    <div class="stat-desc">Sports</div>
+  </div>
+</div>
+
+<div class="line"></div>
+
+<section>
+  <div class="s-label">What We Do</div>
+  <div class="s-title">Infrastructure for prediction markets.</div>
+  <div class="s-text">We are market makers — providing continuous, two-sided liquidity that enables efficient price discovery. Our systems run around the clock.</div>
+
+  <div class="grid-3">
+    <div class="grid-item">
+      <div class="grid-item-num">01</div>
+      <h3>Market Making</h3>
+      <p>Continuous quotes across thousands of contracts. Tight spreads. Deep order books.</p>
+    </div>
+    <div class="grid-item">
+      <div class="grid-item-num">02</div>
+      <h3>Price Discovery</h3>
+      <p>Proprietary probability models built on diverse data sources, updated in real time.</p>
+    </div>
+    <div class="grid-item">
+      <div class="grid-item-num">03</div>
+      <h3>Risk Management</h3>
+      <p>Automated hedging and position limits across correlated markets and venues.</p>
+    </div>
+  </div>
+</section>
+
+<div class="line"></div>
+
+<section>
+  <div class="s-label">Exchanges</div>
+  <div class="s-title">Where we provide liquidity.</div>
+
+  <div class="exchange-list">
+    <div class="exchange-row">
+      <span class="ex-name">Kalshi</span>
+      <span class="ex-status active">CFTC Regulated · Active</span>
+    </div>
+    <div class="exchange-row">
+      <span class="ex-name">Polymarket</span>
+      <span class="ex-status active">Global · Active</span>
+    </div>
+    <div class="exchange-row">
+      <span class="ex-name">Robinhood</span>
+      <span class="ex-status active">Predictions · Active</span>
+    </div>
+    <div class="exchange-row">
+      <span class="ex-name">Additional Venues</span>
+      <span class="ex-status">Expanding</span>
+    </div>
+  </div>
+</section>
+
+<div class="line"></div>
+
+<footer>
+  <div class="foot-left">
+    <h2>Interested in working together?</h2>
+    <a href="mailto:contact@imawhalepm.com" class="foot-email">contact@imawhalepm.com</a>
+  </div>
+  <div class="foot-right">
+    <div class="foot-links-b">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+    <div class="foot-copy">© 2026 Imawhale PM</div>
+  </div>
+</footer>
+
+</body>
+</html>

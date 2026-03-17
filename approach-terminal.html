@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imawhale PM — Approach D: Terminal</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0a0e0a; color: #c8d6c8; font-family: 'JetBrains Mono', monospace; line-height: 1.6; overflow-x: hidden; }
+
+    /* Scanlines */
+    body::after {
+      content: ''; position: fixed; inset: 0; z-index: 9999;
+      background: repeating-linear-gradient(0deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 1px, transparent 1px, transparent 2px);
+      pointer-events: none;
+    }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 48px;
+      background: rgba(10,14,10,0.9); backdrop-filter: blur(10px);
+      border-bottom: 1px solid #1a2e1a;
+    }
+    .logo { font-size: 16px; font-weight: 700; color: #00ff88; letter-spacing: 0.05em; }
+    .logo span { color: #c8d6c8; font-weight: 400; }
+    .nav-links { display: flex; gap: 28px; list-style: none; }
+    .nav-links a { color: #5a7a5a; text-decoration: none; font-size: 13px; transition: color 0.2s; }
+    .nav-links a:hover { color: #00ff88; }
+    .nav-links a::before { content: '> '; color: #2a4a2a; }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+      justify-content: center;
+      padding: 120px 48px;
+      position: relative;
+      max-width: 1000px;
+    }
+    .hero::before {
+      content: ''; position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background:
+        radial-gradient(ellipse at 20% 50%, rgba(0,255,136,0.03) 0%, transparent 50%);
+      pointer-events: none;
+    }
+
+    .prompt { color: #00ff88; font-size: 14px; margin-bottom: 16px; }
+    .prompt .cursor { animation: blink 1s step-end infinite; }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+    .hero h1 {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 48px; font-weight: 700;
+      line-height: 1.15; letter-spacing: -0.02em;
+      color: #e8f0e8;
+      margin-bottom: 24px;
+    }
+    .hero h1 .green { color: #00ff88; }
+    .hero-sub {
+      font-size: 15px; color: #5a7a5a;
+      max-width: 600px; line-height: 1.8;
+      margin-bottom: 40px;
+    }
+    .hero-sub .hl { color: #c8d6c8; }
+
+    .hero-stats {
+      display: flex; gap: 32px;
+      padding: 20px 0;
+      border-top: 1px solid #1a2e1a;
+      border-bottom: 1px solid #1a2e1a;
+      margin-bottom: 40px;
+    }
+    .hs { }
+    .hs-val { font-size: 24px; font-weight: 700; color: #00ff88; }
+    .hs-label { font-size: 11px; color: #3a5a3a; text-transform: uppercase; letter-spacing: 0.08em; }
+
+    .hero-cmds { display: flex; gap: 12px; }
+    .cmd {
+      padding: 10px 24px;
+      background: rgba(0,255,136,0.08);
+      border: 1px solid rgba(0,255,136,0.2);
+      border-radius: 4px;
+      color: #00ff88; font-size: 13px; font-weight: 500;
+      cursor: pointer; transition: all 0.2s;
+    }
+    .cmd:hover { background: rgba(0,255,136,0.15); border-color: rgba(0,255,136,0.4); }
+    .cmd-dim {
+      padding: 10px 24px;
+      background: transparent;
+      border: 1px solid #1a2e1a;
+      border-radius: 4px;
+      color: #5a7a5a; font-size: 13px; font-weight: 500;
+      cursor: pointer; transition: all 0.2s;
+    }
+    .cmd-dim:hover { border-color: #3a5a3a; color: #c8d6c8; }
+
+    /* SECTION */
+    section { padding: 100px 48px; max-width: 1100px; margin: 0 auto; }
+    .s-head { color: #00ff88; font-size: 12px; margin-bottom: 8px; }
+    .s-head::before { content: '## '; color: #2a4a2a; }
+    .s-title { font-size: 32px; font-weight: 700; color: #e8f0e8; margin-bottom: 16px; letter-spacing: -0.01em; }
+    .s-desc { font-size: 14px; color: #5a7a5a; max-width: 600px; line-height: 1.7; }
+
+    .divider { height: 1px; background: #1a2e1a; margin: 0 48px; position: relative; }
+    .divider::after {
+      content: ''; position: absolute;
+      top: -1px; left: 0; height: 2px; width: 80px;
+      background: #00ff88; opacity: 0.4;
+      animation: scanDiv 6s infinite;
+    }
+    @keyframes scanDiv { 0%{left:-80px} 100%{left:calc(100% + 80px)} }
+
+    /* PIPELINE - Terminal style */
+    .pipeline-term {
+      margin-top: 48px;
+      background: #0d120d;
+      border: 1px solid #1a2e1a;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .pt-header {
+      padding: 10px 16px;
+      background: #111811;
+      border-bottom: 1px solid #1a2e1a;
+      display: flex; align-items: center; gap: 8px;
+      font-size: 12px; color: #3a5a3a;
+    }
+    .pt-header .dot { width: 8px; height: 8px; border-radius: 50%; }
+    .pt-header .dot-r { background: #ff5f56; }
+    .pt-header .dot-y { background: #ffbd2e; }
+    .pt-header .dot-g { background: #27c93f; }
+    .pt-body { padding: 24px; font-size: 13px; line-height: 2; }
+    .pt-line { }
+    .pt-comment { color: #2a4a2a; }
+    .pt-key { color: #5a7a5a; }
+    .pt-val { color: #c8d6c8; }
+    .pt-fn { color: #00ff88; }
+    .pt-str { color: #ffd700; }
+    .pt-num { color: #87ceeb; }
+    .pt-arrow { color: #00ff88; animation: arrowBlink 1.5s infinite; }
+    @keyframes arrowBlink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+    /* LIVE DATA TABLE */
+    .data-table {
+      margin-top: 48px;
+      border: 1px solid #1a2e1a;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .dt-header {
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+      padding: 12px 20px;
+      background: #111811;
+      border-bottom: 1px solid #1a2e1a;
+      font-size: 11px; color: #3a5a3a;
+      text-transform: uppercase; letter-spacing: 0.06em;
+    }
+    .dt-row {
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+      padding: 14px 20px;
+      border-bottom: 1px solid #111811;
+      font-size: 13px;
+      transition: background 0.2s;
+    }
+    .dt-row:hover { background: rgba(0,255,136,0.02); }
+    .dt-row:last-child { border-bottom: none; }
+    .dt-contract { color: #e8f0e8; font-weight: 500; }
+    .dt-exchange { color: #3a5a3a; }
+    .dt-bid { color: #00ff88; }
+    .dt-ask { color: #ff6b6b; }
+    .dt-spread { color: #ffd700; }
+    .dt-vol { color: #5a7a5a; }
+
+    .dt-row.active { background: rgba(0,255,136,0.03); }
+    .dt-row.active .dt-contract::before { content: '● '; color: #00ff88; font-size: 8px; }
+
+    /* EXCHANGES */
+    .ex-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; margin-top: 48px; }
+    .ex-card {
+      background: #0d120d;
+      border: 1px solid #1a2e1a;
+      border-radius: 6px;
+      padding: 24px 16px;
+      text-align: center;
+      transition: all 0.2s;
+    }
+    .ex-card:hover { border-color: rgba(0,255,136,0.3); }
+    .ex-card-name { font-size: 16px; font-weight: 600; color: #e8f0e8; margin-bottom: 4px; }
+    .ex-card-tag { font-size: 11px; color: #3a5a3a; text-transform: uppercase; letter-spacing: 0.06em; }
+    .ex-card-tag.active { color: #00ff88; }
+
+    /* CTA */
+    .cta-section {
+      padding: 100px 48px; max-width: 1100px; margin: 0 auto;
+    }
+    .cta-box {
+      border: 1px solid #1a2e1a;
+      border-radius: 6px;
+      padding: 48px;
+      text-align: center;
+      position: relative;
+    }
+    .cta-box::before {
+      content: ''; position: absolute; inset: -1px;
+      border-radius: 6px;
+      background: linear-gradient(135deg, rgba(0,255,136,0.1), transparent, rgba(0,255,136,0.05));
+      z-index: -1;
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid #1a2e1a;
+      padding: 32px 48px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-size: 12px; color: #2a4a2a;
+    }
+    footer a { color: #3a5a3a; text-decoration: none; }
+    footer a:hover { color: #00ff88; }
+
+    .approach-label {
+      position: fixed; top: 0; left: 50%; transform: translateX(-50%);
+      background: #00ff88; color: #0a0e0a;
+      padding: 6px 20px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.1em;
+      border-radius: 0 0 6px 6px; z-index: 200;
+    }
+  </style>
+</head>
+<body>
+
+<div class="approach-label">Approach D — Terminal Aesthetic (Bloomberg meets Hacker)</div>
+
+<nav>
+  <div class="logo">IMAWHALE<span>.PM</span></div>
+  <ul class="nav-links">
+    <li><a href="#">about</a></li>
+    <li><a href="#">markets</a></li>
+    <li><a href="#">research</a></li>
+    <li><a href="#">careers</a></li>
+    <li><a href="#">contact</a></li>
+  </ul>
+</nav>
+
+<div class="hero">
+  <div class="prompt">$ imawhalepm --status<span class="cursor">█</span></div>
+  <h1>We make markets.<br>You get <span class="green">liquidity.</span></h1>
+  <p class="hero-sub">
+    Institutional-grade <span class="hl">market making</span> for prediction markets.
+    <span class="hl">24/7 quoting</span> across sports and global events.
+    Tight spreads. Deep books. <span class="hl">Every exchange.</span>
+  </p>
+  <div class="hero-stats">
+    <div class="hs"><div class="hs-val">$128M+</div><div class="hs-label">volume</div></div>
+    <div class="hs"><div class="hs-val">12,657</div><div class="hs-label">markets</div></div>
+    <div class="hs"><div class="hs-val">$2.4M</div><div class="hs-label">liquidity</div></div>
+    <div class="hs"><div class="hs-val">25+</div><div class="hs-label">sports</div></div>
+  </div>
+  <div class="hero-cmds">
+    <button class="cmd">$ partner --with-us</button>
+    <button class="cmd-dim">$ cat research.md</button>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<section>
+  <div class="s-head">architecture</div>
+  <div class="s-title">How the pipeline works</div>
+  <div class="s-desc">Every quote passes through four stages in under 100ms.</div>
+
+  <div class="pipeline-term">
+    <div class="pt-header">
+      <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+      <span style="margin-left:8px">pipeline.config</span>
+    </div>
+    <div class="pt-body">
+      <div class="pt-line"><span class="pt-comment">// Stage 1: Data Ingestion</span></div>
+      <div class="pt-line"><span class="pt-fn">ingest</span>(<span class="pt-str">"exchanges"</span>, <span class="pt-str">"sportsbooks"</span>, <span class="pt-str">"proprietary"</span>)</div>
+      <div class="pt-line">&nbsp;&nbsp;<span class="pt-arrow">│</span></div>
+      <div class="pt-line"><span class="pt-comment">// Stage 2: Probability Engine</span></div>
+      <div class="pt-line"><span class="pt-fn">compute_fair_value</span>(signals) <span class="pt-arrow">→</span> <span class="pt-key">probability:</span> <span class="pt-num">0.541</span></div>
+      <div class="pt-line">&nbsp;&nbsp;<span class="pt-arrow">│</span></div>
+      <div class="pt-line"><span class="pt-comment">// Stage 3: Risk & Sizing</span></div>
+      <div class="pt-line"><span class="pt-fn">check_limits</span>(position, exposure) <span class="pt-arrow">→</span> <span class="pt-key">size:</span> <span class="pt-num">200</span> <span class="pt-key">hedge:</span> <span class="pt-str">"cross-market"</span></div>
+      <div class="pt-line">&nbsp;&nbsp;<span class="pt-arrow">│</span></div>
+      <div class="pt-line"><span class="pt-comment">// Stage 4: Execution</span></div>
+      <div class="pt-line"><span class="pt-fn">post_quotes</span>(<span class="pt-key">bid:</span> <span class="pt-num">53¢</span>, <span class="pt-key">ask:</span> <span class="pt-num">55¢</span>, <span class="pt-key">latency:</span> <span class="pt-num">&lt;100ms</span>)</div>
+      <div class="pt-line">&nbsp;</div>
+      <div class="pt-line"><span class="pt-comment">// Status: <span style="color:#00ff88">LIVE</span> — quoting 523 markets</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section>
+  <div class="s-head">live_quotes</div>
+  <div class="s-title">Active markets</div>
+  <div class="s-desc">Real-time quoting across prediction market exchanges.</div>
+
+  <div class="data-table">
+    <div class="dt-header">
+      <span>Contract</span><span>Exchange</span><span>Bid</span><span>Ask</span><span>Spread</span><span>24h Vol</span>
+    </div>
+    <div class="dt-row active">
+      <span class="dt-contract">CHIEFS-ML-0317</span>
+      <span class="dt-exchange">Kalshi</span>
+      <span class="dt-bid">53¢ × 200</span>
+      <span class="dt-ask">55¢ × 200</span>
+      <span class="dt-spread">2¢</span>
+      <span class="dt-vol">$48.2K</span>
+    </div>
+    <div class="dt-row">
+      <span class="dt-contract">LAKERS-SPR-0317</span>
+      <span class="dt-exchange">Kalshi</span>
+      <span class="dt-bid">47¢ × 150</span>
+      <span class="dt-ask">49¢ × 150</span>
+      <span class="dt-spread">2¢</span>
+      <span class="dt-vol">$31.5K</span>
+    </div>
+    <div class="dt-row">
+      <span class="dt-contract">FED-RATE-MAR26</span>
+      <span class="dt-exchange">Kalshi</span>
+      <span class="dt-bid">31¢ × 500</span>
+      <span class="dt-ask">33¢ × 500</span>
+      <span class="dt-spread">2¢</span>
+      <span class="dt-vol">$127.8K</span>
+    </div>
+    <div class="dt-row">
+      <span class="dt-contract">BTC-100K-APR26</span>
+      <span class="dt-exchange">Polymarket</span>
+      <span class="dt-bid">70¢ × 300</span>
+      <span class="dt-ask">72¢ × 300</span>
+      <span class="dt-spread">2¢</span>
+      <span class="dt-vol">$89.4K</span>
+    </div>
+    <div class="dt-row">
+      <span class="dt-contract">ARSENAL-TITLE</span>
+      <span class="dt-exchange">Polymarket</span>
+      <span class="dt-bid">37¢ × 250</span>
+      <span class="dt-ask">39¢ × 250</span>
+      <span class="dt-spread">2¢</span>
+      <span class="dt-vol">$22.1K</span>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section>
+  <div class="s-head">exchanges</div>
+  <div class="s-title">Connected venues</div>
+  <div class="ex-grid">
+    <div class="ex-card"><div class="ex-card-name">Kalshi</div><div class="ex-card-tag active">CFTC · LIVE</div></div>
+    <div class="ex-card"><div class="ex-card-name">Polymarket</div><div class="ex-card-tag active">GLOBAL · LIVE</div></div>
+    <div class="ex-card"><div class="ex-card-name">Robinhood</div><div class="ex-card-tag active">PREDICT · LIVE</div></div>
+    <div class="ex-card"><div class="ex-card-name">+more</div><div class="ex-card-tag">EXPANDING</div></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<div class="cta-section">
+  <div class="cta-box">
+    <div class="s-title" style="margin-bottom:16px">$ connect --with imawhalepm</div>
+    <div class="s-desc" style="margin:0 auto 32px;text-align:center;max-width:480px">
+      Exchanges, partners, engineers, quants — we're hiring and partnering.
+    </div>
+    <div class="hero-cmds" style="justify-content:center">
+      <button class="cmd">$ contact --us</button>
+      <button class="cmd-dim">$ cat careers.md</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <span>© 2026 imawhalepm</span>
+  <span><a href="#">privacy</a> · <a href="#">terms</a> · <a href="#">contact</a></span>
+</footer>
+
+</body>
+</html>

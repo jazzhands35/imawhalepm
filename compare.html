@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imawhale PM — Compare All Approaches</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111; color: #eee; font-family: 'Inter', sans-serif; padding: 48px; }
+    h1 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+    .sub { color: #888; font-size: 16px; margin-bottom: 48px; }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+    .card {
+      background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 16px;
+      overflow: hidden; transition: all 0.3s;
+    }
+    .card:hover { border-color: #444; transform: translateY(-4px); }
+    .card-preview {
+      height: 300px; overflow: hidden; position: relative;
+      border-bottom: 1px solid #2a2a2a;
+    }
+    .card-preview iframe {
+      width: 200%; height: 200%;
+      transform: scale(0.5); transform-origin: top left;
+      border: none; pointer-events: none;
+    }
+    .card-body { padding: 24px; }
+    .card-label {
+      font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em;
+      color: #10b981; font-weight: 600; margin-bottom: 8px;
+    }
+    .card-title { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+    .card-desc { font-size: 14px; color: #888; line-height: 1.6; margin-bottom: 16px; }
+    .card-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 10px 20px;
+      background: rgba(255,255,255,0.06); border: 1px solid #333;
+      border-radius: 8px; color: #eee; text-decoration: none;
+      font-size: 14px; font-weight: 500; transition: all 0.2s;
+    }
+    .card-link:hover { background: rgba(255,255,255,0.1); border-color: #555; }
+  </style>
+</head>
+<body>
+
+<h1>Imawhale PM — Design Approaches</h1>
+<p class="sub">Click any approach to view the full mockup. Share this page for feedback.</p>
+
+<div class="grid">
+  <div class="card">
+    <div class="card-preview"><iframe src="index.html"></iframe></div>
+    <div class="card-body">
+      <div class="card-label">Approach A</div>
+      <div class="card-title">Dark Institutional + Animated Pipeline</div>
+      <div class="card-desc">Valence meets ValorAlgo. Dark theme, emerald accents, animated trading pipeline, scrolling ticker, live quoting terminal. Institutional credibility with technical wow-factor.</div>
+      <a href="index.html" class="card-link">View Full Mockup →</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-preview"><iframe src="approach-minimal.html"></iframe></div>
+    <div class="card-body">
+      <div class="card-label">Approach B</div>
+      <div class="card-title">Ultra-Minimal (Citadel / RenTech)</div>
+      <div class="card-desc">Light background, serif typography, maximum whitespace. Trust through restraint — says "we don't need to impress you." The most elite trading firms use this pattern.</div>
+      <a href="approach-minimal.html" class="card-link">View Full Mockup →</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-preview"><iframe src="approach-gradient.html"></iframe></div>
+    <div class="card-body">
+      <div class="card-label">Approach C</div>
+      <div class="card-title">Bold Gradient (Stripe meets Robinhood)</div>
+      <div class="card-desc">Purple-to-cyan gradients, floating orbs, bold typography. Modern, vibrant, and energetic. Signals "next generation" rather than "old guard." Space Grotesk font.</div>
+      <a href="approach-gradient.html" class="card-link">View Full Mockup →</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-preview"><iframe src="approach-terminal.html"></iframe></div>
+    <div class="card-body">
+      <div class="card-label">Approach D</div>
+      <div class="card-title">Terminal Aesthetic (Bloomberg meets Hacker)</div>
+      <div class="card-desc">Full monospace typography, green-on-black, code-style pipeline display, data table layout. CTA buttons styled as terminal commands. Maximum technical credibility.</div>
+      <a href="approach-terminal.html" class="card-link">View Full Mockup →</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
