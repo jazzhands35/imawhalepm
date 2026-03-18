@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imawhale PM — Design Suggestions Preview</title>
+  <meta name="theme-color" content="#0c0a1a">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐋</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif&family=Outfit:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ═══════════════════════════════════════════
+       BASE SITE STYLES (current production)
+       ═══════════════════════════════════════════ */
+    :root {
+      --purple: #8b5cf6;
+      --cyan: #06b6d4;
+      --pink: #ec4899;
+      --purple-light: #a78bfa;
+      --green: #10b981;
+      --red: #ef4444;
+      --amber: #f59e0b;
+      --bg: #0c0a1a;
+      --border: rgba(255,255,255,0.06);
+      --card-bg: rgba(255,255,255,0.03);
+      --text-muted: rgba(255,255,255,0.45);
+      --text-dim: rgba(255,255,255,0.3);
+      --purple-tint: rgba(139,92,246,0.1);
+      --purple-hover: rgba(139,92,246,0.3);
+      --grad: linear-gradient(135deg, var(--purple), var(--cyan));
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: #fff; font-family: 'Space Grotesk', sans-serif; line-height: 1.6; overflow-x: hidden; }
+    :focus-visible { outline: 2px solid var(--purple-light); outline-offset: 2px; }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 20px 48px;
+      background: rgba(12,10,26,0.92);
+      border-bottom: 1px solid var(--border);
+      transition: padding 0.3s, background 0.3s;
+    }
+    .nav-progress {
+      position: absolute; bottom: 0; left: 0; height: 2px; width: 0%;
+      background: var(--grad); transition: none; display: none;
+    }
+    .logo { font-size: 22px; font-weight: 700; letter-spacing: -0.03em; display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; transition: font-size 0.3s; }
+    .logo-icon {
+      width: 36px; height: 36px; background: var(--grad); border-radius: 10px;
+      display: flex; align-items: center; justify-content: center; font-size: 18px;
+      transition: width 0.3s, height 0.3s;
+    }
+    .nav-links { display: flex; gap: 32px; list-style: none; align-items: center; }
+    .nav-links a { color: rgba(255,255,255,0.6); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+    .nav-links a:hover { color: #fff; }
+    .nav-links .nav-btn { padding: 8px 20px; background: var(--grad); border-radius: 8px; color: #fff; font-weight: 600; }
+    .menu-toggle { display: none; background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh; display: flex; flex-direction: column;
+      justify-content: center; align-items: center; text-align: center;
+      padding: 140px 48px 100px; position: relative;
+    }
+    .hero::before {
+      content: ''; position: absolute;
+      top: -200px; left: 50%; transform: translateX(-50%);
+      width: 1200px; height: 800px;
+      background: radial-gradient(circle at 30% 50%, rgba(139,92,246,0.15) 0%, transparent 50%),
+                  radial-gradient(circle at 70% 50%, rgba(6,182,212,0.12) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .orb {
+      position: absolute; border-radius: 50%; filter: blur(60px);
+      pointer-events: none; animation: orbFloat 20s ease-in-out infinite;
+      will-change: transform; transition: opacity 0.6s;
+    }
+    .orb-1 { width: 400px; height: 400px; background: rgba(139,92,246,0.12); top: 10%; left: 10%; animation-delay: 0s; }
+    .orb-2 { width: 350px; height: 350px; background: rgba(6,182,212,0.1); top: 20%; right: 15%; animation-delay: -7s; }
+    .orb-3 { width: 300px; height: 300px; background: rgba(236,72,153,0.08); bottom: 20%; left: 30%; animation-delay: -14s; }
+    @keyframes orbFloat {
+      0%,100% { transform: translate(0,0) scale(1); }
+      25% { transform: translate(30px,-40px) scale(1.1); }
+      50% { transform: translate(-20px,30px) scale(0.95); }
+      75% { transform: translate(40px,20px) scale(1.05); }
+    }
+
+    /* Mesh gradient blobs (hidden by default) */
+    .mesh-blob {
+      position: absolute; pointer-events: none; opacity: 0;
+      filter: blur(50px); mix-blend-mode: screen;
+      transition: opacity 0.8s;
+    }
+    .mesh-1 {
+      width: 500px; height: 500px; top: 5%; left: 5%;
+      background: linear-gradient(135deg, rgba(139,92,246,0.35), rgba(6,182,212,0.15));
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+      animation: meshMorph1 18s ease-in-out infinite;
+    }
+    .mesh-2 {
+      width: 450px; height: 450px; top: 15%; right: 5%;
+      background: linear-gradient(225deg, rgba(6,182,212,0.3), rgba(236,72,153,0.2));
+      border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+      animation: meshMorph2 22s ease-in-out infinite;
+    }
+    .mesh-3 {
+      width: 380px; height: 380px; bottom: 10%; left: 25%;
+      background: linear-gradient(45deg, rgba(236,72,153,0.25), rgba(139,92,246,0.15));
+      border-radius: 50% 50% 30% 70% / 40% 60% 40% 60%;
+      animation: meshMorph3 15s ease-in-out infinite;
+    }
+    .mesh-4 {
+      width: 300px; height: 300px; top: 40%; left: 50%;
+      background: linear-gradient(180deg, rgba(6,182,212,0.2), rgba(139,92,246,0.1));
+      border-radius: 40% 60% 60% 40% / 60% 40% 60% 40%;
+      animation: meshMorph4 20s ease-in-out infinite;
+    }
+    @keyframes meshMorph1 {
+      0%,100% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; transform: translate(0,0) rotate(0deg) scale(1); }
+      33% { border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%; transform: translate(50px,-30px) rotate(10deg) scale(1.1); }
+      66% { border-radius: 50% 50% 70% 30% / 30% 70% 30% 70%; transform: translate(-30px,40px) rotate(-5deg) scale(0.95); }
+    }
+    @keyframes meshMorph2 {
+      0%,100% { border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%; transform: translate(0,0) rotate(0deg); }
+      33% { border-radius: 30% 70% 70% 30% / 40% 60% 40% 60%; transform: translate(-40px,30px) rotate(-8deg); }
+      66% { border-radius: 50% 50% 30% 70% / 60% 40% 60% 40%; transform: translate(30px,-20px) rotate(12deg); }
+    }
+    @keyframes meshMorph3 {
+      0%,100% { border-radius: 50% 50% 30% 70% / 40% 60% 40% 60%; transform: translate(0,0) scale(1); }
+      50% { border-radius: 30% 70% 50% 50% / 60% 40% 60% 40%; transform: translate(40px,-40px) scale(1.15); }
+    }
+    @keyframes meshMorph4 {
+      0%,100% { border-radius: 40% 60% 60% 40% / 60% 40% 60% 40%; transform: translate(0,0); }
+      50% { border-radius: 60% 40% 40% 60% / 40% 60% 40% 60%; transform: translate(-30px,30px); }
+    }
+
+    .hero-chip {
+      display: inline-flex; align-items: center; gap: 8px; padding: 8px 18px;
+      background: rgba(139,92,246,0.15); border: 1px solid var(--purple-hover);
+      border-radius: 100px; font-size: 13px; color: var(--purple-light); font-weight: 500; margin-bottom: 36px;
+    }
+    .chip-dot { width: 6px; height: 6px; background: var(--purple-light); border-radius: 50%; animation: chipPulse 2s infinite; }
+    @keyframes chipPulse { 0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(167,139,250,0.4)} 50%{opacity:0.6;box-shadow:0 0 0 6px rgba(167,139,250,0)} }
+    .hero h1 { font-size: 76px; font-weight: 700; line-height: 1.02; letter-spacing: -0.04em; max-width: 900px; margin-bottom: 24px; }
+    .grad-text {
+      background: linear-gradient(135deg, var(--purple) 0%, var(--cyan) 50%, var(--pink) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent;
+    }
+    .hero-sub { font-size: 19px; color: rgba(255,255,255,0.5); max-width: 540px; line-height: 1.7; margin-bottom: 48px; font-weight: 300; }
+    .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
+    .btn-grad {
+      padding: 16px 36px; background: var(--grad); color: #fff; border: none; border-radius: 12px;
+      font-size: 16px; font-weight: 600; cursor: pointer; transition: transform 0.3s, opacity 0.3s;
+      position: relative; overflow: hidden; text-decoration: none; display: inline-flex; align-items: center;
+    }
+    .btn-grad::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, var(--cyan), var(--pink)); opacity: 0; transition: opacity 0.3s; }
+    .btn-grad:hover::before { opacity: 1; }
+    .btn-grad span { position: relative; z-index: 1; }
+    .btn-outline {
+      padding: 16px 36px; background: rgba(255,255,255,0.05); color: #fff;
+      border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; font-size: 16px; font-weight: 500;
+      cursor: pointer; transition: background 0.3s, border-color 0.3s; text-decoration: none; display: inline-flex; align-items: center;
+    }
+    .btn-outline:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); }
+
+    /* TICKER */
+    .ticker-wrap {
+      overflow: hidden; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+      background: rgba(255,255,255,0.01); padding: 12px 0;
+      display: none;
+    }
+    .ticker-track {
+      display: flex; gap: 48px; width: max-content;
+      animation: tickerScroll 40s linear infinite;
+    }
+    .ticker-item {
+      display: flex; align-items: center; gap: 10px; white-space: nowrap;
+      font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--text-muted);
+    }
+    .ticker-sym { color: #fff; font-weight: 500; }
+    .ticker-price { font-weight: 500; }
+    .ticker-up { color: var(--green); }
+    .ticker-down { color: var(--red); }
+    .ticker-flat { color: var(--amber); }
+    .ticker-dot { width: 3px; height: 3px; border-radius: 50%; background: rgba(255,255,255,0.15); }
+    @keyframes tickerScroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* STATS */
+    .stats-row {
+      display: grid; grid-template-columns: repeat(4,1fr);
+      max-width: 1000px; margin: -20px auto 0; position: relative; z-index: 1;
+    }
+    .stat-card {
+      padding: 40px 24px; text-align: center;
+      background: var(--card-bg); border: 1px solid var(--border);
+      transition: background 0.3s, transform 0.3s;
+    }
+    .stat-card:first-child { border-radius: 16px 0 0 16px; }
+    .stat-card:last-child { border-radius: 0 16px 16px 0; }
+    .stat-card:hover { background: rgba(255,255,255,0.06); transform: translateY(-2px); }
+    .stat-val { font-size: 38px; font-weight: 700; letter-spacing: -0.03em; margin-bottom: 4px; }
+    .stat-val .g { background: var(--grad); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; }
+    .stat-lbl { font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; }
+
+    /* SECTIONS */
+    section { padding: 120px 48px; max-width: 1200px; margin: 0 auto; }
+    .s-label {
+      display: inline-flex; padding: 6px 14px;
+      background: var(--purple-tint); border: 1px solid rgba(139,92,246,0.2);
+      border-radius: 8px; font-size: 12px; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--purple-light); font-weight: 600; margin-bottom: 20px;
+    }
+    h2.s-title { font-size: 48px; font-weight: 700; letter-spacing: -0.03em; margin-bottom: 16px; line-height: 1.1; }
+    .s-sub { font-size: 18px; color: var(--text-muted); max-width: 540px; line-height: 1.7; font-weight: 300; }
+
+    /* PIPELINE */
+    .pipe-cards { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; margin-top: 64px; transition: all 0.5s; }
+    .pipe-card {
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-radius: 16px; padding: 32px 24px; position: relative; overflow: hidden;
+      transition: border-color 0.3s, transform 0.3s;
+    }
+    .pipe-card:hover { border-color: var(--purple-hover); transform: translateY(-4px); }
+    .pipe-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--purple), var(--cyan)); opacity: 0; transition: opacity 0.3s;
+    }
+    .pipe-card:hover::before { opacity: 1; }
+    .pipe-num {
+      font-size: 48px; font-weight: 700; line-height: 1;
+      background: linear-gradient(135deg, rgba(139,92,246,0.3), rgba(6,182,212,0.3));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent;
+      margin-bottom: 20px;
+    }
+    .pipe-card h3 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+    .pipe-card p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
+    .pipe-connector { display: none; }
+
+    /* QUOTE TERMINAL */
+    .quote-terminal {
+      margin-top: 64px; background: rgba(255,255,255,0.02);
+      border: 1px solid var(--border); border-radius: 20px; overflow: hidden; position: relative;
+    }
+    .quote-terminal::before {
+      content: ''; position: absolute; inset: -1px;
+      background: linear-gradient(135deg, rgba(139,92,246,0.2), transparent, rgba(6,182,212,0.2));
+      border-radius: 20px; z-index: -1;
+    }
+    .qt-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 24px; background: rgba(255,255,255,0.02); border-bottom: 1px solid var(--border);
+    }
+    .qt-dots { display: flex; gap: 6px; }
+    .qt-dots span { width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.1); }
+    .qt-dots span:first-child { background: var(--red); }
+    .qt-dots span:nth-child(2) { background: var(--amber); }
+    .qt-dots span:nth-child(3) { background: var(--green); }
+    .qt-title { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--text-dim); }
+    .qt-cursor { display: none; animation: cursorBlink 1s step-end infinite; }
+    @keyframes cursorBlink { 0%,100%{opacity:1} 50%{opacity:0} }
+    .qt-status { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-dim); display: none; }
+    .qt-body { padding: 24px; }
+    .qt-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; }
+    .qt-card {
+      background: rgba(255,255,255,0.02); border: 1px solid var(--border);
+      border-radius: 12px; padding: 20px; transition: border-color 0.3s;
+    }
+    .qt-card:hover { border-color: var(--purple-hover); }
+    .qt-pair { font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+    .qt-exchange { font-size: 12px; color: var(--text-dim); margin-bottom: 16px; }
+    .qt-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 13px; }
+    .qt-row:last-child { border: none; }
+    .qt-k { color: var(--text-dim); }
+    .qt-v { font-family: 'JetBrains Mono', monospace; font-weight: 500; transition: color 0.15s; }
+    .qt-buy { color: var(--green); }
+    .qt-sell { color: var(--red); }
+    .qt-spread { color: var(--amber); }
+    .price-flash-up { color: #34d399 !important; text-shadow: 0 0 8px rgba(16,185,129,0.4); }
+    .price-flash-down { color: #f87171 !important; text-shadow: 0 0 8px rgba(239,68,68,0.4); }
+
+    /* EXCHANGES */
+    .ex-row-wrap { margin-top: 64px; transition: all 0.5s; }
+    .ex-item {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 28px 0; border-bottom: 1px solid var(--border);
+      transition: all 0.4s;
+    }
+    .ex-item:first-child { border-top: 1px solid var(--border); }
+    .ex-name { font-size: 24px; font-weight: 600; }
+    .ex-meta { display: none; font-size: 13px; color: var(--text-dim); font-family: 'JetBrains Mono', monospace; }
+    .ex-badge {
+      padding: 6px 14px; border-radius: 8px;
+      font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 500;
+    }
+    .ex-badge.reg { background: rgba(16,185,129,0.1); color: var(--green); border: 1px solid rgba(16,185,129,0.2); }
+    .ex-badge.global { background: var(--purple-tint); color: var(--purple-light); border: 1px solid rgba(139,92,246,0.2); }
+    .ex-badge.muted { background: rgba(255,255,255,0.05); color: var(--text-muted); border: 1px solid rgba(255,255,255,0.08); }
+
+    /* RESEARCH */
+    .research-cards { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; margin-top: 64px; }
+    .rc {
+      background: rgba(255,255,255,0.02); border: 1px solid var(--border);
+      border-radius: 16px; padding: 32px 24px; transition: border-color 0.3s, transform 0.3s;
+    }
+    .rc:hover { border-color: var(--purple-hover); transform: translateY(-4px); }
+    .rc-tag {
+      display: inline-block; padding: 4px 10px;
+      background: var(--purple-tint); border-radius: 6px;
+      font-size: 11px; color: var(--purple-light); text-transform: uppercase;
+      letter-spacing: 0.06em; font-weight: 600; margin-bottom: 16px;
+    }
+    .rc h3 { font-size: 19px; font-weight: 600; margin-bottom: 8px; line-height: 1.3; }
+    .rc p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
+    .rc-date { font-size: 12px; color: var(--text-dim); margin-top: 20px; }
+
+    /* CTA */
+    .cta-section { text-align: center; padding: 120px 48px; position: relative; }
+    .cta-section::before {
+      content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(139,92,246,0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border); padding: 48px;
+      display: flex; justify-content: space-between; align-items: center;
+      max-width: 1200px; margin: 0 auto;
+    }
+    .f-left { font-size: 13px; color: var(--text-muted); }
+    .f-links { display: flex; gap: 24px; list-style: none; }
+    .f-links a { font-size: 13px; color: var(--text-muted); text-decoration: none; }
+    .f-links a:hover { color: rgba(255,255,255,0.7); }
+
+    /* RESPONSIVE */
+    @media (max-width: 1024px) {
+      .pipe-cards { grid-template-columns: repeat(2,1fr); }
+      .qt-grid { grid-template-columns: repeat(2,1fr); }
+      .research-cards { grid-template-columns: repeat(2,1fr); }
+      .hero h1 { font-size: 56px; }
+    }
+    @media (max-width: 768px) {
+      nav { padding: 16px 24px; }
+      .nav-links { display: none; }
+      .nav-links.open {
+        display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0;
+        background: rgba(12,10,26,0.95); padding: 24px; gap: 20px; border-bottom: 1px solid var(--border);
+      }
+      .menu-toggle { display: block; }
+      .hero { padding: 120px 24px 80px; }
+      .hero h1 { font-size: 40px; }
+      .hero-sub { font-size: 16px; }
+      .stats-row { grid-template-columns: repeat(2,1fr); margin: -10px 24px 0; }
+      .stat-card:first-child { border-radius: 16px 0 0 0; }
+      .stat-card:nth-child(2) { border-radius: 0 16px 0 0; }
+      .stat-card:nth-child(3) { border-radius: 0 0 0 16px; }
+      .stat-card:last-child { border-radius: 0 0 16px 0; }
+      .stat-val { font-size: 28px; }
+      section { padding: 80px 24px; }
+      h2.s-title { font-size: 32px; }
+      .s-sub { font-size: 16px; }
+      .pipe-cards, .qt-grid, .research-cards { grid-template-columns: 1fr; }
+      .ex-name { font-size: 18px; }
+      .ex-badge { font-size: 10px; padding: 4px 10px; }
+      .cta-section { padding: 80px 24px; }
+      footer { padding: 32px 24px; flex-direction: column; gap: 16px; text-align: center; }
+      .toggle-panel { display: none !important; }
+      .toggle-fab { display: none !important; }
+    }
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 32px; }
+      .hero-btns { flex-direction: column; width: 100%; }
+      .btn-grad, .btn-outline { width: 100%; justify-content: center; }
+    }
+
+    /* ═══════════════════════════════════════════
+       FEATURE 1: TYPOGRAPHY SWAP
+       ═══════════════════════════════════════════ */
+    body.typo-swap { font-family: 'Outfit', sans-serif; }
+    body.typo-swap .hero h1,
+    body.typo-swap h2.s-title { font-family: 'Instrument Serif', serif; font-weight: 400; letter-spacing: -0.02em; }
+    body.typo-swap .hero h1 { font-size: 82px; }
+    body.typo-swap .qt-v,
+    body.typo-swap .qt-pair,
+    body.typo-swap .qt-title,
+    body.typo-swap .ticker-item,
+    body.typo-swap .stat-val,
+    body.typo-swap .qt-status { font-family: 'IBM Plex Mono', monospace; }
+
+    /* ═══════════════════════════════════════════
+       FEATURE 2: SCROLL REVEALS
+       ═══════════════════════════════════════════ */
+    body.scroll-reveal .reveal-el {
+      opacity: 0; transform: translateY(32px);
+      transition: opacity 0.7s cubic-bezier(0.16,1,0.3,1), transform 0.7s cubic-bezier(0.16,1,0.3,1);
+    }
+    body.scroll-reveal .reveal-el.revealed {
+      opacity: 1; transform: translateY(0);
+    }
+
+    /* ═══════════════════════════════════════════
+       FEATURE 4: NOISE GRAIN
+       ═══════════════════════════════════════════ */
+    body.noise-grain::after {
+      content: ''; position: fixed; inset: 0; z-index: 9998;
+      pointer-events: none; opacity: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 200px; animation: noiseIn 0.4s forwards;
+    }
+    @keyframes noiseIn { to { opacity: 0.035; } }
+
+    /* ═══════════════════════════════════════════
+       FEATURE 5: PIPELINE TIMELINE
+       ═══════════════════════════════════════════ */
+    body.pipeline-timeline .pipe-cards {
+      grid-template-columns: 1fr; display: flex; gap: 0;
+      position: relative; padding-left: 48px;
+    }
+    body.pipeline-timeline .pipe-cards::before {
+      content: ''; position: absolute; left: 23px; top: 0; bottom: 0;
+      width: 2px; background: linear-gradient(180deg, var(--purple), var(--cyan), var(--pink));
+    }
+    body.pipeline-timeline .pipe-card {
+      flex: 1; border-radius: 12px; position: relative;
+      margin-bottom: 24px;
+    }
+    body.pipeline-timeline .pipe-card::before {
+      content: ''; position: absolute; left: -33px; top: 28px;
+      width: 14px; height: 14px; border-radius: 50%;
+      background: var(--grad); box-shadow: 0 0 16px rgba(139,92,246,0.4);
+      opacity: 1; top: 32px; height: 14px;
+    }
+    body.pipeline-timeline .pipe-card:hover::before { box-shadow: 0 0 24px rgba(139,92,246,0.6); }
+    body.pipeline-timeline .pipe-card:hover { transform: translateX(4px); }
+    body.pipeline-timeline .pipe-connector {
+      display: block; position: absolute; left: -26px; top: 48px;
+      width: 20px; height: 2px; background: rgba(139,92,246,0.3);
+    }
+    body.pipeline-timeline .pipe-num { font-size: 36px; }
+    body.pipeline-timeline .pipe-card:last-child { margin-bottom: 0; }
+
+    /* Animated pulse on timeline dots */
+    body.pipeline-timeline .pipe-card::after {
+      content: ''; position: absolute; left: -36px; top: 29px;
+      width: 20px; height: 20px; border-radius: 50%;
+      border: 2px solid var(--purple); opacity: 0;
+      animation: timelinePulse 3s ease-out infinite;
+    }
+    body.pipeline-timeline .pipe-card:nth-child(2)::after { animation-delay: 0.75s; }
+    body.pipeline-timeline .pipe-card:nth-child(3)::after { animation-delay: 1.5s; }
+    body.pipeline-timeline .pipe-card:nth-child(4)::after { animation-delay: 2.25s; }
+    @keyframes timelinePulse {
+      0% { transform: scale(1); opacity: 0.6; }
+      100% { transform: scale(2.5); opacity: 0; }
+    }
+
+    /* ═══════════════════════════════════════════
+       FEATURE 7: EXCHANGE CARDS
+       ═══════════════════════════════════════════ */
+    body.exchange-cards .ex-row-wrap {
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;
+    }
+    body.exchange-cards .ex-item {
+      flex-direction: column; align-items: flex-start; gap: 16px;
+      padding: 28px; border: 1px solid var(--border); border-radius: 16px;
+      background: rgba(255,255,255,0.02);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    }
+    body.exchange-cards .ex-item:first-child { border-top: 1px solid var(--border); }
+    body.exchange-cards .ex-item:hover {
+      border-color: var(--purple-hover);
+      background: rgba(255,255,255,0.04);
+      transform: translateY(-2px);
+    }
+    body.exchange-cards .ex-meta { display: block; }
+    body.exchange-cards .ex-item .ex-top {
+      display: flex; justify-content: space-between; align-items: center; width: 100%;
+    }
+
+    /* ═══════════════════════════════════════════
+       FEATURE 8: MARKET TICKER
+       ═══════════════════════════════════════════ */
+    body.market-ticker .ticker-wrap { display: block; }
+
+    /* ═══════════════════════════════════════════
+       FEATURE 9: MESH HERO
+       ═══════════════════════════════════════════ */
+    body.mesh-hero .orb { opacity: 0; }
+    body.mesh-hero .mesh-blob { opacity: 1; }
+
+    /* ═══════════════════════════════════════════
+       FEATURE 10: NAV POLISH
+       ═══════════════════════════════════════════ */
+    body.nav-polish .nav-progress { display: block; }
+    body.nav-polish nav.scrolled {
+      padding: 12px 48px;
+      background: rgba(12,10,26,0.96);
+      backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+    }
+    body.nav-polish nav.scrolled .logo { font-size: 18px; }
+    body.nav-polish nav.scrolled .logo-icon { width: 28px; height: 28px; font-size: 14px; }
+
+    /* ═══════════════════════════════════════════
+       TOGGLE PANEL
+       ═══════════════════════════════════════════ */
+    .toggle-fab {
+      position: fixed; bottom: 24px; right: 24px; z-index: 10001;
+      width: 56px; height: 56px; border-radius: 16px;
+      background: linear-gradient(135deg, var(--purple), var(--cyan));
+      border: none; color: #fff; font-size: 24px; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 24px rgba(139,92,246,0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .toggle-fab:hover { transform: scale(1.05); box-shadow: 0 6px 32px rgba(139,92,246,0.5); }
+    .toggle-fab .fab-count {
+      position: absolute; top: -6px; right: -6px;
+      width: 22px; height: 22px; border-radius: 50%;
+      background: var(--pink); font-size: 11px; font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0; transform: scale(0); transition: all 0.3s;
+    }
+    .toggle-fab .fab-count.visible { opacity: 1; transform: scale(1); }
+
+    .toggle-panel {
+      position: fixed; right: 24px; top: 50%; transform: translateY(-50%) translateX(120%);
+      z-index: 10000; width: 320px; max-height: 90vh; overflow-y: auto;
+      background: rgba(12,10,26,0.92); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255,255,255,0.08); border-radius: 20px;
+      padding: 0; box-shadow: 0 8px 48px rgba(0,0,0,0.5);
+      transition: transform 0.4s cubic-bezier(0.16,1,0.3,1), opacity 0.3s;
+      opacity: 0;
+    }
+    .toggle-panel.open { transform: translateY(-50%) translateX(0); opacity: 1; }
+    .toggle-panel::-webkit-scrollbar { width: 4px; }
+    .toggle-panel::-webkit-scrollbar-track { background: transparent; }
+    .toggle-panel::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 2px; }
+
+    .tp-header {
+      padding: 20px 20px 16px; border-bottom: 1px solid var(--border);
+      display: flex; justify-content: space-between; align-items: center;
+      position: sticky; top: 0; background: rgba(12,10,26,0.95); z-index: 1;
+      border-radius: 20px 20px 0 0;
+    }
+    .tp-header h3 { font-size: 15px; font-weight: 600; letter-spacing: -0.02em; }
+    .tp-close {
+      width: 32px; height: 32px; border-radius: 8px; border: 1px solid var(--border);
+      background: rgba(255,255,255,0.03); color: var(--text-muted); font-size: 16px;
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+      transition: all 0.2s;
+    }
+    .tp-close:hover { background: rgba(255,255,255,0.08); color: #fff; }
+
+    .tp-body { padding: 8px 12px 12px; }
+
+    .tp-item {
+      display: flex; align-items: center; gap: 12px;
+      padding: 10px 8px; border-radius: 10px;
+      transition: background 0.2s; cursor: pointer;
+    }
+    .tp-item:hover { background: rgba(255,255,255,0.04); }
+    .tp-num {
+      width: 26px; height: 26px; border-radius: 8px;
+      background: rgba(255,255,255,0.05); border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px; font-weight: 700; color: var(--text-dim);
+      flex-shrink: 0; transition: all 0.3s;
+    }
+    .tp-item.active .tp-num {
+      background: var(--grad); border-color: transparent; color: #fff;
+    }
+    .tp-label { flex: 1; font-size: 13px; color: rgba(255,255,255,0.7); font-weight: 500; }
+    .tp-item.active .tp-label { color: #fff; }
+
+    .tp-switch {
+      width: 40px; height: 22px; border-radius: 11px;
+      background: rgba(255,255,255,0.08); position: relative;
+      flex-shrink: 0; transition: background 0.3s;
+    }
+    .tp-switch::after {
+      content: ''; position: absolute; top: 3px; left: 3px;
+      width: 16px; height: 16px; border-radius: 50%;
+      background: rgba(255,255,255,0.4); transition: all 0.3s;
+    }
+    .tp-item.active .tp-switch { background: var(--grad); }
+    .tp-item.active .tp-switch::after { transform: translateX(18px); background: #fff; }
+
+    .tp-actions {
+      padding: 12px 20px 16px; border-top: 1px solid var(--border);
+      display: flex; gap: 8px;
+    }
+    .tp-btn {
+      flex: 1; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: rgba(255,255,255,0.03); color: rgba(255,255,255,0.7);
+      font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.2s;
+      font-family: inherit;
+    }
+    .tp-btn:hover { background: rgba(255,255,255,0.08); color: #fff; }
+    .tp-btn.primary {
+      background: var(--grad); border-color: transparent; color: #fff;
+    }
+    .tp-btn.primary:hover { opacity: 0.9; }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════ TOGGLE PANEL ═══════════════ -->
+<button class="toggle-fab" onclick="togglePanel()" aria-label="Toggle design suggestions panel">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+  <span class="fab-count">0</span>
+</button>
+
+<div class="toggle-panel" id="togglePanel">
+  <div class="tp-header">
+    <h3>Design Suggestions</h3>
+    <button class="tp-close" onclick="togglePanel()" aria-label="Close panel">&times;</button>
+  </div>
+  <div class="tp-body">
+    <div class="tp-item" data-feature="typo-swap" onclick="toggleFeature(this)">
+      <span class="tp-num">1</span>
+      <span class="tp-label">Typography Swap</span>
+      <span class="tp-switch"></span>
+    </div>
+    <div class="tp-item" data-feature="scroll-reveal" onclick="toggleFeature(this)">
+      <span class="tp-num">2</span>
+      <span class="tp-label">Scroll Reveals</span>
+      <span class="tp-switch"></span>
+    </div>
+    <div class="tp-item" data-feature="price-flicker" onclick="toggleFeature(this)">
+      <span class="tp-num">3</span>
+      <span class="tp-label">Price Flicker</span>
+      <span class="tp-switch"></span>
+    </div>
+    <div class="tp-item" data-feature="noise-grain" onclick="toggleFeature(this)">
+      <span class="tp-num">4</span>
+      <span class="tp-label">Noise Grain</span>
+      <span class="tp-switch"></span>
+    </div>
+    <div class="tp-item" data-feature="pipeline-timeline" onclick="toggleFeature(this)">
+      <span class="tp-num">5</span>
+      <span class="tp-label">Pipeline Timeline</span>
+      <span class="tp-switch"></span>
+    </div>
+    <div class="tp-item" data-feature="mouse-parallax" onclick="toggleFeature(this)">
+      <span class="tp-num">6</span>
+      <span class="tp-label">Mouse Parallax</span>
+      <span class="tp-switch"></span>
+    </div>
+    <div class="tp-item" data-feature="exchange-cards" onclick="toggleFeature(this)">
+      <span class="tp-num">7</span>
+      <span class="tp-label">Exchange Cards</span>
+      <span class="tp-switch"></span>
+    </div>
+    <div class="tp-item" data-feature="market-ticker" onclick="toggleFeature(this)">
+      <span class="tp-num">8</span>
+      <span class="tp-label">Market Ticker</span>
+      <span class="tp-switch"></span>
+    </div>
+    <div class="tp-item" data-feature="mesh-hero" onclick="toggleFeature(this)">
+      <span class="tp-num">9</span>
+      <span class="tp-label">Mesh Hero</span>
+      <span class="tp-switch"></span>
+    </div>
+    <div class="tp-item" data-feature="nav-polish" onclick="toggleFeature(this)">
+      <span class="tp-num">10</span>
+      <span class="tp-label">Nav Polish</span>
+      <span class="tp-switch"></span>
+    </div>
+  </div>
+  <div class="tp-actions">
+    <button class="tp-btn primary" onclick="allOn()">All On</button>
+    <button class="tp-btn" onclick="allOff()">All Off</button>
+  </div>
+</div>
+
+<!-- ═══════════════ NAV ═══════════════ -->
+<nav aria-label="Main navigation">
+  <div class="nav-progress" id="navProgress"></div>
+  <a href="#" class="logo"><span class="logo-icon">🐋</span>Imawhale PM</a>
+  <button class="menu-toggle" onclick="this.setAttribute('aria-expanded',this.getAttribute('aria-expanded')==='true'?'false':'true');document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu" aria-expanded="false">☰</button>
+  <ul class="nav-links">
+    <li><a href="#how-we-trade">What We Do</a></li>
+    <li><a href="#markets">Markets</a></li>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#contact">Careers</a></li>
+    <li><a href="#contact" class="nav-btn">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ═══════════════ MAIN CONTENT ═══════════════ -->
+<main>
+
+<div class="hero">
+  <div class="orb orb-1" aria-hidden="true"></div>
+  <div class="orb orb-2" aria-hidden="true"></div>
+  <div class="orb orb-3" aria-hidden="true"></div>
+  <div class="mesh-blob mesh-1" aria-hidden="true"></div>
+  <div class="mesh-blob mesh-2" aria-hidden="true"></div>
+  <div class="mesh-blob mesh-3" aria-hidden="true"></div>
+  <div class="mesh-blob mesh-4" aria-hidden="true"></div>
+  <div class="hero-chip"><span class="chip-dot"></span>Quoting 500+ Markets Live</div>
+  <h1>The Liquidity Layer for <span class="grad-text">Prediction Markets</span></h1>
+  <p class="hero-sub">We make markets across sports and global events — providing the infrastructure that keeps exchanges liquid, efficient, and fair.</p>
+  <div class="hero-btns">
+    <a href="#contact" class="btn-grad"><span>Partner With Us</span></a>
+    <a href="#research" class="btn-outline">View Research →</a>
+  </div>
+</div>
+
+<!-- TICKER (hidden by default, shown by feature 8) -->
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <span class="ticker-item"><span class="ticker-sym">CHIEFS-ML</span> <span class="ticker-price ticker-up">53¢ ↑2¢</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">LAKERS-SPR</span> <span class="ticker-price ticker-down">47¢ ↓1¢</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">FED-RATE</span> <span class="ticker-price ticker-flat">31¢ →</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">BTC-100K</span> <span class="ticker-price ticker-up">68¢ ↑3¢</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">OSCARS-BEST</span> <span class="ticker-price ticker-down">72¢ ↓2¢</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">MIDTERMS-DEM</span> <span class="ticker-price ticker-up">44¢ ↑1¢</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">FIFA-2026</span> <span class="ticker-price ticker-up">81¢ ↑4¢</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">GDP-Q2</span> <span class="ticker-price ticker-down">29¢ ↓2¢</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">WNBA-MVP</span> <span class="ticker-price ticker-flat">55¢ →</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">ETH-MERGE</span> <span class="ticker-price ticker-up">62¢ ↑1¢</span></span><span class="ticker-dot"></span>
+    <!-- duplicate for seamless loop -->
+    <span class="ticker-item"><span class="ticker-sym">CHIEFS-ML</span> <span class="ticker-price ticker-up">53¢ ↑2¢</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">LAKERS-SPR</span> <span class="ticker-price ticker-down">47¢ ↓1¢</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">FED-RATE</span> <span class="ticker-price ticker-flat">31¢ →</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">BTC-100K</span> <span class="ticker-price ticker-up">68¢ ↑3¢</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">OSCARS-BEST</span> <span class="ticker-price ticker-down">72¢ ↓2¢</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">MIDTERMS-DEM</span> <span class="ticker-price ticker-up">44¢ ↑1¢</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">FIFA-2026</span> <span class="ticker-price ticker-up">81¢ ↑4¢</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">GDP-Q2</span> <span class="ticker-price ticker-down">29¢ ↓2¢</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">WNBA-MVP</span> <span class="ticker-price ticker-flat">55¢ →</span></span><span class="ticker-dot"></span>
+    <span class="ticker-item"><span class="ticker-sym">ETH-MERGE</span> <span class="ticker-price ticker-up">62¢ ↑1¢</span></span><span class="ticker-dot"></span>
+  </div>
+</div>
+
+<div class="stats-row">
+  <div class="stat-card"><div class="stat-val" data-target="128" data-prefix="$" data-suffix="M" data-grad="+">$128M<span class="g">+</span></div><div class="stat-lbl">Volume Traded</div></div>
+  <div class="stat-card"><div class="stat-val" data-target="12657" data-prefix="" data-suffix="" data-grad="" data-comma="true">12,657</div><div class="stat-lbl">Markets Quoted</div></div>
+  <div class="stat-card"><div class="stat-val" data-target="2.4" data-prefix="$" data-suffix="M" data-grad="" data-decimals="1">$2.4M</div><div class="stat-lbl">Liquidity</div></div>
+  <div class="stat-card"><div class="stat-val" data-target="25" data-prefix="" data-suffix="" data-grad="+">25<span class="g">+</span></div><div class="stat-lbl">Sports</div></div>
+</div>
+
+<section id="how-we-trade" aria-labelledby="how-title">
+  <div class="s-label">How We Trade</div>
+  <h2 class="s-title" id="how-title">Four stages. <span class="grad-text">Under 100ms.</span></h2>
+  <p class="s-sub">Every quote runs through our full pipeline — from data to execution — faster than you can blink.</p>
+  <div class="pipe-cards">
+    <div class="pipe-card"><span class="pipe-connector"></span><div class="pipe-num">01</div><h3>Data Ingestion</h3><p>Real-time feeds from exchanges, sportsbooks, and proprietary sources.</p></div>
+    <div class="pipe-card"><span class="pipe-connector"></span><div class="pipe-num">02</div><h3>Probability Engine</h3><p>Models synthesize signals into fair value probabilities.</p></div>
+    <div class="pipe-card"><span class="pipe-connector"></span><div class="pipe-num">03</div><h3>Risk & Sizing</h3><p>Dynamic position limits and cross-market hedging.</p></div>
+    <div class="pipe-card"><span class="pipe-connector"></span><div class="pipe-num">04</div><h3>Execution</h3><p>Sub-100ms quote posting across all connected exchanges.</p></div>
+  </div>
+</section>
+
+<section id="quoting" aria-labelledby="quoting-title">
+  <div class="s-label">Live Quoting</div>
+  <h2 class="s-title" id="quoting-title">See our markets <span class="grad-text">in action.</span></h2>
+  <p class="s-sub">Continuous two-sided quotes with tight spreads across thousands of contracts.</p>
+  <div class="quote-terminal" aria-label="Example market quotes">
+    <div class="qt-header">
+      <div class="qt-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="qt-title">imawhalepm / live-quotes<span class="qt-cursor">▌</span></div>
+      <div class="qt-status" id="qtStatus">updated 0.3s ago</div>
+    </div>
+    <div class="qt-body">
+      <div class="qt-grid">
+        <div class="qt-card" data-bid="53" data-ask="55">
+          <div class="qt-pair">CHIEFS-ML</div>
+          <div class="qt-exchange">Kalshi · NFL</div>
+          <div class="qt-row"><span class="qt-k">Bid</span><span class="qt-v qt-buy" data-role="bid">53¢ × 200</span></div>
+          <div class="qt-row"><span class="qt-k">Ask</span><span class="qt-v qt-sell" data-role="ask">55¢ × 200</span></div>
+          <div class="qt-row"><span class="qt-k">Spread</span><span class="qt-v qt-spread" data-role="spread">2¢</span></div>
+          <div class="qt-row"><span class="qt-k">Volume</span><span class="qt-v">$48.2K</span></div>
+        </div>
+        <div class="qt-card" data-bid="47" data-ask="49">
+          <div class="qt-pair">LAKERS-SPR</div>
+          <div class="qt-exchange">Kalshi · NBA</div>
+          <div class="qt-row"><span class="qt-k">Bid</span><span class="qt-v qt-buy" data-role="bid">47¢ × 150</span></div>
+          <div class="qt-row"><span class="qt-k">Ask</span><span class="qt-v qt-sell" data-role="ask">49¢ × 150</span></div>
+          <div class="qt-row"><span class="qt-k">Spread</span><span class="qt-v qt-spread" data-role="spread">2¢</span></div>
+          <div class="qt-row"><span class="qt-k">Volume</span><span class="qt-v">$31.5K</span></div>
+        </div>
+        <div class="qt-card" data-bid="31" data-ask="33">
+          <div class="qt-pair">FED-RATE-MAR</div>
+          <div class="qt-exchange">Kalshi · Econ</div>
+          <div class="qt-row"><span class="qt-k">Bid</span><span class="qt-v qt-buy" data-role="bid">31¢ × 500</span></div>
+          <div class="qt-row"><span class="qt-k">Ask</span><span class="qt-v qt-sell" data-role="ask">33¢ × 500</span></div>
+          <div class="qt-row"><span class="qt-k">Spread</span><span class="qt-v qt-spread" data-role="spread">2¢</span></div>
+          <div class="qt-row"><span class="qt-k">Volume</span><span class="qt-v">$127.8K</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="markets" aria-labelledby="markets-title">
+  <div class="s-label">Exchanges</div>
+  <h2 class="s-title" id="markets-title">Multi-venue <span class="grad-text">execution.</span></h2>
+  <p class="s-sub">We provide liquidity across the world's leading prediction market exchanges.</p>
+  <div class="ex-row-wrap">
+    <div class="ex-item">
+      <span class="ex-name">Kalshi</span>
+      <span class="ex-meta">243 markets active</span>
+      <span class="ex-badge reg">CFTC Regulated</span>
+    </div>
+    <div class="ex-item">
+      <span class="ex-name">Polymarket</span>
+      <span class="ex-meta">187 markets active</span>
+      <span class="ex-badge global">Global</span>
+    </div>
+    <div class="ex-item">
+      <span class="ex-name">Robinhood</span>
+      <span class="ex-meta">94 markets active</span>
+      <span class="ex-badge reg">Predictions</span>
+    </div>
+    <div class="ex-item">
+      <span class="ex-name">More Coming</span>
+      <span class="ex-meta">Evaluating 4 venues</span>
+      <span class="ex-badge muted">Expanding</span>
+    </div>
+  </div>
+</section>
+
+<section id="research" aria-labelledby="research-title">
+  <div class="s-label">Research</div>
+  <h2 class="s-title" id="research-title">Prediction Market <span class="grad-text">Intelligence.</span></h2>
+  <p class="s-sub">Original research on market microstructure, pricing efficiency, and sports analytics.</p>
+  <div class="research-cards">
+    <div class="rc"><div class="rc-tag">Market Structure</div><h3>How Market Makers Price NFL Prediction Markets</h3><p>Mechanics of pricing binary contracts on NFL outcomes.</p><div class="rc-date">March 2026</div></div>
+    <div class="rc"><div class="rc-tag">Analysis</div><h3>Why Prediction Markets Beat Polls</h3><p>Comparing forecasting accuracy across methods.</p><div class="rc-date">February 2026</div></div>
+    <div class="rc"><div class="rc-tag">Data</div><h3>Cross-Exchange Price Efficiency</h3><p>Measuring price convergence across venues.</p><div class="rc-date">January 2026</div></div>
+  </div>
+</section>
+
+<section class="cta-section" id="contact" aria-labelledby="contact-title">
+  <h2 class="s-title" id="contact-title" style="max-width:600px;margin:0 auto 16px">Ready to <span class="grad-text">work together?</span></h2>
+  <p class="s-sub" style="max-width:480px;margin:0 auto 40px;text-align:center">Exchanges seeking liquidity, firms exploring partnerships, and talented individuals — let's talk.</p>
+  <div class="hero-btns" style="justify-content:center">
+    <a href="mailto:contact@imawhalepm.com" class="btn-grad"><span>Contact Us</span></a>
+    <a href="mailto:careers@imawhalepm.com" class="btn-outline">View Careers →</a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="f-left">© 2026 Imawhale PM. All rights reserved.</div>
+  <ul class="f-links"><li><a href="#">Privacy</a></li><li><a href="#">Terms</a></li><li><a href="mailto:contact@imawhalepm.com">Contact</a></li></ul>
+</footer>
+
+<!-- ═══════════════ JAVASCRIPT ═══════════════ -->
+<script>
+(function() {
+  'use strict';
+
+  // ── State ──
+  const state = {};
+  let flickerInterval = null;
+  let parallaxHandler = null;
+  let scrollHandler = null;
+  let observer = null;
+  let counterAnimated = false;
+
+  // ── Panel ──
+  function updateFabCount() {
+    const count = Object.values(state).filter(Boolean).length;
+    const badge = document.querySelector('.fab-count');
+    badge.textContent = count;
+    badge.classList.toggle('visible', count > 0);
+  }
+
+  window.togglePanel = function() {
+    document.getElementById('togglePanel').classList.toggle('open');
+  };
+
+  window.toggleFeature = function(el) {
+    const feature = el.dataset.feature;
+    const isActive = !el.classList.contains('active');
+    el.classList.toggle('active', isActive);
+    state[feature] = isActive;
+    document.body.classList.toggle(feature, isActive);
+
+    if (isActive) initFeature(feature);
+    else cleanupFeature(feature);
+
+    updateFabCount();
+  };
+
+  window.allOn = function() {
+    document.querySelectorAll('.tp-item').forEach(el => {
+      if (!el.classList.contains('active')) toggleFeature(el);
+    });
+  };
+
+  window.allOff = function() {
+    document.querySelectorAll('.tp-item.active').forEach(el => {
+      toggleFeature(el);
+    });
+  };
+
+  // ── Feature Init / Cleanup ──
+  function initFeature(f) {
+    switch(f) {
+      case 'scroll-reveal': initScrollReveal(); break;
+      case 'price-flicker': initPriceFlicker(); break;
+      case 'mouse-parallax': initMouseParallax(); break;
+      case 'nav-polish': initNavPolish(); break;
+    }
+  }
+
+  function cleanupFeature(f) {
+    switch(f) {
+      case 'scroll-reveal': cleanupScrollReveal(); break;
+      case 'price-flicker': cleanupPriceFlicker(); break;
+      case 'mouse-parallax': cleanupMouseParallax(); break;
+      case 'nav-polish': cleanupNavPolish(); break;
+    }
+  }
+
+  // ── Feature 2: Scroll Reveals ──
+  const revealSelectors = [
+    '.hero-chip', '.hero h1', '.hero-sub', '.hero-btns',
+    '.stat-card',
+    '.s-label', '.s-title', '.s-sub',
+    '.pipe-card', '.qt-card', '.rc',
+    '.quote-terminal',
+    '.ex-item',
+    '.cta-section h2', '.cta-section p', '.cta-section .hero-btns'
+  ];
+
+  function initScrollReveal() {
+    // Tag elements
+    document.querySelectorAll(revealSelectors.join(',')).forEach((el, i) => {
+      el.classList.add('reveal-el');
+      el.style.transitionDelay = (i % 6) * 0.08 + 's';
+    });
+
+    // Observe
+    observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+          // Counter animation for stat cards
+          if (entry.target.classList.contains('stat-card') && !counterAnimated) {
+            counterAnimated = true;
+            animateCounters();
+          }
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.reveal-el').forEach(el => observer.observe(el));
+  }
+
+  function cleanupScrollReveal() {
+    if (observer) { observer.disconnect(); observer = null; }
+    document.querySelectorAll('.reveal-el').forEach(el => {
+      el.classList.remove('reveal-el', 'revealed');
+      el.style.transitionDelay = '';
+    });
+    counterAnimated = false;
+    // Restore original stat text
+    restoreStats();
+  }
+
+  function animateCounters() {
+    document.querySelectorAll('.stat-val[data-target]').forEach(el => {
+      const target = parseFloat(el.dataset.target);
+      const prefix = el.dataset.prefix || '';
+      const suffix = el.dataset.suffix || '';
+      const grad = el.dataset.grad || '';
+      const decimals = parseInt(el.dataset.decimals) || 0;
+      const useComma = el.dataset.comma === 'true';
+      const duration = 1800;
+      const start = performance.now();
+
+      function step(now) {
+        const elapsed = now - start;
+        const progress = Math.min(elapsed / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3); // ease-out cubic
+        const current = target * eased;
+
+        let display;
+        if (useComma) {
+          display = Math.round(current).toLocaleString();
+        } else if (decimals > 0) {
+          display = current.toFixed(decimals);
+        } else {
+          display = Math.round(current).toString();
+        }
+
+        el.innerHTML = prefix + display + suffix + (grad ? '<span class="g">' + grad + '</span>' : '');
+
+        if (progress < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    });
+  }
+
+  function restoreStats() {
+    document.querySelectorAll('.stat-val[data-target]').forEach(el => {
+      const target = parseFloat(el.dataset.target);
+      const prefix = el.dataset.prefix || '';
+      const suffix = el.dataset.suffix || '';
+      const grad = el.dataset.grad || '';
+      const decimals = parseInt(el.dataset.decimals) || 0;
+      const useComma = el.dataset.comma === 'true';
+
+      let display;
+      if (useComma) display = target.toLocaleString();
+      else if (decimals > 0) display = target.toFixed(decimals);
+      else display = target.toString();
+
+      el.innerHTML = prefix + display + suffix + (grad ? '<span class="g">' + grad + '</span>' : '');
+    });
+  }
+
+  // ── Feature 3: Price Flicker ──
+  const originalPrices = {};
+
+  function initPriceFlicker() {
+    // Store originals
+    document.querySelectorAll('.qt-card').forEach((card, ci) => {
+      originalPrices[ci] = {
+        bid: parseInt(card.dataset.bid),
+        ask: parseInt(card.dataset.ask)
+      };
+    });
+
+    // Show terminal extras
+    document.querySelector('.qt-cursor').style.display = 'inline';
+    document.getElementById('qtStatus').style.display = 'block';
+
+    let statusCount = 0;
+    flickerInterval = setInterval(() => {
+      const cards = document.querySelectorAll('.qt-card');
+      const ci = Math.floor(Math.random() * cards.length);
+      const card = cards[ci];
+      const side = Math.random() > 0.5 ? 'bid' : 'ask';
+      const change = Math.random() > 0.5 ? 1 : -1;
+      const orig = originalPrices[ci];
+
+      const current = orig[side];
+      const newVal = Math.max(1, Math.min(99, current + change));
+      orig[side] = newVal;
+
+      const spread = orig.ask - orig.bid;
+      const sizeBase = side === 'bid' ? [150, 200, 250, 300, 500] : [150, 200, 250, 300, 500];
+      const size = sizeBase[Math.floor(Math.random() * sizeBase.length)];
+
+      const el = card.querySelector(`[data-role="${side}"]`);
+      const spreadEl = card.querySelector('[data-role="spread"]');
+
+      if (el) {
+        el.textContent = `${newVal}¢ × ${size}`;
+        el.classList.add(change > 0 ? 'price-flash-up' : 'price-flash-down');
+        setTimeout(() => el.classList.remove('price-flash-up', 'price-flash-down'), 300);
+      }
+      if (spreadEl) {
+        spreadEl.textContent = `${Math.abs(spread)}¢`;
+      }
+
+      // Update status
+      statusCount++;
+      document.getElementById('qtStatus').textContent = `updated ${(Math.random() * 0.8 + 0.1).toFixed(1)}s ago`;
+    }, 1500 + Math.random() * 1500);
+  }
+
+  function cleanupPriceFlicker() {
+    if (flickerInterval) { clearInterval(flickerInterval); flickerInterval = null; }
+    document.querySelector('.qt-cursor').style.display = 'none';
+    document.getElementById('qtStatus').style.display = 'none';
+
+    // Restore original prices
+    document.querySelectorAll('.qt-card').forEach((card, ci) => {
+      const bid = parseInt(card.dataset.bid);
+      const ask = parseInt(card.dataset.ask);
+      const sizes = { 0: 200, 1: 150, 2: 500 };
+      card.querySelector('[data-role="bid"]').textContent = `${bid}¢ × ${sizes[ci] || 200}`;
+      card.querySelector('[data-role="ask"]').textContent = `${ask}¢ × ${sizes[ci] || 200}`;
+      card.querySelector('[data-role="spread"]').textContent = `${ask - bid}¢`;
+    });
+  }
+
+  // ── Feature 6: Mouse Parallax ──
+  function initMouseParallax() {
+    parallaxHandler = function(e) {
+      const cx = (e.clientX / window.innerWidth - 0.5) * 2;
+      const cy = (e.clientY / window.innerHeight - 0.5) * 2;
+
+      const targets = document.querySelectorAll(
+        state['mesh-hero'] ? '.mesh-blob' : '.orb'
+      );
+
+      targets.forEach((el, i) => {
+        const depth = (i + 1) * 12;
+        const x = cx * depth;
+        const y = cy * depth;
+        el.style.transform = `translate(${x}px, ${y}px)`;
+      });
+    };
+    window.addEventListener('mousemove', parallaxHandler);
+  }
+
+  function cleanupMouseParallax() {
+    if (parallaxHandler) {
+      window.removeEventListener('mousemove', parallaxHandler);
+      parallaxHandler = null;
+    }
+    document.querySelectorAll('.orb, .mesh-blob').forEach(el => {
+      el.style.transform = '';
+    });
+  }
+
+  // ── Feature 10: Nav Polish ──
+  function initNavPolish() {
+    scrollHandler = function() {
+      const nav = document.querySelector('nav');
+      const progress = document.getElementById('navProgress');
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollPercent = (scrollTop / docHeight) * 100;
+
+      progress.style.width = scrollPercent + '%';
+      nav.classList.toggle('scrolled', scrollTop > 60);
+    };
+    window.addEventListener('scroll', scrollHandler, { passive: true });
+    scrollHandler(); // init
+  }
+
+  function cleanupNavPolish() {
+    if (scrollHandler) {
+      window.removeEventListener('scroll', scrollHandler);
+      scrollHandler = null;
+    }
+    document.querySelector('nav').classList.remove('scrolled');
+    document.getElementById('navProgress').style.width = '0%';
+  }
+
+  // ── Auto-open panel on load ──
+  setTimeout(() => {
+    document.getElementById('togglePanel').classList.add('open');
+  }, 600);
+
+})();
+</script>
+
+</body>
+</html>
