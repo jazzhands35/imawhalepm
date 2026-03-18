@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash \"C:/Users/Sean/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.4/skills/brainstorming/scripts/start-server.sh\" --project-dir \"C:/Users/Sean/Documents/Python/Imawhale PM Website\")",
+      "Bash(tasklist)",
+      "Read(//c/tmp/brainstorm/**)",
+      "Bash(pwd -W)",
+      "Bash(cygpath -w /tmp/brainstorm)",
+      "Bash(mkdir -p \"C:/Users/Sean/AppData/Local/Temp/brainstorm\")",
+      "Read(//c/Users/Sean/AppData/Local/Temp/**)",
+      "Bash(node:*)",
+      "Bash(mkdir -p /c/tmp/brainstorm)",
+      "Bash(cp \"C:/Users/Sean/AppData/Local/Temp/brainstorm/approaches.html\" /c/tmp/brainstorm/)",
+      "Bash(cp \"C:/Users/Sean/AppData/Local/Temp/brainstorm/valence-analysis.html\" /c/tmp/brainstorm/)",
+      "Bash(rm /c/tmp/brainstorm/.server-stopped)",
+      "Bash(touch /c/tmp/brainstorm/approaches.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:56356/)",
+      "Bash(npx:*)",
+      "Bash(gh auth:*)",
+      "Bash(mkdir -p mockups)",
+      "Bash(mv homepage-mockup.html mockups/)",
+      "Bash(mv approach-minimal.html mockups/)",
+      "Bash(mv approach-terminal.html mockups/)",
+      "Bash(mv compare.html mockups/)"
+    ]
+  }
+}
