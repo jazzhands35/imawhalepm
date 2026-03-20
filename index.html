@@ -776,11 +776,10 @@
     document.querySelector('.nav-links').classList.toggle('open');
   });
 
-  // ── Live Ticker ──
-  // IMPORTANT: Update this URL after deploying the Cloudflare Worker
-  var TICKER_API = 'https://imawhalepm-ticker.YOUR_SUBDOMAIN.workers.dev';
+  // ── Live Ticker — Loads pre-fetched data from GitHub Actions ──
+  var TICKER_JSON = './data/ticker.json';
 
-  // Fallback data if API is unavailable
+  // Fallback data if JSON file is unavailable
   var fallbackMarkets = [
     { title: 'NBA Finals Winner', price: 0.53, source: 'Kalshi' },
     { title: 'Fed Rate Cut June', price: 0.31, source: 'Kalshi' },
@@ -816,7 +815,7 @@
   }
 
   function loadTicker() {
-    fetch(TICKER_API)
+    fetch(TICKER_JSON)
       .then(function(res) { return res.json(); })
       .then(function(data) {
         if (data.markets && data.markets.length > 0) {
@@ -830,9 +829,9 @@
       });
   }
 
-  // Load immediately, then refresh every 60s
+  // Load immediately, then refresh every 5 min (data updates via GitHub Actions)
   loadTicker();
-  setInterval(loadTicker, 60000);
+  setInterval(loadTicker, 300000);
 
 })();
 </script>
