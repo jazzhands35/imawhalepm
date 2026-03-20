@@ -147,9 +147,9 @@
     .chip-dot { width: 6px; height: 6px; background: var(--purple-light); border-radius: 50%; animation: chipPulse 2s infinite; }
     @keyframes chipPulse { 0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(167,139,250,0.4)} 50%{opacity:0.6;box-shadow:0 0 0 6px rgba(167,139,250,0)} }
     .hero h1 {
-      font-family: 'Instrument Serif', serif;
-      font-size: 82px; font-weight: 400; line-height: 1.02;
-      letter-spacing: -0.02em; max-width: 900px; margin-bottom: 24px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 96px; font-weight: 700; line-height: 1.0;
+      letter-spacing: -0.04em; max-width: 900px; margin-bottom: 12px;
     }
     .grad-text {
       background: linear-gradient(135deg, var(--purple) 0%, var(--indigo) 50%, var(--blue) 100%);
@@ -381,6 +381,7 @@
     .ex-badge.reg { background: rgba(16,185,129,0.1); color: var(--green); border: 1px solid rgba(16,185,129,0.2); }
     .ex-badge.global { background: var(--purple-tint); color: var(--purple-light); border: 1px solid rgba(124,58,237,0.2); }
     .ex-badge.muted { background: rgba(255,255,255,0.05); color: var(--text-muted); border: 1px solid rgba(255,255,255,0.08); }
+    .ex-badge.launch { background: rgba(59,130,246,0.1); color: var(--blue); border: 1px solid rgba(59,130,246,0.2); }
 
     /* ═══════════════════════════════════════════
        RESEARCH
@@ -432,7 +433,8 @@
     @media (max-width: 1024px) {
       .qt-grid { grid-template-columns: repeat(2,1fr); }
       .research-cards { grid-template-columns: repeat(2,1fr); }
-      .hero h1 { font-size: 60px; }
+      .hero h1 { font-size: 72px; }
+      .hero-tagline { font-size: 26px !important; }
     }
 
     @media (max-width: 768px) {
@@ -449,7 +451,8 @@
       .menu-toggle { display: block; }
 
       .hero { padding: 120px 24px 80px; }
-      .hero h1 { font-size: 42px; }
+      .hero h1 { font-size: 48px; }
+      .hero-tagline { font-size: 20px !important; }
       .hero-sub { font-size: 16px; }
 
       .stats-row { grid-template-columns: repeat(2,1fr); margin: -10px 24px 0; }
@@ -481,7 +484,8 @@
     }
 
     @media (max-width: 480px) {
-      .hero h1 { font-size: 34px; }
+      .hero h1 { font-size: 40px; }
+      .hero-tagline { font-size: 18px !important; }
       .hero-btns { flex-direction: column; width: 100%; }
       .btn-grad, .btn-outline { width: 100%; justify-content: center; }
     }
@@ -497,7 +501,7 @@
     <li><a href="#how-we-trade">What We Do</a></li>
     <li><a href="#markets">Markets</a></li>
     <li><a href="#research">Research</a></li>
-    <li><a href="#contact">Careers</a></li>
+    <li><a href="about.html">About Us</a></li>
     <li><a href="#contact" class="nav-btn">Contact</a></li>
   </ul>
 </nav>
@@ -509,7 +513,8 @@
   <div class="orb orb-2" aria-hidden="true"></div>
   <div class="orb orb-3" aria-hidden="true"></div>
   <div class="hero-chip"><span class="chip-dot"></span>Quoting 500+ Markets Live</div>
-  <h1>The Liquidity Layer for <span class="grad-text">Prediction Markets</span></h1>
+  <h1 class="grad-text" style="font-size:96px;letter-spacing:-0.04em;margin-bottom:12px">IMAWHALEPM</h1>
+  <p class="hero-tagline" style="font-family:'Instrument Serif',serif;font-size:32px;color:rgba(255,255,255,0.7);font-weight:400;margin-bottom:24px">The Liquidity Layer for Prediction Markets</p>
   <p class="hero-sub">We make markets across sports and global events — providing the infrastructure that keeps exchanges liquid, efficient, and fair.</p>
   <div class="hero-btns">
     <a href="#contact" class="btn-grad"><span>Partner With Us</span></a>
@@ -518,35 +523,16 @@
 </div>
 
 <div class="ticker-wrap">
-  <div class="ticker-track">
-    <span class="ticker-item"><span class="ticker-sym">CHIEFS-ML</span><span class="ticker-up">53¢ ↑2¢</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">LAKERS-SPR</span><span class="ticker-down">47¢ ↓1¢</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">FED-RATE</span><span class="ticker-flat">31¢ →</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">BTC-100K</span><span class="ticker-up">68¢ ↑3¢</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">OSCARS-BEST</span><span class="ticker-down">72¢ ↓2¢</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">MIDTERMS-DEM</span><span class="ticker-up">44¢ ↑1¢</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">FIFA-2026</span><span class="ticker-up">81¢ ↑4¢</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">GDP-Q2</span><span class="ticker-down">29¢ ↓2¢</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">WNBA-MVP</span><span class="ticker-flat">55¢ →</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">ETH-MERGE</span><span class="ticker-up">62¢ ↑1¢</span></span><span class="ticker-dot"></span>
-    <!-- duplicate for seamless loop -->
-    <span class="ticker-item"><span class="ticker-sym">CHIEFS-ML</span><span class="ticker-up">53¢ ↑2¢</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">LAKERS-SPR</span><span class="ticker-down">47¢ ↓1¢</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">FED-RATE</span><span class="ticker-flat">31¢ →</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">BTC-100K</span><span class="ticker-up">68¢ ↑3¢</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">OSCARS-BEST</span><span class="ticker-down">72¢ ↓2¢</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">MIDTERMS-DEM</span><span class="ticker-up">44¢ ↑1¢</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">FIFA-2026</span><span class="ticker-up">81¢ ↑4¢</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">GDP-Q2</span><span class="ticker-down">29¢ ↓2¢</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">WNBA-MVP</span><span class="ticker-flat">55¢ →</span></span><span class="ticker-dot"></span>
-    <span class="ticker-item"><span class="ticker-sym">ETH-MERGE</span><span class="ticker-up">62¢ ↑1¢</span></span><span class="ticker-dot"></span>
+  <div class="ticker-track" id="tickerTrack">
+    <!-- Populated by JS from live API data. Fallback below if API unavailable. -->
+    <span class="ticker-item"><span class="ticker-sym">Loading live markets</span><span class="ticker-flat">...</span></span>
   </div>
 </div>
 
 <div class="stats-row">
   <div class="stat-card"><div class="stat-val" data-target="128" data-prefix="$" data-suffix="M" data-grad="+">$128M<span class="g">+</span></div><div class="stat-lbl">Volume Traded</div></div>
   <div class="stat-card"><div class="stat-val" data-target="12657" data-prefix="" data-suffix="" data-grad="" data-comma="true">12,657</div><div class="stat-lbl">Markets Quoted</div></div>
-  <div class="stat-card"><div class="stat-val" data-target="2.4" data-prefix="$" data-suffix="M" data-grad="" data-decimals="1">$2.4M</div><div class="stat-lbl">Liquidity</div></div>
+  <div class="stat-card"><div class="stat-val" data-target="15" data-prefix="" data-suffix="" data-grad="+">15<span class="g">+</span></div><div class="stat-lbl">Years Experience</div></div>
   <div class="stat-card"><div class="stat-val" data-target="25" data-prefix="" data-suffix="" data-grad="+">25<span class="g">+</span></div><div class="stat-lbl">Sports</div></div>
 </div>
 
@@ -563,40 +549,40 @@
 </section>
 
 <section id="quoting" aria-labelledby="quoting-title">
-  <div class="s-label">Live Quoting</div>
+  <div class="s-label">Example Quoting</div>
   <h2 class="s-title" id="quoting-title">See our markets <span class="grad-text">in action.</span></h2>
   <p class="s-sub">Continuous two-sided quotes with tight spreads across thousands of contracts.</p>
   <div class="quote-terminal" aria-label="Example market quotes">
     <div class="qt-header">
       <div class="qt-dots" aria-hidden="true"><span></span><span></span><span></span></div>
-      <div class="qt-title">imawhalepm / live-quotes<span class="qt-cursor"> ▌</span></div>
+      <div class="qt-title">imawhalepm / example-quotes<span class="qt-cursor"> ▌</span></div>
       <div class="qt-status" id="qtStatus">updated 0.3s ago</div>
     </div>
     <div class="qt-body">
       <div class="qt-grid">
-        <div class="qt-card" data-bid="53" data-ask="55" data-size="200">
+        <div class="qt-card" data-bid="53" data-ask="55" data-size="300000">
           <div class="qt-pair">CHIEFS-ML</div>
           <div class="qt-exchange">Kalshi · NFL</div>
-          <div class="qt-row"><span class="qt-k">Bid</span><span class="qt-v qt-buy" data-role="bid">53¢ × 200</span></div>
-          <div class="qt-row"><span class="qt-k">Ask</span><span class="qt-v qt-sell" data-role="ask">55¢ × 200</span></div>
+          <div class="qt-row"><span class="qt-k">Bid</span><span class="qt-v qt-buy" data-role="bid">53¢ × 300,000</span></div>
+          <div class="qt-row"><span class="qt-k">Ask</span><span class="qt-v qt-sell" data-role="ask">55¢ × 300,000</span></div>
           <div class="qt-row"><span class="qt-k">Spread</span><span class="qt-v qt-spread" data-role="spread">2¢</span></div>
-          <div class="qt-row"><span class="qt-k">Volume</span><span class="qt-v">$48.2K</span></div>
+          <div class="qt-row"><span class="qt-k">Volume</span><span class="qt-v">$4.8M</span></div>
         </div>
-        <div class="qt-card" data-bid="47" data-ask="49" data-size="150">
+        <div class="qt-card" data-bid="47" data-ask="49" data-size="50000">
           <div class="qt-pair">LAKERS-SPR</div>
           <div class="qt-exchange">Kalshi · NBA</div>
-          <div class="qt-row"><span class="qt-k">Bid</span><span class="qt-v qt-buy" data-role="bid">47¢ × 150</span></div>
-          <div class="qt-row"><span class="qt-k">Ask</span><span class="qt-v qt-sell" data-role="ask">49¢ × 150</span></div>
+          <div class="qt-row"><span class="qt-k">Bid</span><span class="qt-v qt-buy" data-role="bid">47¢ × 50,000</span></div>
+          <div class="qt-row"><span class="qt-k">Ask</span><span class="qt-v qt-sell" data-role="ask">49¢ × 50,000</span></div>
           <div class="qt-row"><span class="qt-k">Spread</span><span class="qt-v qt-spread" data-role="spread">2¢</span></div>
-          <div class="qt-row"><span class="qt-k">Volume</span><span class="qt-v">$31.5K</span></div>
+          <div class="qt-row"><span class="qt-k">Volume</span><span class="qt-v">$3.1M</span></div>
         </div>
-        <div class="qt-card" data-bid="31" data-ask="33" data-size="500">
+        <div class="qt-card" data-bid="31" data-ask="33" data-size="100000">
           <div class="qt-pair">FED-RATE-MAR</div>
           <div class="qt-exchange">Kalshi · Econ</div>
-          <div class="qt-row"><span class="qt-k">Bid</span><span class="qt-v qt-buy" data-role="bid">31¢ × 500</span></div>
-          <div class="qt-row"><span class="qt-k">Ask</span><span class="qt-v qt-sell" data-role="ask">33¢ × 500</span></div>
+          <div class="qt-row"><span class="qt-k">Bid</span><span class="qt-v qt-buy" data-role="bid">31¢ × 100,000</span></div>
+          <div class="qt-row"><span class="qt-k">Ask</span><span class="qt-v qt-sell" data-role="ask">33¢ × 100,000</span></div>
           <div class="qt-row"><span class="qt-k">Spread</span><span class="qt-v qt-spread" data-role="spread">2¢</span></div>
-          <div class="qt-row"><span class="qt-k">Volume</span><span class="qt-v">$127.8K</span></div>
+          <div class="qt-row"><span class="qt-k">Volume</span><span class="qt-v">$12.7M</span></div>
         </div>
       </div>
     </div>
@@ -613,16 +599,16 @@
       <span class="ex-meta">243 markets active</span>
     </div>
     <div class="ex-item">
-      <div class="ex-top"><span class="ex-name">Polymarket</span><span class="ex-badge global">Global</span></div>
+      <div class="ex-top"><span class="ex-name">Polymarket US</span><span class="ex-badge global">US Regulated</span></div>
       <span class="ex-meta">187 markets active</span>
     </div>
     <div class="ex-item">
-      <div class="ex-top"><span class="ex-name">Robinhood</span><span class="ex-badge reg">Predictions</span></div>
-      <span class="ex-meta">94 markets active</span>
+      <div class="ex-top"><span class="ex-name">Crypto.com US</span><span class="ex-badge launch">Launching Soon</span></div>
+      <span class="ex-meta">Active at launch</span>
     </div>
     <div class="ex-item">
-      <div class="ex-top"><span class="ex-name">More Coming</span><span class="ex-badge muted">Expanding</span></div>
-      <span class="ex-meta">Evaluating 4 venues</span>
+      <div class="ex-top"><span class="ex-name">Publicis</span><span class="ex-badge launch">Launching Soon</span></div>
+      <span class="ex-meta">Active at launch</span>
     </div>
   </div>
 </section>
@@ -630,11 +616,11 @@
 <section id="research" aria-labelledby="research-title">
   <div class="s-label">Research</div>
   <h2 class="s-title" id="research-title">Prediction Market <span class="grad-text">Intelligence.</span></h2>
-  <p class="s-sub">Original research on market microstructure, pricing efficiency, and sports analytics.</p>
+  <p class="s-sub">The latest on prediction market growth, regulation, and opportunity from top publications.</p>
   <div class="research-cards">
-    <div class="rc"><div class="rc-tag">Market Structure</div><h3>How Market Makers Price NFL Prediction Markets</h3><p>Mechanics of pricing binary contracts on NFL outcomes.</p><div class="rc-date">March 2026</div></div>
-    <div class="rc"><div class="rc-tag">Analysis</div><h3>Why Prediction Markets Beat Polls</h3><p>Comparing forecasting accuracy across methods.</p><div class="rc-date">February 2026</div></div>
-    <div class="rc"><div class="rc-tag">Data</div><h3>Cross-Exchange Price Efficiency</h3><p>Measuring price convergence across venues.</p><div class="rc-date">January 2026</div></div>
+    <a href="https://www.cnbc.com/2025/12/17/prediction-markets-trillion-dollar-trading-volume-ek-report.html" target="_blank" rel="noopener" class="rc" style="text-decoration:none;color:inherit"><div class="rc-tag">CNBC</div><h3>Prediction Markets Could Hit a Trillion Dollars in Trading Volume</h3><p>Industry report projects prediction markets will reach $1T in annual trading volume by end of decade.</p><div class="rc-date">December 2025</div></a>
+    <a href="https://kpmg.com/us/en/articles/2025/current-state-of-prediction-markets.html" target="_blank" rel="noopener" class="rc" style="text-decoration:none;color:inherit"><div class="rc-tag">KPMG</div><h3>The Current State of Prediction Markets</h3><p>Big Four analysis of the rapid expansion following Kalshi's legal victory and emerging opportunities.</p><div class="rc-date">September 2025</div></a>
+    <a href="https://www.coindesk.com/markets/2026/02/24/from-niche-to-usd3-billion-run-rate-prediction-markets-eye-usd10-billion-future-citizens-says" target="_blank" rel="noopener" class="rc" style="text-decoration:none;color:inherit"><div class="rc-tag">CoinDesk</div><h3>Prediction Market Firms Could Be Making $10B in Revenue by 2030</h3><p>Citizens Bank projects prediction market revenue will balloon from $2B to $10B annually by 2030.</p><div class="rc-date">February 2026</div></a>
   </div>
 </section>
 
@@ -643,7 +629,7 @@
   <p class="s-sub" style="max-width:480px;margin:0 auto 40px;text-align:center">Exchanges seeking liquidity, firms exploring partnerships, and talented individuals — let's talk.</p>
   <div class="hero-btns" style="justify-content:center">
     <a href="mailto:contact@imawhalepm.com" class="btn-grad"><span>Contact Us</span></a>
-    <a href="mailto:careers@imawhalepm.com" class="btn-outline">View Careers →</a>
+    <a href="mailto:contact@imawhalepm.com" class="btn-outline">Join Our Team →</a>
   </div>
 </section>
 
@@ -660,7 +646,7 @@
 
   // ── Scroll Reveals + Stat Counters ──
   const revealSelectors = [
-    '.hero-chip', '.hero h1', '.hero-sub', '.hero-btns',
+    '.hero-chip', '.hero h1', '.hero-tagline', '.hero-sub', '.hero-btns',
     '.stat-card', '.s-label', '.s-title', '.s-sub',
     '.pipe-card', '.qt-card', '.rc',
     '.quote-terminal', '.ex-item',
@@ -749,14 +735,14 @@
     var spread = p.ask - p.bid;
     if (spread < 1) { p[side] -= change; return; } // keep spread positive
 
-    var sizes = [150, 200, 250, 300, 500];
+    var sizes = [50000, 100000, 150000, 200000, 300000];
     var size = sizes[Math.floor(Math.random() * sizes.length)];
 
     var el = card.querySelector('[data-role="' + side + '"]');
     var spreadEl = card.querySelector('[data-role="spread"]');
 
     if (el) {
-      el.textContent = p[side] + '¢ × ' + size;
+      el.textContent = p[side] + '¢ × ' + size.toLocaleString();
       var flashClass = change > 0 ? 'price-flash-up' : 'price-flash-down';
       el.classList.add(flashClass);
       setTimeout(function() { el.classList.remove(flashClass); }, 250);
@@ -789,6 +775,64 @@
     this.setAttribute('aria-expanded', !expanded);
     document.querySelector('.nav-links').classList.toggle('open');
   });
+
+  // ── Live Ticker ──
+  // IMPORTANT: Update this URL after deploying the Cloudflare Worker
+  var TICKER_API = 'https://imawhalepm-ticker.YOUR_SUBDOMAIN.workers.dev';
+
+  // Fallback data if API is unavailable
+  var fallbackMarkets = [
+    { title: 'NBA Finals Winner', price: 0.53, source: 'Kalshi' },
+    { title: 'Fed Rate Cut June', price: 0.31, source: 'Kalshi' },
+    { title: 'BTC Over $100K', price: 0.68, source: 'Polymarket' },
+    { title: 'March Madness Champion', price: 0.12, source: 'Kalshi' },
+    { title: 'GDP Growth Q2', price: 0.45, source: 'Kalshi' },
+    { title: 'World Cup 2026 Winner', price: 0.81, source: 'Polymarket' },
+    { title: 'NFL MVP 2026', price: 0.22, source: 'Kalshi' },
+    { title: 'Next Supreme Court Vacancy', price: 0.37, source: 'Polymarket' },
+    { title: 'ETH Over $5K', price: 0.55, source: 'Polymarket' },
+    { title: 'Oscar Best Picture', price: 0.62, source: 'Kalshi' },
+  ];
+
+  function renderTicker(markets) {
+    var track = document.getElementById('tickerTrack');
+    if (!track) return;
+    var html = '';
+    markets.forEach(function(m) {
+      var priceCents = Math.round((m.price || 0.5) * 100);
+      var colorClass = priceCents >= 50 ? 'ticker-up' : (priceCents <= 30 ? 'ticker-down' : 'ticker-flat');
+      html += '<span class="ticker-item"><span class="ticker-sym">' + escapeHtml(m.title) +
+        '</span><span class="' + colorClass + '">' + priceCents + '¢</span>' +
+        '<span style="font-size:10px;color:rgba(255,255,255,0.2);margin-left:4px">' + escapeHtml(m.source) + '</span></span><span class="ticker-dot"></span>';
+    });
+    // Duplicate for seamless loop
+    track.innerHTML = html + html;
+  }
+
+  function escapeHtml(str) {
+    var d = document.createElement('div');
+    d.textContent = str;
+    return d.innerHTML;
+  }
+
+  function loadTicker() {
+    fetch(TICKER_API)
+      .then(function(res) { return res.json(); })
+      .then(function(data) {
+        if (data.markets && data.markets.length > 0) {
+          renderTicker(data.markets);
+        } else {
+          renderTicker(fallbackMarkets);
+        }
+      })
+      .catch(function() {
+        renderTicker(fallbackMarkets);
+      });
+  }
+
+  // Load immediately, then refresh every 60s
+  loadTicker();
+  setInterval(loadTicker, 60000);
 
 })();
 </script>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us — Imawhale PM</title>
+  <meta name="description" content="Meet the team behind Imawhale PM — institutional-grade market making for prediction markets.">
+  <meta property="og:title" content="About Us — Imawhale PM">
+  <meta property="og:description" content="Meet the team behind Imawhale PM — institutional-grade market making for prediction markets.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0c0a1a">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐋</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Outfit:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --purple: #7c3aed;
+      --indigo: #6366f1;
+      --blue: #3b82f6;
+      --purple-light: #a78bfa;
+      --green: #10b981;
+      --red: #ef4444;
+      --amber: #f59e0b;
+      --bg: #0c0a1a;
+      --border: rgba(255,255,255,0.06);
+      --card-bg: rgba(255,255,255,0.03);
+      --text-muted: rgba(255,255,255,0.45);
+      --text-dim: rgba(255,255,255,0.3);
+      --purple-tint: rgba(124,58,237,0.1);
+      --purple-hover: rgba(124,58,237,0.3);
+      --grad: linear-gradient(135deg, var(--purple), var(--blue));
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg); color: #fff;
+      font-family: 'Outfit', sans-serif;
+      line-height: 1.6; overflow-x: hidden;
+    }
+    :focus-visible { outline: 2px solid var(--purple-light); outline-offset: 2px; }
+
+    body::after {
+      content: ''; position: fixed; inset: 0; z-index: 9998;
+      pointer-events: none; opacity: 0.035;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 200px;
+    }
+
+    .reveal-el {
+      opacity: 0; transform: translateY(32px);
+      transition: opacity 0.7s cubic-bezier(0.16,1,0.3,1), transform 0.7s cubic-bezier(0.16,1,0.3,1);
+    }
+    .reveal-el.revealed { opacity: 1; transform: translateY(0); }
+    @media (prefers-reduced-motion: reduce) {
+      .reveal-el { opacity: 1 !important; transform: none !important; transition: none !important; }
+    }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 20px 48px;
+      background: rgba(12,10,26,0.92);
+      border-bottom: 1px solid var(--border);
+      transition: padding 0.35s, background 0.35s;
+    }
+    nav.scrolled {
+      padding: 12px 48px;
+      background: rgba(12,10,26,0.96);
+      backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+    }
+    .logo {
+      font-size: 28px; font-weight: 700; letter-spacing: -0.03em;
+      display: flex; align-items: center; gap: 12px;
+      text-decoration: none; color: #fff; transition: font-size 0.35s;
+    }
+    nav.scrolled .logo { font-size: 22px; }
+    .logo-icon {
+      width: 42px; height: 42px; background: var(--grad);
+      border-radius: 10px; display: flex; align-items: center; justify-content: center;
+      font-size: 22px; transition: width 0.35s, height 0.35s;
+    }
+    nav.scrolled .logo-icon { width: 32px; height: 32px; font-size: 16px; }
+    .nav-links { display: flex; gap: 32px; list-style: none; align-items: center; }
+    .nav-links a { color: rgba(255,255,255,0.6); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+    .nav-links a:hover { color: #fff; }
+    .nav-links .nav-btn {
+      padding: 8px 20px; background: var(--grad);
+      border-radius: 8px; color: #fff; font-weight: 600;
+    }
+    .menu-toggle { display: none; background: none; border: none; color: #fff; font-size: 24px; cursor: pointer; }
+
+    /* HERO */
+    .page-hero {
+      padding: 180px 48px 100px; text-align: center; position: relative;
+    }
+    .page-hero::before {
+      content: ''; position: absolute;
+      top: -200px; left: 50%; transform: translateX(-50%);
+      width: 1200px; height: 800px;
+      background: radial-gradient(circle at 30% 50%, rgba(124,58,237,0.15) 0%, transparent 50%),
+                  radial-gradient(circle at 70% 50%, rgba(59,130,246,0.12) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .page-hero h1 {
+      font-family: 'Instrument Serif', serif;
+      font-size: 64px; font-weight: 400; line-height: 1.1;
+      letter-spacing: -0.02em; margin-bottom: 16px;
+    }
+    .grad-text {
+      background: linear-gradient(135deg, var(--purple) 0%, var(--indigo) 50%, var(--blue) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text; color: transparent;
+    }
+    .page-hero-sub {
+      font-size: 19px; color: rgba(255,255,255,0.5); max-width: 540px;
+      margin: 0 auto; line-height: 1.7; font-weight: 300;
+    }
+
+    /* BIO SECTION */
+    .bio-section {
+      max-width: 900px; margin: 0 auto; padding: 80px 48px 120px;
+    }
+    .bio-card {
+      display: flex; gap: 48px; align-items: flex-start;
+      background: var(--card-bg); border: 1px solid var(--border);
+      border-radius: 20px; padding: 48px; position: relative; overflow: hidden;
+    }
+    .bio-card::before {
+      content: ''; position: absolute; inset: -1px;
+      background: linear-gradient(135deg, rgba(124,58,237,0.15), transparent, rgba(59,130,246,0.15));
+      border-radius: 20px; z-index: -1;
+    }
+    .bio-photo {
+      width: 200px; height: 200px; border-radius: 16px;
+      background: linear-gradient(135deg, rgba(124,58,237,0.2), rgba(59,130,246,0.2));
+      flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+      font-size: 14px; color: var(--text-dim); text-align: center;
+      overflow: hidden;
+    }
+    .bio-photo img {
+      width: 100%; height: 100%; object-fit: cover; border-radius: 16px;
+    }
+    .bio-info { flex: 1; }
+    .bio-name {
+      font-family: 'Instrument Serif', serif;
+      font-size: 36px; font-weight: 400; margin-bottom: 4px;
+    }
+    .bio-role {
+      font-size: 14px; color: var(--purple-light); text-transform: uppercase;
+      letter-spacing: 0.08em; font-weight: 600; margin-bottom: 24px;
+    }
+    .bio-text { font-size: 16px; color: rgba(255,255,255,0.6); line-height: 1.8; }
+    .bio-text p { margin-bottom: 16px; }
+    .bio-text p:last-child { margin-bottom: 0; }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border); padding: 48px;
+      display: flex; justify-content: space-between; align-items: center;
+      max-width: 1200px; margin: 0 auto;
+    }
+    .f-left { font-size: 13px; color: var(--text-muted); }
+    .f-links { display: flex; gap: 24px; list-style: none; }
+    .f-links a { font-size: 13px; color: var(--text-muted); text-decoration: none; }
+    .f-links a:hover { color: rgba(255,255,255,0.7); }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      nav { padding: 16px 24px; }
+      nav.scrolled { padding: 10px 24px; }
+      .nav-links { display: none; }
+      .nav-links.open {
+        display: flex; flex-direction: column;
+        position: absolute; top: 100%; left: 0; right: 0;
+        background: rgba(12,10,26,0.95);
+        padding: 24px; gap: 20px;
+        border-bottom: 1px solid var(--border);
+      }
+      .menu-toggle { display: block; }
+      .page-hero { padding: 140px 24px 60px; }
+      .page-hero h1 { font-size: 40px; }
+      .bio-section { padding: 40px 24px 80px; }
+      .bio-card { flex-direction: column; align-items: center; text-align: center; padding: 32px 24px; gap: 32px; }
+      .bio-photo { width: 160px; height: 160px; }
+      footer { padding: 32px 24px; flex-direction: column; gap: 16px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<nav aria-label="Main navigation">
+  <a href="index.html" class="logo"><span class="logo-icon">🐋</span>Imawhale PM</a>
+  <button class="menu-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+  <ul class="nav-links">
+    <li><a href="index.html#how-we-trade">What We Do</a></li>
+    <li><a href="index.html#markets">Markets</a></li>
+    <li><a href="index.html#research">Research</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="index.html#contact" class="nav-btn">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<div class="page-hero">
+  <h1>About <span class="grad-text">Imawhale PM</span></h1>
+  <p class="page-hero-sub">Institutional-grade market making for prediction markets, led by one of the industry's most experienced traders.</p>
+</div>
+
+<div class="bio-section">
+  <div class="bio-card reveal-el">
+    <div class="bio-photo">
+      <!-- Replace src with Shane's actual photo -->
+      <span style="padding:20px">Photo<br>Coming Soon</span>
+    </div>
+    <div class="bio-info">
+      <div class="bio-name">Shane Sigsbee</div>
+      <div class="bio-role">Founder &amp; CEO</div>
+      <div class="bio-text">
+        <p>Shane Sigsbee is a veteran quantitative trader with over 15 years of experience in sports betting and financial markets. He founded Imawhale PM to bring institutional-grade market making to the rapidly growing prediction market space.</p>
+        <p>Under Shane's leadership, Imawhale PM has crossed $500 million in lifetime trading volume across multiple prediction market exchanges including Kalshi, Polymarket US, and Crypto.com US. The firm provides deep liquidity across sports, economics, and global events markets.</p>
+        <p>Prior to Imawhale PM, Shane built a track record as one of the most successful independent traders in the sports betting industry, developing proprietary quantitative models and execution systems.</p>
+        <!-- Update this bio with Shane's actual content from the IMOL site -->
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <div class="f-left">&copy; 2026 Imawhale PM. All rights reserved.</div>
+  <ul class="f-links"><li><a href="#">Privacy</a></li><li><a href="#">Terms</a></li><li><a href="mailto:contact@imawhalepm.com">Contact</a></li></ul>
+</footer>
+
+<script>
+(function() {
+  'use strict';
+  // Scroll reveals
+  document.querySelectorAll('.reveal-el').forEach(function(el) {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    observer.observe(el);
+  });
+
+  // Nav scroll
+  var nav = document.querySelector('nav');
+  window.addEventListener('scroll', function() {
+    nav.classList.toggle('scrolled', window.scrollY > 60);
+  }, { passive: true });
+
+  // Mobile menu
+  document.querySelector('.menu-toggle').addEventListener('click', function() {
+    var expanded = this.getAttribute('aria-expanded') === 'true';
+    this.setAttribute('aria-expanded', !expanded);
+    document.querySelector('.nav-links').classList.toggle('open');
+  });
+})();
+</script>
+
+</body>
+</html>
