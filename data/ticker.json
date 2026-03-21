@@ -2,62 +2,68 @@
   "markets": [
     {
       "title": "Lakers vs. Magic",
-      "price": 0.725,
-      "volume": 3511300.15,
+      "price": 0.535,
+      "volume": 3747467.0,
       "source": "Polymarket"
     },
     {
       "title": "Texas Tech Red Raiders vs. Alabama Cr...",
       "price": 0.525,
-      "volume": 2571569.93,
+      "volume": 2570462.45,
       "source": "Polymarket"
     },
     {
       "title": "VCU Rams vs. Illinois Fighting Illini",
-      "price": 0.145,
-      "volume": 1784558.19,
+      "price": 0.135,
+      "volume": 1812761.98,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.095,
-      "volume": 1474280.65,
+      "price": 0.085,
+      "volume": 1521224.82,
       "source": "Polymarket"
     },
     {
       "title": "Pacers vs. Spurs",
       "price": 0.085,
-      "volume": 1355826.93,
+      "volume": 1477073.91,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Vanderbilt Commodores vs. Nebraska Co...",
+      "price": 0.555,
+      "volume": 1426230.22,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Heat vs. Rockets",
+      "price": 0.445,
+      "volume": 1416889.34,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Grizzlies vs. Hornets",
+      "price": 0.0595,
+      "volume": 1386700.9,
       "source": "Polymarket"
     },
     {
       "title": "Cavaliers vs. Pelicans",
       "price": 0.725,
-      "volume": 1345310.3,
+      "volume": 1379382.74,
       "source": "Polymarket"
     },
     {
-      "title": "Grizzlies vs. Hornets",
-      "price": 0.066,
-      "volume": 1311001.42,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Heat vs. Rockets",
-      "price": 0.435,
-      "volume": 1299697.32,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Vanderbilt Commodores vs. Nebraska Co...",
-      "price": 0.545,
-      "volume": 1270374.56,
+      "title": "Texas Longhorns vs. Gonzaga Bulldogs",
+      "price": 0.385,
+      "volume": 1320230.21,
       "source": "Polymarket"
     },
     {
       "title": "Warriors vs. Hawks",
       "price": 0.265,
-      "volume": 1208435.17,
+      "volume": 1261249.31,
       "source": "Polymarket"
     }
   ],
