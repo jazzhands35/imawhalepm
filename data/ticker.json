@@ -2,50 +2,50 @@
   "markets": [
     {
       "title": "TCU Horned Frogs vs. Duke Blue Devils",
-      "price": 0.115,
-      "volume": 3934185.81,
+      "price": 0.125,
+      "volume": 5052568.74,
       "source": "Polymarket"
     },
     {
       "title": "Texas Tech Red Raiders vs. Alabama Cr...",
-      "price": 0.505,
-      "volume": 1896557.16,
-      "source": "Polymarket"
-    },
-    {
-      "title": "VCU Rams vs. Illinois Fighting Illini",
-      "price": 0.155,
-      "volume": 1346264.3,
+      "price": 0.515,
+      "volume": 2407702.63,
       "source": "Polymarket"
     },
     {
       "title": "Lakers vs. Magic",
       "price": 0.605,
-      "volume": 1282223.37,
+      "volume": 1499654.81,
+      "source": "Polymarket"
+    },
+    {
+      "title": "VCU Rams vs. Illinois Fighting Illini",
+      "price": 0.155,
+      "volume": 1352567.98,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by March 31?",
       "price": 0.065,
-      "volume": 1280320.18,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US forces enter Iran by March 31?",
-      "price": 0.205,
-      "volume": 1245202.57,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Stars vs. Wild",
-      "price": 0.715,
-      "volume": 1119424.93,
+      "volume": 1269393.5,
       "source": "Polymarket"
     },
     {
       "title": "Will Paris Saint-Germain FC win on 20...",
-      "price": 0.795,
-      "volume": 1109071.96,
+      "price": 0.955,
+      "volume": 1237135.1,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US forces enter Iran by March 31?",
+      "price": 0.215,
+      "volume": 1234524.17,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Stars vs. Wild",
+      "price": 0.725,
+      "volume": 1125149.71,
       "source": "Polymarket"
     }
   ],
