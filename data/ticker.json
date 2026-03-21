@@ -2,38 +2,38 @@
   "markets": [
     {
       "title": "Louisville Cardinals vs. Michigan Sta...",
-      "price": 0.215,
-      "volume": 3134188.94,
+      "price": 0.225,
+      "volume": 3186692.64,
       "source": "Polymarket"
     },
     {
       "title": "Counter-Strike: PARIVISION vs Spirit ...",
-      "price": 0.605,
-      "volume": 1348552.64,
+      "price": 0.525,
+      "volume": 1394071.73,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.205,
-      "volume": 1286996.8,
+      "price": 0.225,
+      "volume": 1275892.04,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Lakers vs. Magic",
+      "price": 0.605,
+      "volume": 1248125.9,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by March 31?",
       "price": 0.055,
-      "volume": 1091768.68,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Lakers vs. Magic",
-      "price": 0.595,
-      "volume": 1046516.08,
+      "volume": 1083247.66,
       "source": "Polymarket"
     },
     {
       "title": "Stars vs. Wild",
       "price": 0.555,
-      "volume": 1024327.23,
+      "volume": 1076029.41,
       "source": "Polymarket"
     }
   ],
