@@ -2,68 +2,62 @@
   "markets": [
     {
       "title": "TCU Horned Frogs vs. Duke Blue Devils",
-      "price": 0.075,
-      "volume": 5928513.87,
+      "price": 0.115,
+      "volume": 6255639.2,
       "source": "Polymarket"
     },
     {
       "title": "Texas Tech Red Raiders vs. Alabama Cr...",
       "price": 0.525,
-      "volume": 2526259.93,
+      "volume": 2530106.05,
       "source": "Polymarket"
     },
     {
       "title": "Lakers vs. Magic",
-      "price": 0.605,
-      "volume": 1584994.19,
+      "price": 0.595,
+      "volume": 2327009.79,
       "source": "Polymarket"
     },
     {
       "title": "VCU Rams vs. Illinois Fighting Illini",
       "price": 0.145,
-      "volume": 1549376.83,
+      "volume": 1557640.05,
       "source": "Polymarket"
     },
     {
       "title": "Texas A&M Aggies vs. Houston Cougars",
-      "price": 0.255,
-      "volume": 1370299.63,
+      "price": 0.145,
+      "volume": 1535782.27,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.075,
-      "volume": 1233627.6,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Stars vs. Wild",
-      "price": 0.535,
-      "volume": 1141142.63,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US forces enter Iran by March 31?",
-      "price": 0.215,
-      "volume": 1090868.58,
+      "price": 0.1,
+      "volume": 1237686.03,
       "source": "Polymarket"
     },
     {
       "title": "Thunder vs. Wizards",
-      "price": 0.937,
-      "volume": 1070912.83,
+      "price": 0.8935,
+      "volume": 1172376.27,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Stars vs. Wild",
+      "price": 0.54,
+      "volume": 1162440.18,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US forces enter Iran by March 31?",
+      "price": 0.21,
+      "volume": 1079326.25,
       "source": "Polymarket"
     },
     {
       "title": "Vanderbilt Commodores vs. Nebraska Co...",
-      "price": 0.545,
-      "volume": 1022103.83,
-      "source": "Polymarket"
-    },
-    {
-      "title": "UCLA Bruins vs. Connecticut Huskies",
-      "price": 0.365,
-      "volume": 976575.37,
+      "price": 0.555,
+      "volume": 1030976.84,
       "source": "Polymarket"
     }
   ],
