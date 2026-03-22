@@ -1,69 +1,33 @@
 {
   "markets": [
     {
-      "title": "Lakers vs. Magic",
-      "price": 0.535,
-      "volume": 3747467.0,
-      "source": "Polymarket"
-    },
-    {
       "title": "Texas Tech Red Raiders vs. Alabama Cr...",
       "price": 0.525,
-      "volume": 2570462.45,
-      "source": "Polymarket"
-    },
-    {
-      "title": "VCU Rams vs. Illinois Fighting Illini",
-      "price": 0.135,
-      "volume": 1812761.98,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran ceasefire by March 31?",
-      "price": 0.085,
-      "volume": 1521224.82,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Pacers vs. Spurs",
-      "price": 0.085,
-      "volume": 1477073.91,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Vanderbilt Commodores vs. Nebraska Co...",
-      "price": 0.555,
-      "volume": 1426230.22,
+      "volume": 2611204.4,
       "source": "Polymarket"
     },
     {
       "title": "Heat vs. Rockets",
-      "price": 0.445,
-      "volume": 1416889.34,
+      "price": 0.775,
+      "volume": 2282010.64,
       "source": "Polymarket"
     },
     {
-      "title": "Grizzlies vs. Hornets",
-      "price": 0.0595,
-      "volume": 1386700.9,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Cavaliers vs. Pelicans",
-      "price": 0.725,
-      "volume": 1379382.74,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Texas Longhorns vs. Gonzaga Bulldogs",
+      "title": "Vanderbilt Commodores vs. Nebraska Co...",
       "price": 0.385,
-      "volume": 1320230.21,
+      "volume": 1781850.42,
       "source": "Polymarket"
     },
     {
       "title": "Warriors vs. Hawks",
-      "price": 0.265,
-      "volume": 1261249.31,
+      "price": 0.026,
+      "volume": 1766404.55,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran ceasefire by March 31?",
+      "price": 0.075,
+      "volume": 1434628.53,
       "source": "Polymarket"
     }
   ],
