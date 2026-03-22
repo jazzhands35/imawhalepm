@@ -2,44 +2,38 @@
   "markets": [
     {
       "title": "Utah State Aggies vs. Arizona Wildcats",
-      "price": 0.145,
-      "volume": 5005485.61,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Real Madrid CF win on 2026-03-22?",
-      "price": 0.79,
-      "volume": 5001401.19,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Club Atl\u00e9tico de Madrid win on 2...",
-      "price": 0.0245,
-      "volume": 3291875.45,
+      "price": 0.135,
+      "volume": 5358747.35,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by March 31?",
       "price": 0.105,
-      "volume": 2284884.13,
+      "volume": 2189131.28,
       "source": "Polymarket"
     },
     {
       "title": "UCLA Bruins vs. Connecticut Huskies",
       "price": 0.355,
-      "volume": 1889537.74,
+      "volume": 1881000.06,
       "source": "Polymarket"
     },
     {
       "title": "Texas Tech Red Raiders vs. Alabama Cr...",
       "price": 0.505,
-      "volume": 1824460.1,
+      "volume": 1739886.18,
       "source": "Polymarket"
     },
     {
       "title": "Tennessee Volunteers vs. Virginia Cav...",
-      "price": 0.515,
-      "volume": 1489612.38,
+      "price": 0.525,
+      "volume": 1650141.4,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Trail Blazers vs. Nuggets",
+      "price": 0.175,
+      "volume": 1424129.7,
       "source": "Polymarket"
     }
   ],
