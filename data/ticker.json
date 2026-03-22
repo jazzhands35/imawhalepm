@@ -3,43 +3,37 @@
     {
       "title": "Utah State Aggies vs. Arizona Wildcats",
       "price": 0.125,
-      "volume": 6869410.57,
-      "source": "Polymarket"
-    },
-    {
-      "title": "St. John's Red Storm vs. Kansas Jayhawks",
-      "price": 0.6675,
-      "volume": 2465753.21,
+      "volume": 7549790.42,
       "source": "Polymarket"
     },
     {
       "title": "Tennessee Volunteers vs. Virginia Cav...",
-      "price": 0.695,
-      "volume": 2392498.97,
+      "price": 0.855,
+      "volume": 2589590.69,
       "source": "Polymarket"
     },
     {
       "title": "UCLA Bruins vs. Connecticut Huskies",
       "price": 0.345,
-      "volume": 2181480.6,
+      "volume": 2183268.72,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.115,
-      "volume": 1974798.61,
+      "price": 0.125,
+      "volume": 1914358.76,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Nets vs. Kings",
+      "price": 0.225,
+      "volume": 1880921.25,
       "source": "Polymarket"
     },
     {
       "title": "Texas Tech Red Raiders vs. Alabama Cr...",
       "price": 0.515,
-      "volume": 1697667.11,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Nets vs. Kings",
-      "price": 0.325,
-      "volume": 1625572.25,
+      "volume": 1694737.39,
       "source": "Polymarket"
     }
   ],
