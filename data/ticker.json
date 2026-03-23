@@ -1,39 +1,33 @@
 {
   "markets": [
     {
-      "title": "Utah State Aggies vs. Arizona Wildcats",
-      "price": 0.125,
-      "volume": 7549790.42,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Tennessee Volunteers vs. Virginia Cav...",
-      "price": 0.855,
-      "volume": 2589590.69,
-      "source": "Polymarket"
-    },
-    {
       "title": "UCLA Bruins vs. Connecticut Huskies",
-      "price": 0.345,
-      "volume": 2183268.72,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran ceasefire by March 31?",
-      "price": 0.125,
-      "volume": 1914358.76,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Nets vs. Kings",
-      "price": 0.225,
-      "volume": 1880921.25,
+      "price": 0.35,
+      "volume": 3018036.87,
       "source": "Polymarket"
     },
     {
       "title": "Texas Tech Red Raiders vs. Alabama Cr...",
-      "price": 0.515,
-      "volume": 1694737.39,
+      "price": 0.485,
+      "volume": 2406988.86,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Raptors vs. Suns",
+      "price": 0.335,
+      "volume": 2294430.36,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Timberwolves vs. Celtics",
+      "price": 0.195,
+      "volume": 2198585.56,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran ceasefire by March 31?",
+      "price": 0.115,
+      "volume": 2128791.41,
       "source": "Polymarket"
     }
   ],
