@@ -2,32 +2,38 @@
   "markets": [
     {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.175,
-      "volume": 4679895.18,
+      "price": 0.165,
+      "volume": 4781075.81,
       "source": "Polymarket"
     },
     {
       "title": "Lakers vs. Pistons",
       "price": 0.515,
-      "volume": 2294572.83,
+      "volume": 2423079.84,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.135,
-      "volume": 1616692.42,
+      "price": 0.125,
+      "volume": 1665633.78,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 15?",
-      "price": 0.415,
-      "volume": 1193292.53,
+      "price": 0.395,
+      "volume": 1217376.25,
       "source": "Polymarket"
     },
     {
       "title": "Spurs vs. Heat",
       "price": 0.625,
-      "volume": 1042872.21,
+      "volume": 1107531.78,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Senators vs. Rangers",
+      "price": 0.625,
+      "volume": 1071476.36,
       "source": "Polymarket"
     }
   ],
