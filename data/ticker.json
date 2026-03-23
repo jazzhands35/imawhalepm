@@ -2,26 +2,20 @@
   "markets": [
     {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.115,
-      "volume": 1822610.03,
+      "price": 0.105,
+      "volume": 1841559.28,
       "source": "Polymarket"
     },
     {
       "title": "Lakers vs. Pistons",
       "price": 0.565,
-      "volume": 1257742.51,
+      "volume": 1311181.72,
       "source": "Polymarket"
     },
     {
       "title": "Will Manchester City win the 2025\u201326 ...",
       "price": 0.115,
-      "volume": 823401.01,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Bitcoin dip to $65,000 in March?",
-      "price": 0.5465,
-      "volume": 747143.87,
+      "volume": 823445.24,
       "source": "Polymarket"
     }
   ],
