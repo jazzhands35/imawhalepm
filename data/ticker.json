@@ -2,62 +2,26 @@
   "markets": [
     {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.195,
-      "volume": 3589979.14,
+      "price": 0.175,
+      "volume": 3614223.32,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Nuggets vs. Suns",
+      "price": 0.575,
+      "volume": 2793857.2,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by March 31?",
       "price": 0.135,
-      "volume": 1959711.98,
+      "volume": 2032158.91,
       "source": "Polymarket"
     },
     {
-      "title": "Magic vs. Cavaliers",
-      "price": 0.205,
-      "volume": 1951621.98,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Pelicans vs. Knicks",
-      "price": 0.185,
-      "volume": 1673619.67,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Blue Jackets vs. Flyers",
-      "price": 0.765,
-      "volume": 1531008.22,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Nuggets vs. Suns",
-      "price": 0.685,
-      "volume": 1368164.49,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Blackhawks vs. Islanders: O/U 6.5",
-      "price": 0.685,
-      "volume": 989520.93,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Capitals vs. Blues",
-      "price": 0.515,
-      "volume": 978028.5,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Senators vs. Red Wings",
-      "price": 0.885,
-      "volume": 959464.11,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Hurricanes vs. Canadiens",
-      "price": 0.27,
-      "volume": 957888.86,
+      "title": "Spread: Nuggets (-5.5)",
+      "price": 0.385,
+      "volume": 1790181.42,
       "source": "Polymarket"
     }
   ],
