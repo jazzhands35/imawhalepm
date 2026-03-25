@@ -2,44 +2,44 @@
   "markets": [
     {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.205,
-      "volume": 3420768.9,
+      "price": 0.175,
+      "volume": 3699560.97,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.155,
-      "volume": 2167679.73,
+      "price": 0.175,
+      "volume": 2194020.69,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
       "price": 0.535,
-      "volume": 750266.68,
+      "volume": 749918.29,
       "source": "Polymarket"
     },
     {
       "title": "Will Crude Oil (CL) hit (HIGH) $100 b...",
-      "price": 0.244,
-      "volume": 657905.47,
+      "price": 0.246,
+      "volume": 678731.79,
       "source": "Polymarket"
     },
     {
       "title": "Will England win the 2026 FIFA World ...",
-      "price": 0.1275,
-      "volume": 640699.66,
+      "price": 0.128,
+      "volume": 669328.88,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
       "price": 0.065,
-      "volume": 597351.46,
+      "volume": 590762.93,
       "source": "Polymarket"
     },
     {
-      "title": "Will Argentina win the 2026 FIFA Worl...",
-      "price": 0.1025,
-      "volume": 543388.77,
+      "title": "Will the Fed increase interest rates ...",
+      "price": 0.031,
+      "volume": 546702.03,
       "source": "Polymarket"
     }
   ],
