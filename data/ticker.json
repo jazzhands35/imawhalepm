@@ -2,62 +2,62 @@
   "markets": [
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.185,
-      "volume": 3129688.54,
+      "price": 0.175,
+      "volume": 3185625.35,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.0435,
-      "volume": 2608974.56,
+      "price": 0.0395,
+      "volume": 2769657.72,
       "source": "Polymarket"
     },
     {
       "title": "Counter-Strike: Aurora Gaming vs TheM...",
-      "price": 0.665,
-      "volume": 1631266.65,
+      "price": 0.905,
+      "volume": 1986821.77,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
       "price": 0.625,
-      "volume": 920889.42,
+      "volume": 866325.05,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
       "price": 0.085,
-      "volume": 812713.64,
+      "volume": 829994.2,
       "source": "Polymarket"
     },
     {
       "title": "Will Jesus Christ return before 2027?",
       "price": 0.0385,
-      "volume": 736208.23,
+      "volume": 719496.09,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Nuggets (-18.5)",
       "price": 0.495,
-      "volume": 714930.3,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Purdue win the 2026 NCAA Tournam...",
-      "price": 0.0635,
-      "volume": 666026.84,
+      "volume": 715393.19,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
       "price": 0.065,
-      "volume": 657594.18,
+      "volume": 661084.3,
       "source": "Polymarket"
     },
     {
       "title": "Will Gavin Newsom win the 2028 Democr...",
       "price": 0.244,
-      "volume": 640616.96,
+      "volume": 640583.2,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Tucker Carlson win the 2028 US P...",
+      "price": 0.033,
+      "volume": 640159.9,
       "source": "Polymarket"
     }
   ],
