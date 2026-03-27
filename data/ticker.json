@@ -2,50 +2,56 @@
   "markets": [
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.155,
-      "volume": 2533689.92,
+      "price": 0.165,
+      "volume": 2646072.94,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.0535,
-      "volume": 2478300.95,
+      "price": 0.0495,
+      "volume": 2483568.05,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
       "price": 0.085,
-      "volume": 874642.62,
+      "volume": 1080516.32,
       "source": "Polymarket"
     },
     {
       "title": "Will Purdue win the 2026 NCAA Tournam...",
       "price": 0.066,
-      "volume": 830931.81,
+      "volume": 804104.84,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
       "price": 0.615,
-      "volume": 806087.14,
+      "volume": 797502.67,
       "source": "Polymarket"
     },
     {
       "title": "Michigan State Spartans vs. Connectic...",
       "price": 0.455,
-      "volume": 781245.86,
+      "volume": 785367.39,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
       "price": 0.065,
-      "volume": 770072.4,
+      "volume": 764679.23,
       "source": "Polymarket"
     },
     {
       "title": "Will Jesus Christ return before 2027?",
       "price": 0.0385,
-      "volume": 698921.1,
+      "volume": 704914.94,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Spread: Nuggets (-18.5)",
+      "price": 0.495,
+      "volume": 704170.45,
       "source": "Polymarket"
     }
   ],
