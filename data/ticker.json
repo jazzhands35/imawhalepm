@@ -1,63 +1,27 @@
 {
   "markets": [
     {
-      "title": "Illinois Fighting Illini vs. Houston ...",
-      "price": 0.435,
-      "volume": 4176926.77,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Nebraska Cornhuskers vs. Iowa Hawkeyes",
-      "price": 0.705,
-      "volume": 3991481.77,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Texas Longhorns vs. Purdue Boilermakers",
-      "price": 0.415,
-      "volume": 2529399.82,
-      "source": "Polymarket"
-    },
-    {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.055,
-      "volume": 2346551.98,
+      "price": 0.045,
+      "volume": 2273949.58,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.155,
-      "volume": 2072970.34,
+      "price": 0.145,
+      "volume": 2204371.48,
       "source": "Polymarket"
     },
     {
-      "title": "Spread: Pistons (-4.5)",
-      "price": 0.92,
-      "volume": 1972725.68,
+      "title": "Will Byron Donalds win the 2028 Repub...",
+      "price": 0.053,
+      "volume": 1037207.01,
       "source": "Polymarket"
     },
     {
-      "title": "Kings vs. Magic",
-      "price": 0.165,
-      "volume": 1616199.62,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Wild vs. Panthers",
-      "price": 0.79,
-      "volume": 1129920.96,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Pistons (-5.5)",
-      "price": 0.93,
-      "volume": 1083066.58,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Magic (-15.5)",
-      "price": 0.08,
-      "volume": 980738.7,
+      "title": "Will Purdue win the 2026 NCAA Tournam...",
+      "price": 0.0765,
+      "volume": 982891.46,
       "source": "Polymarket"
     }
   ],
