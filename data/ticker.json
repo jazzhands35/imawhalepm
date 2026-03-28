@@ -2,68 +2,62 @@
   "markets": [
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.075,
-      "volume": 3558124.8,
+      "price": 0.085,
+      "volume": 3488013.31,
       "source": "Polymarket"
     },
     {
       "title": "Illinois Fighting Illini vs. Iowa Haw...",
       "price": 0.735,
-      "volume": 3403165.55,
+      "volume": 3403556.45,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by March 31?",
       "price": 0.0245,
-      "volume": 2569976.74,
+      "volume": 2572481.95,
       "source": "Polymarket"
     },
     {
       "title": "Will Crude Oil (CL) hit (HIGH) $100 b...",
-      "price": 0.734,
-      "volume": 1165560.66,
+      "price": 0.741,
+      "volume": 1156625.27,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.525,
-      "volume": 879231.32,
+      "price": 0.515,
+      "volume": 893016.57,
       "source": "Polymarket"
     },
     {
       "title": "Will AfD win the most seats in the 20...",
-      "price": 0.127,
-      "volume": 766456.62,
+      "price": 0.119,
+      "volume": 787423.7,
       "source": "Polymarket"
     },
     {
       "title": "Netanyahu out by April 30?",
-      "price": 0.0335,
-      "volume": 752095.59,
+      "price": 0.035,
+      "volume": 749174.56,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
       "price": 0.075,
-      "volume": 686705.65,
+      "volume": 688051.77,
       "source": "Polymarket"
     },
     {
       "title": "Will Jesus Christ return before 2027?",
       "price": 0.0385,
-      "volume": 657293.33,
+      "volume": 658821.42,
       "source": "Polymarket"
     },
     {
       "title": "Will Bitcoin dip to $65,000 in March?",
-      "price": 0.6535,
-      "volume": 650354.36,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Denmark win the televote for Eur...",
-      "price": 0.041,
-      "volume": 618637.48,
+      "price": 0.6665,
+      "volume": 653424.01,
       "source": "Polymarket"
     }
   ],
