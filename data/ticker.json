@@ -2,50 +2,56 @@
   "markets": [
     {
       "title": "Illinois Fighting Illini vs. Iowa Haw...",
-      "price": 0.745,
-      "volume": 4396184.41,
+      "price": 0.755,
+      "volume": 4678781.88,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by March 31?",
       "price": 0.085,
-      "volume": 2951296.86,
+      "volume": 2889906.8,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.0255,
-      "volume": 1924741.65,
+      "price": 0.0245,
+      "volume": 1915314.83,
       "source": "Polymarket"
     },
     {
       "title": "Pistons vs. Timberwolves",
-      "price": 0.535,
-      "volume": 1605241.1,
+      "price": 0.525,
+      "volume": 1603039.7,
       "source": "Polymarket"
     },
     {
       "title": "Spurs vs. Bucks",
-      "price": 0.925,
-      "volume": 1074218.81,
+      "price": 0.935,
+      "volume": 1229235.46,
       "source": "Polymarket"
     },
     {
       "title": "Counter-Strike: Natus Vincere vs PARI...",
-      "price": 0.655,
-      "volume": 992798.37,
+      "price": 0.795,
+      "volume": 1086069.91,
       "source": "Polymarket"
     },
     {
       "title": "Will Crude Oil (CL) hit (HIGH) $100 b...",
-      "price": 0.771,
-      "volume": 943864.57,
+      "price": 0.773,
+      "volume": 908640.52,
       "source": "Polymarket"
     },
     {
       "title": "Netanyahu out by April 30?",
-      "price": 0.0375,
-      "volume": 887658.46,
+      "price": 0.039,
+      "volume": 892989.69,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Senators vs. Lightning",
+      "price": 0.765,
+      "volume": 878940.96,
       "source": "Polymarket"
     }
   ],
