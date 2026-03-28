@@ -2,44 +2,44 @@
   "markets": [
     {
       "title": "Illinois Fighting Illini vs. Iowa Haw...",
-      "price": 0.705,
-      "volume": 6544930.48,
+      "price": 0.615,
+      "volume": 6818734.45,
       "source": "Polymarket"
     },
     {
       "title": "Purdue Boilermakers vs. Arizona Wildcats",
       "price": 0.285,
-      "volume": 4783736.51,
+      "volume": 4787295.82,
       "source": "Polymarket"
     },
     {
       "title": "Pistons vs. Timberwolves",
-      "price": 0.655,
-      "volume": 3964782.84,
+      "price": 0.885,
+      "volume": 4312546.85,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.13,
-      "volume": 2686501.39,
+      "price": 0.115,
+      "volume": 2738990.01,
       "source": "Polymarket"
     },
     {
       "title": "76ers vs. Hornets",
-      "price": 0.155,
-      "volume": 1907645.46,
+      "price": 0.245,
+      "volume": 2064737.4,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.0205,
-      "volume": 1706197.99,
+      "price": 0.022,
+      "volume": 1762553.38,
       "source": "Polymarket"
     },
     {
       "title": "Devils vs. Hurricanes",
-      "price": 0.065,
-      "volume": 1137934.56,
+      "price": 0.035,
+      "volume": 1142995.89,
       "source": "Polymarket"
     }
   ],
