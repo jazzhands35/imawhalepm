@@ -2,56 +2,62 @@
   "markets": [
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.125,
-      "volume": 3351449.77,
+      "price": 0.085,
+      "volume": 3452480.5,
       "source": "Polymarket"
     },
     {
       "title": "Illinois Fighting Illini vs. Iowa Haw...",
       "price": 0.735,
-      "volume": 2945381.86,
+      "volume": 3039608.97,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.0265,
-      "volume": 2577416.46,
+      "price": 0.0245,
+      "volume": 2577243.57,
       "source": "Polymarket"
     },
     {
       "title": "Will Crude Oil (CL) hit (HIGH) $100 b...",
-      "price": 0.7225,
-      "volume": 1143913.41,
+      "price": 0.7375,
+      "volume": 1154912.39,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.565,
-      "volume": 847547.64,
+      "price": 0.545,
+      "volume": 860512.39,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will AfD win the most seats in the 20...",
+      "price": 0.1195,
+      "volume": 741569.09,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Netanyahu out by April 30?",
+      "price": 0.0345,
+      "volume": 737724.61,
       "source": "Polymarket"
     },
     {
       "title": "Will Jesus Christ return before 2027?",
       "price": 0.0385,
-      "volume": 736295.25,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will AfD win the most seats in the 20...",
-      "price": 0.123,
-      "volume": 729999.23,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Netanyahu out by April 30?",
-      "price": 0.0355,
-      "volume": 719566.44,
+      "volume": 716273.55,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
       "price": 0.075,
-      "volume": 716890.13,
+      "volume": 714822.67,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Bitcoin dip to $65,000 in March?",
+      "price": 0.615,
+      "volume": 651942.17,
       "source": "Polymarket"
     }
   ],
