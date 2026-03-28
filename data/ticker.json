@@ -2,50 +2,44 @@
   "markets": [
     {
       "title": "Illinois Fighting Illini vs. Iowa Haw...",
-      "price": 0.735,
-      "volume": 3531287.09,
+      "price": 0.745,
+      "volume": 3665059.44,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by March 31?",
       "price": 0.075,
-      "volume": 3196905.33,
+      "volume": 3151724.41,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.0255,
-      "volume": 2006791.22,
+      "price": 0.0285,
+      "volume": 2060463.31,
       "source": "Polymarket"
     },
     {
       "title": "Pistons vs. Timberwolves",
       "price": 0.535,
-      "volume": 1416508.13,
+      "volume": 1515976.65,
       "source": "Polymarket"
     },
     {
       "title": "Will Crude Oil (CL) hit (HIGH) $100 b...",
-      "price": 0.768,
-      "volume": 1021225.91,
+      "price": 0.7695,
+      "volume": 993602.25,
       "source": "Polymarket"
     },
     {
       "title": "Netanyahu out by April 30?",
-      "price": 0.041,
-      "volume": 904890.41,
+      "price": 0.0385,
+      "volume": 913097.29,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
       "price": 0.555,
-      "volume": 840337.33,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will AfD win the most seats in the 20...",
-      "price": 0.189,
-      "volume": 742954.1,
+      "volume": 831871.16,
       "source": "Polymarket"
     }
   ],
