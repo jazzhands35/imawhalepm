@@ -2,62 +2,68 @@
   "markets": [
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.075,
-      "volume": 3562234.6,
+      "price": 0.085,
+      "volume": 3583606.2,
       "source": "Polymarket"
     },
     {
       "title": "Illinois Fighting Illini vs. Iowa Haw...",
       "price": 0.735,
-      "volume": 3202851.86,
+      "volume": 3203591.61,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by March 31?",
-      "price": 0.0255,
-      "volume": 2483371.26,
+      "price": 0.0265,
+      "volume": 2421864.45,
       "source": "Polymarket"
     },
     {
       "title": "Will Crude Oil (CL) hit (HIGH) $100 b...",
-      "price": 0.7335,
-      "volume": 1168830.39,
+      "price": 0.731,
+      "volume": 1169188.83,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
       "price": 0.525,
-      "volume": 875046.86,
+      "volume": 871775.11,
       "source": "Polymarket"
     },
     {
       "title": "Will AfD win the most seats in the 20...",
-      "price": 0.122,
-      "volume": 754456.07,
+      "price": 0.1215,
+      "volume": 759066.12,
       "source": "Polymarket"
     },
     {
       "title": "Netanyahu out by April 30?",
-      "price": 0.035,
-      "volume": 733560.25,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Jesus Christ return before 2027?",
-      "price": 0.0385,
-      "volume": 678493.65,
+      "price": 0.0355,
+      "volume": 744806.92,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
       "price": 0.075,
-      "volume": 667621.56,
+      "volume": 666908.28,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Jesus Christ return before 2027?",
+      "price": 0.0385,
+      "volume": 662229.08,
       "source": "Polymarket"
     },
     {
       "title": "Will Bitcoin dip to $65,000 in March?",
-      "price": 0.6265,
-      "volume": 652202.13,
+      "price": 0.655,
+      "volume": 651994.96,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Denmark win the televote for Eur...",
+      "price": 0.041,
+      "volume": 615828.48,
       "source": "Polymarket"
     }
   ],
