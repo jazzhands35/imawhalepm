@@ -2,44 +2,50 @@
   "markets": [
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.131,
-      "volume": 5600894.73,
+      "price": 0.1305,
+      "volume": 5593796.67,
       "source": "Polymarket"
     },
     {
       "title": "Connecticut Huskies vs. Duke Blue Devils",
-      "price": 0.0675,
-      "volume": 2403854.62,
+      "price": 0.166,
+      "volume": 3399718.44,
       "source": "Polymarket"
     },
     {
       "title": "Celtics vs. Hornets",
-      "price": 0.445,
-      "volume": 2246278.99,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US forces enter Iran by April 30?",
-      "price": 0.695,
-      "volume": 1905981.74,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Predators vs. Lightning",
-      "price": 0.415,
-      "volume": 1616278.42,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Magic vs. Raptors",
-      "price": 0.485,
-      "volume": 1481362.29,
+      "price": 0.765,
+      "volume": 2557889.2,
       "source": "Polymarket"
     },
     {
       "title": "Heat vs. Pacers",
-      "price": 0.655,
-      "volume": 1462322.38,
+      "price": 0.705,
+      "volume": 1994185.62,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US forces enter Iran by April 30?",
+      "price": 0.715,
+      "volume": 1967632.25,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Magic vs. Raptors",
+      "price": 0.165,
+      "volume": 1887181.21,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Spread: Trail Blazers (-16.5)",
+      "price": 0.495,
+      "volume": 1793397.8,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Predators vs. Lightning",
+      "price": 0.45,
+      "volume": 1673906.77,
       "source": "Polymarket"
     }
   ],
