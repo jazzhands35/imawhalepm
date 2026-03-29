@@ -2,38 +2,32 @@
   "markets": [
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.096,
-      "volume": 3433687.63,
+      "price": 0.0955,
+      "volume": 3461683.55,
       "source": "Polymarket"
     },
     {
       "title": "Tennessee Volunteers vs. Michigan Wol...",
-      "price": 0.225,
-      "volume": 2405446.98,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Dota 2: Team Yandex vs Xtreme Gaming ...",
-      "price": 0.725,
-      "volume": 1504597.73,
+      "price": 0.235,
+      "volume": 2652233.32,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.715,
-      "volume": 1153366.81,
+      "price": 0.685,
+      "volume": 1200816.71,
       "source": "Polymarket"
     },
     {
       "title": "Celtics vs. Hornets",
       "price": 0.495,
-      "volume": 947293.36,
+      "volume": 969180.83,
       "source": "Polymarket"
     },
     {
       "title": "Predators vs. Lightning",
       "price": 0.355,
-      "volume": 947097.64,
+      "volume": 950657.9,
       "source": "Polymarket"
     }
   ],
