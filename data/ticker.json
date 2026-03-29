@@ -1,39 +1,9 @@
 {
   "markets": [
     {
-      "title": "Illinois Fighting Illini vs. Iowa Haw...",
-      "price": 0.635,
-      "volume": 7813533.02,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Purdue Boilermakers vs. Arizona Wildcats",
-      "price": 0.285,
-      "volume": 4986354.76,
-      "source": "Polymarket"
-    },
-    {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.105,
-      "volume": 2740745.19,
-      "source": "Polymarket"
-    },
-    {
-      "title": "76ers vs. Hornets",
-      "price": 0.215,
-      "volume": 2369527.43,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran ceasefire by March 31?",
-      "price": 0.0205,
-      "volume": 1789504.5,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Hawks (-13.5)",
-      "price": 0.48,
-      "volume": 1186889.91,
+      "price": 0.095,
+      "volume": 2915472.57,
       "source": "Polymarket"
     }
   ],
