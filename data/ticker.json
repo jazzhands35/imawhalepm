@@ -2,32 +2,38 @@
   "markets": [
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.0565,
-      "volume": 5153268.84,
+      "price": 0.0585,
+      "volume": 5072794.83,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.665,
-      "volume": 2278462.55,
+      "price": 0.675,
+      "volume": 2251117.74,
       "source": "Polymarket"
     },
     {
       "title": "Will Jesus Christ return before 2027?",
       "price": 0.0385,
-      "volume": 1106671.5,
+      "volume": 1112362.72,
       "source": "Polymarket"
     },
     {
       "title": "Will Crude Oil (CL) hit (HIGH) $100 b...",
-      "price": 0.818,
-      "volume": 733659.84,
+      "price": 0.9205,
+      "volume": 806682.56,
       "source": "Polymarket"
     },
     {
       "title": "Maple Leafs vs. Ducks",
       "price": 0.365,
-      "volume": 733170.92,
+      "volume": 751182.1,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Netanyahu out by April 30?",
+      "price": 0.0255,
+      "volume": 641510.38,
       "source": "Polymarket"
     }
   ],
