@@ -2,38 +2,26 @@
   "markets": [
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.065,
-      "volume": 5842684.13,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Warriors vs. Nuggets",
-      "price": 0.035,
-      "volume": 3160831.69,
+      "price": 0.0795,
+      "volume": 5501096.44,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.685,
-      "volume": 2097976.72,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Nuggets (-11.5)",
-      "price": 0.57,
-      "volume": 1341457.1,
+      "price": 0.675,
+      "volume": 2159834.24,
       "source": "Polymarket"
     },
     {
       "title": "Will Jesus Christ return before 2027?",
       "price": 0.0385,
-      "volume": 808641.99,
+      "volume": 928509.91,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by December 31?",
-      "price": 0.765,
-      "volume": 667358.87,
+      "price": 0.775,
+      "volume": 670362.19,
       "source": "Polymarket"
     }
   ],
