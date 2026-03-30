@@ -2,32 +2,32 @@
   "markets": [
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.062,
-      "volume": 5401596.35,
+      "price": 0.0625,
+      "volume": 5414031.05,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.715,
-      "volume": 2109764.21,
+      "price": 0.695,
+      "volume": 2162711.59,
       "source": "Polymarket"
     },
     {
       "title": "Will Jesus Christ return before 2027?",
       "price": 0.0385,
-      "volume": 1065846.99,
+      "volume": 1061527.04,
       "source": "Polymarket"
     },
     {
       "title": "Will Crude Oil (CL) hit (HIGH) $100 b...",
-      "price": 0.848,
-      "volume": 649183.8,
+      "price": 0.8165,
+      "volume": 680164.79,
       "source": "Polymarket"
     },
     {
-      "title": "US forces enter Iran by December 31?",
-      "price": 0.775,
-      "volume": 584657.82,
+      "title": "Netanyahu out by April 30?",
+      "price": 0.0245,
+      "volume": 605548.77,
       "source": "Polymarket"
     }
   ],
