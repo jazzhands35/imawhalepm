@@ -2,62 +2,50 @@
   "markets": [
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.0275,
-      "volume": 3279554.86,
+      "price": 0.0225,
+      "volume": 3214712.62,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
       "price": 0.645,
-      "volume": 2095820.07,
+      "volume": 1933121.08,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by December 31?",
-      "price": 0.755,
-      "volume": 865763.1,
+      "price": 0.745,
+      "volume": 862525.77,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Crude Oil (CL) hit (HIGH) $105 b...",
+      "price": 0.21,
+      "volume": 846873.86,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by June 30?",
       "price": 0.165,
-      "volume": 835913.45,
+      "volume": 837027.27,
       "source": "Polymarket"
     },
     {
-      "title": "Will Crude Oil (CL) hit (HIGH) $105 b...",
-      "price": 0.2435,
-      "volume": 834159.78,
+      "title": "Will Crude Oil (CL) hit (HIGH) $110 b...",
+      "price": 0.0415,
+      "volume": 810313.28,
       "source": "Polymarket"
     },
     {
       "title": "Will the Fed increase interest rates ...",
       "price": 0.0725,
-      "volume": 812402.18,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Trump talk to Xi Jinping in March?",
-      "price": 0.0215,
-      "volume": 804775.98,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Crude Oil (CL) hit (HIGH) $110 b...",
-      "price": 0.044,
-      "volume": 797955.51,
+      "volume": 741504.36,
       "source": "Polymarket"
     },
     {
       "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.17,
-      "volume": 782862.26,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Al Mina be the Republican nomine...",
-      "price": 0.0785,
-      "volume": 744153.25,
+      "price": 0.171,
+      "volume": 721508.61,
       "source": "Polymarket"
     }
   ],
