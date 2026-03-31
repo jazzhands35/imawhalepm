@@ -2,32 +2,44 @@
   "markets": [
     {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.0235,
-      "volume": 3126764.32,
+      "price": 0.0265,
+      "volume": 3218660.79,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
       "price": 0.615,
-      "volume": 2012835.36,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.169,
-      "volume": 888977.84,
+      "volume": 1985794.98,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by June 30?",
       "price": 0.165,
-      "volume": 843783.36,
+      "volume": 837098.1,
       "source": "Polymarket"
     },
     {
       "title": "Will the Fed increase interest rates ...",
-      "price": 0.0735,
-      "volume": 815058.03,
+      "price": 0.0745,
+      "volume": 817451.16,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Crude Oil (CL) hit (HIGH) $105 b...",
+      "price": 0.311,
+      "volume": 810481.86,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Crude Oil (CL) hit (HIGH) $110 b...",
+      "price": 0.049,
+      "volume": 789753.96,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the San Antonio Spurs win the 20...",
+      "price": 0.1685,
+      "volume": 774110.6,
       "source": "Polymarket"
     }
   ],
