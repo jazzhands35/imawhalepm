@@ -1,69 +1,27 @@
 {
   "markets": [
     {
-      "title": "Celtics vs. Hawks",
-      "price": 0.515,
-      "volume": 3230032.02,
-      "source": "Polymarket"
-    },
-    {
       "title": "US forces enter Iran by March 31?",
-      "price": 0.0465,
-      "volume": 3129681.86,
-      "source": "Polymarket"
-    },
-    {
-      "title": "76ers vs. Heat",
-      "price": 0.635,
-      "volume": 2932421.78,
+      "price": 0.0315,
+      "volume": 3028567.08,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.695,
-      "volume": 1854355.43,
+      "price": 0.595,
+      "volume": 2055559.55,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Pistons vs. Thunder",
+      "price": 0.115,
+      "volume": 1546689.21,
       "source": "Polymarket"
     },
     {
       "title": "Maple Leafs vs. Ducks",
-      "price": 0.375,
-      "volume": 1055127.89,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Hawks (-2.5)",
-      "price": 0.45,
-      "volume": 1027127.27,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Jesus Christ return before 2027?",
-      "price": 0.0385,
-      "volume": 1007356.65,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Timberwolves vs. Mavericks",
-      "price": 0.765,
-      "volume": 897982.96,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the Iranian regime fall by June 30?",
-      "price": 0.165,
-      "volume": 830817.65,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.1675,
-      "volume": 784529.5,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Trump talk to Xi Jinping in March?",
-      "price": 0.024,
-      "volume": 780175.3,
+      "price": 0.245,
+      "volume": 1270227.04,
       "source": "Polymarket"
     }
   ],
