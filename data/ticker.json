@@ -2,56 +2,56 @@
   "markets": [
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.545,
-      "volume": 2854429.66,
+      "price": 0.555,
+      "volume": 2951929.59,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
-      "price": 0.0345,
-      "volume": 2531686.48,
+      "price": 0.0325,
+      "volume": 2743247.9,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 15?",
-      "price": 0.145,
-      "volume": 1227558.38,
+      "price": 0.175,
+      "volume": 1668131.27,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by December 31?",
       "price": 0.645,
-      "volume": 1051348.56,
+      "volume": 1041803.27,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 7?",
-      "price": 0.05,
-      "volume": 930070.24,
+      "price": 0.075,
+      "volume": 1011275.87,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by June 30?",
-      "price": 0.095,
-      "volume": 870939.52,
+      "price": 0.105,
+      "volume": 953191.47,
       "source": "Polymarket"
     },
     {
       "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.173,
-      "volume": 733893.12,
-      "source": "Polymarket"
-    },
-    {
-      "title": "EdgeX FDV above $1B one day after lau...",
-      "price": 0.031,
-      "volume": 660386.39,
+      "price": 0.1755,
+      "volume": 774018.35,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 30?",
-      "price": 0.365,
-      "volume": 563403.4,
+      "price": 0.355,
+      "volume": 662039.99,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will James Talarico win the 2028 Demo...",
+      "price": 0.023,
+      "volume": 559685.48,
       "source": "Polymarket"
     }
   ],
