@@ -2,50 +2,44 @@
   "markets": [
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.625,
-      "volume": 3907587.53,
+      "price": 0.635,
+      "volume": 3768013.24,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 7?",
-      "price": 0.0205,
-      "volume": 2665548.19,
+      "price": 0.0215,
+      "volume": 2601807.5,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
       "price": 0.0325,
-      "volume": 1480856.32,
+      "volume": 1380129.03,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 15?",
       "price": 0.085,
-      "volume": 1155628.49,
+      "volume": 1156223.71,
       "source": "Polymarket"
     },
     {
       "title": "Lakers vs. Thunder",
       "price": 0.245,
-      "volume": 1025768.43,
+      "volume": 1048863.74,
       "source": "Polymarket"
     },
     {
       "title": "Capitals vs. Devils",
       "price": 0.495,
-      "volume": 955285.28,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Credit One Charleston Open: Jessica P...",
-      "price": 0.675,
-      "volume": 875859.17,
+      "volume": 967789.72,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 30?",
       "price": 0.235,
-      "volume": 865555.8,
+      "volume": 877956.94,
       "source": "Polymarket"
     }
   ],
