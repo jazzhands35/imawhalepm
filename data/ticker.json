@@ -2,56 +2,56 @@
   "markets": [
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.615,
-      "volume": 4492883.19,
+      "price": 0.625,
+      "volume": 4474071.69,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 7?",
       "price": 0.0205,
-      "volume": 3100061.37,
+      "volume": 3048731.14,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 15?",
       "price": 0.075,
-      "volume": 2764060.28,
+      "volume": 2538479.43,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
-      "price": 0.0335,
-      "volume": 2018825.64,
+      "price": 0.0325,
+      "volume": 1497655.5,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 30?",
-      "price": 0.255,
-      "volume": 1366042.3,
+      "price": 0.235,
+      "volume": 1293666.13,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by June 30?",
       "price": 0.115,
-      "volume": 819778.19,
+      "volume": 804553.87,
       "source": "Polymarket"
     },
     {
       "title": "Lakers vs. Thunder",
       "price": 0.255,
-      "volume": 788534.71,
+      "volume": 801917.95,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by December 31?",
-      "price": 0.705,
-      "volume": 779913.13,
+      "price": 0.715,
+      "volume": 798051.85,
       "source": "Polymarket"
     },
     {
       "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.1705,
-      "volume": 778036.03,
+      "price": 0.169,
+      "volume": 762257.77,
       "source": "Polymarket"
     }
   ],
