@@ -2,56 +2,62 @@
   "markets": [
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.655,
-      "volume": 2371206.65,
+      "price": 0.775,
+      "volume": 2686432.34,
       "source": "Polymarket"
     },
     {
       "title": "Will Spain win the 2026 FIFA World Cup?",
-      "price": 0.1605,
-      "volume": 961793.94,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.1765,
-      "volume": 856460.46,
+      "price": 0.1595,
+      "volume": 972430.71,
       "source": "Polymarket"
     },
     {
       "title": "Will Gavin Newsom win the 2028 US Pre...",
-      "price": 0.1615,
-      "volume": 823876.35,
+      "price": 0.1625,
+      "volume": 852902.58,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the San Antonio Spurs win the 20...",
+      "price": 0.178,
+      "volume": 850413.27,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 30?",
       "price": 0.195,
-      "volume": 805646.55,
+      "volume": 806219.97,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 15?",
       "price": 0.065,
-      "volume": 769040.22,
+      "volume": 761706.19,
       "source": "Polymarket"
     },
     {
       "title": "Will Brazil win the 2026 FIFA World Cup?",
       "price": 0.086,
-      "volume": 756503.8,
+      "volume": 756062.66,
       "source": "Polymarket"
     },
     {
       "title": "Will Atletico Madrid win the 2025\u201326 ...",
-      "price": 0.034,
-      "volume": 722047.99,
+      "price": 0.0335,
+      "volume": 732625.81,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will J.D. Vance win the 2028 Republic...",
+      "price": 0.3675,
+      "volume": 717136.71,
       "source": "Polymarket"
     },
     {
       "title": "Will Ronaldo Caiado win the 2026 Braz...",
       "price": 0.025,
-      "volume": 717949.29,
+      "volume": 697876.41,
       "source": "Polymarket"
     }
   ],
