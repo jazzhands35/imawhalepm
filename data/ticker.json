@@ -2,92 +2,74 @@
   "markets": [
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.855,
-      "volume": 9686853.75,
+      "price": 0.835,
+      "volume": 9736842.38,
       "source": "Polymarket"
     },
     {
       "title": "Timberwolves vs. 76ers",
-      "price": 0.585,
-      "volume": 2699958.86,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Flyers vs. Islanders",
-      "price": 0.755,
-      "volume": 1839630.96,
+      "price": 0.0545,
+      "volume": 4037741.86,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by December 31?",
-      "price": 0.895,
-      "volume": 1731646.11,
+      "price": 0.885,
+      "volume": 1733931.22,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 30?",
-      "price": 0.175,
-      "volume": 1129638.75,
+      "price": 0.185,
+      "volume": 1111153.93,
       "source": "Polymarket"
     },
     {
-      "title": "Pacers vs. Hornets",
-      "price": 0.0565,
-      "volume": 1126424.73,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Bulls vs. Knicks",
-      "price": 0.035,
-      "volume": 1112380.19,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.1785,
-      "volume": 955209.59,
+      "title": "Spread: Raptors (-14.5)",
+      "price": 0.665,
+      "volume": 1046892.18,
       "source": "Polymarket"
     },
     {
       "title": "Bulls vs. Knicks: O/U 237.5",
-      "price": 0.315,
-      "volume": 941295.47,
+      "price": 0.48,
+      "volume": 957564.46,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the San Antonio Spurs win the 20...",
+      "price": 0.1805,
+      "volume": 927614.06,
       "source": "Polymarket"
     },
     {
       "title": "Will Gavin Newsom win the 2028 US Pre...",
-      "price": 0.1625,
-      "volume": 905285.2,
+      "price": 0.163,
+      "volume": 888564.11,
       "source": "Polymarket"
     },
     {
       "title": "Will Spain win the 2026 FIFA World Cup?",
       "price": 0.158,
-      "volume": 869379.92,
+      "volume": 825315.7,
       "source": "Polymarket"
     },
     {
-      "title": "Will Alexandria Ocasio-Cortez win the...",
-      "price": 0.0845,
-      "volume": 730924.2,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran ceasefire by April 15?",
-      "price": 0.065,
-      "volume": 728325.32,
+      "title": "Hawks vs. Nets",
+      "price": 0.9615,
+      "volume": 744832.38,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Hawks (-16.5)",
-      "price": 0.72,
-      "volume": 725057.22,
+      "price": 0.46,
+      "volume": 736284.91,
       "source": "Polymarket"
     },
     {
-      "title": "Will France win the 2026 FIFA World Cup?",
-      "price": 0.1355,
-      "volume": 700309.44,
+      "title": "Magic vs. Mavericks",
+      "price": 0.765,
+      "volume": 722454.74,
       "source": "Polymarket"
     }
   ],
