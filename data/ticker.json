@@ -2,62 +2,56 @@
   "markets": [
     {
       "title": "Will FC Barcelona win on 2026-04-04?",
-      "price": 0.455,
-      "volume": 4774156.19,
+      "price": 0.675,
+      "volume": 4969128.87,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.825,
-      "volume": 4022459.0,
+      "price": 0.815,
+      "volume": 3885625.21,
       "source": "Polymarket"
     },
     {
       "title": "Spurs vs. Nuggets",
-      "price": 0.635,
-      "volume": 2220586.23,
+      "price": 0.745,
+      "volume": 2343394.7,
       "source": "Polymarket"
     },
     {
       "title": "Connecticut Huskies vs. Illinois Figh...",
-      "price": 0.455,
-      "volume": 1595866.67,
+      "price": 0.445,
+      "volume": 1751237.33,
       "source": "Polymarket"
     },
     {
       "title": "Will Racing Club de Lens win on 2026-...",
-      "price": 0.34,
-      "volume": 1307270.78,
+      "price": 0.125,
+      "volume": 1310276.55,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Spurs (-2.5)",
-      "price": 0.56,
-      "volume": 1169187.26,
+      "price": 0.695,
+      "volume": 1188569.05,
       "source": "Polymarket"
     },
     {
       "title": "Wizards vs. Heat",
-      "price": 0.058,
-      "volume": 896232.14,
+      "price": 0.038,
+      "volume": 942237.35,
       "source": "Polymarket"
     },
     {
       "title": "Pistons vs. 76ers",
       "price": 0.575,
-      "volume": 877224.21,
+      "volume": 882824.9,
       "source": "Polymarket"
     },
     {
       "title": "Arizona Wildcats vs. Michigan Wolverines",
       "price": 0.495,
-      "volume": 868323.94,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.1845,
-      "volume": 830052.77,
+      "volume": 870104.77,
       "source": "Polymarket"
     }
   ],
