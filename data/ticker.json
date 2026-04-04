@@ -2,38 +2,26 @@
   "markets": [
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.845,
-      "volume": 9780270.64,
+      "price": 0.815,
+      "volume": 9896359.76,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by December 31?",
-      "price": 0.905,
-      "volume": 1764966.47,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Pelicans vs. Kings",
-      "price": 0.825,
-      "volume": 1460056.05,
+      "price": 0.895,
+      "volume": 1782701.74,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 30?",
       "price": 0.185,
-      "volume": 972838.83,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Blues vs. Ducks",
-      "price": 0.9625,
-      "volume": 847351.68,
+      "volume": 936222.09,
       "source": "Polymarket"
     },
     {
       "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.1805,
-      "volume": 842698.73,
+      "price": 0.182,
+      "volume": 820584.82,
       "source": "Polymarket"
     }
   ],
