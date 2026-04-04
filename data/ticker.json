@@ -2,50 +2,50 @@
   "markets": [
     {
       "title": "Spurs vs. Nuggets",
-      "price": 0.555,
-      "volume": 3656575.67,
+      "price": 0.225,
+      "volume": 4064367.54,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by April 30?",
       "price": 0.825,
-      "volume": 3337756.0,
+      "volume": 3321777.74,
       "source": "Polymarket"
     },
     {
       "title": "Connecticut Huskies vs. Illinois Figh...",
       "price": 0.455,
-      "volume": 2013497.77,
+      "volume": 2044152.19,
       "source": "Polymarket"
     },
     {
       "title": "Arizona Wildcats vs. Michigan Wolverines",
       "price": 0.495,
-      "volume": 1927613.21,
+      "volume": 1932292.68,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Spurs (-2.5)",
-      "price": 0.395,
-      "volume": 1276753.06,
+      "price": 0.105,
+      "volume": 1278615.53,
       "source": "Polymarket"
     },
     {
       "title": "Pistons vs. 76ers",
-      "price": 0.595,
-      "volume": 967725.84,
+      "price": 0.605,
+      "volume": 974216.28,
       "source": "Polymarket"
     },
     {
       "title": "Trump out as President by April 30?",
-      "price": 0.0205,
-      "volume": 862074.18,
+      "price": 0.0225,
+      "volume": 916772.76,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
       "price": 0.0415,
-      "volume": 835061.72,
+      "volume": 835415.5,
       "source": "Polymarket"
     }
   ],
