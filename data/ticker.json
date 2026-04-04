@@ -2,32 +2,38 @@
   "markets": [
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.835,
-      "volume": 9994560.61,
+      "price": 0.845,
+      "volume": 10025628.55,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by December 31?",
       "price": 0.895,
-      "volume": 1785209.21,
+      "volume": 1787610.01,
       "source": "Polymarket"
     },
     {
       "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.1875,
-      "volume": 815854.64,
+      "price": 0.186,
+      "volume": 820558.67,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 30?",
       "price": 0.175,
-      "volume": 768672.1,
+      "volume": 767573.95,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will France win the 2026 FIFA World Cup?",
+      "price": 0.1345,
+      "volume": 671402.57,
       "source": "Polymarket"
     },
     {
       "title": "Will Ron DeSantis win the 2028 Republ...",
       "price": 0.026,
-      "volume": 596191.53,
+      "volume": 604124.76,
       "source": "Polymarket"
     }
   ],
