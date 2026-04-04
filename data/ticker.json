@@ -2,74 +2,38 @@
   "markets": [
     {
       "title": "US forces enter Iran by April 30?",
-      "price": 0.835,
-      "volume": 9736842.38,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Timberwolves vs. 76ers",
-      "price": 0.0545,
-      "volume": 4037741.86,
+      "price": 0.845,
+      "volume": 9780270.64,
       "source": "Polymarket"
     },
     {
       "title": "US forces enter Iran by December 31?",
-      "price": 0.885,
-      "volume": 1733931.22,
+      "price": 0.905,
+      "volume": 1764966.47,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Pelicans vs. Kings",
+      "price": 0.825,
+      "volume": 1460056.05,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 30?",
       "price": 0.185,
-      "volume": 1111153.93,
+      "volume": 972838.83,
       "source": "Polymarket"
     },
     {
-      "title": "Spread: Raptors (-14.5)",
-      "price": 0.665,
-      "volume": 1046892.18,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Bulls vs. Knicks: O/U 237.5",
-      "price": 0.48,
-      "volume": 957564.46,
+      "title": "Blues vs. Ducks",
+      "price": 0.9625,
+      "volume": 847351.68,
       "source": "Polymarket"
     },
     {
       "title": "Will the San Antonio Spurs win the 20...",
       "price": 0.1805,
-      "volume": 927614.06,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Gavin Newsom win the 2028 US Pre...",
-      "price": 0.163,
-      "volume": 888564.11,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Spain win the 2026 FIFA World Cup?",
-      "price": 0.158,
-      "volume": 825315.7,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Hawks vs. Nets",
-      "price": 0.9615,
-      "volume": 744832.38,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Hawks (-16.5)",
-      "price": 0.46,
-      "volume": 736284.91,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Magic vs. Mavericks",
-      "price": 0.765,
-      "volume": 722454.74,
+      "volume": 842698.73,
       "source": "Polymarket"
     }
   ],
