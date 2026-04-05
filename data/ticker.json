@@ -2,56 +2,68 @@
   "markets": [
     {
       "title": "US x Iran ceasefire by April 7?",
-      "price": 0.031,
-      "volume": 2091009.3,
+      "price": 0.0285,
+      "volume": 2098923.35,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Suns (-10.5)",
-      "price": 0.48,
-      "volume": 2010741.22,
+      "price": 0.555,
+      "volume": 2015141.54,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Bucks (-6.5)",
-      "price": 0.78,
-      "volume": 1657637.98,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the Iranian regime fall by April...",
-      "price": 0.0345,
-      "volume": 1450522.07,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Celtics (-9.5)",
-      "price": 0.29,
-      "volume": 1141022.4,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Raptors vs. Celtics",
-      "price": 0.295,
-      "volume": 1055285.4,
+      "price": 0.61,
+      "volume": 1660919.7,
       "source": "Polymarket"
     },
     {
       "title": "Hurricanes vs. Senators",
-      "price": 0.545,
-      "volume": 999006.81,
+      "price": 0.525,
+      "volume": 1390688.99,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the Iranian regime fall by April...",
+      "price": 0.035,
+      "volume": 1330998.63,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Raptors vs. Celtics",
+      "price": 0.125,
+      "volume": 1274989.08,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Spread: Celtics (-9.5)",
+      "price": 0.55,
+      "volume": 1163926.42,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 15?",
       "price": 0.095,
-      "volume": 976339.44,
+      "volume": 950086.33,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.615,
-      "volume": 965575.19,
+      "price": 0.605,
+      "volume": 940503.81,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Suns vs. Bulls",
+      "price": 0.875,
+      "volume": 874665.63,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Jazz vs. Thunder",
+      "price": 0.0275,
+      "volume": 835941.37,
       "source": "Polymarket"
     }
   ],
