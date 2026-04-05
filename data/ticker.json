@@ -2,74 +2,62 @@
   "markets": [
     {
       "title": "US x Iran ceasefire by April 7?",
-      "price": 0.027,
-      "volume": 2078358.76,
+      "price": 0.026,
+      "volume": 2081036.28,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Suns (-10.5)",
-      "price": 0.59,
-      "volume": 2032353.77,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Bucks (-6.5)",
-      "price": 0.595,
-      "volume": 1674117.74,
+      "price": 0.05,
+      "volume": 2035738.28,
       "source": "Polymarket"
     },
     {
       "title": "Hurricanes vs. Senators",
-      "price": 0.555,
-      "volume": 1458624.32,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Raptors vs. Celtics",
-      "price": 0.195,
-      "volume": 1381481.1,
+      "price": 0.345,
+      "volume": 1489899.48,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
       "price": 0.0345,
-      "volume": 1328082.28,
+      "volume": 1330512.75,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Celtics (-9.5)",
-      "price": 0.19,
-      "volume": 1178406.87,
+      "price": 0.785,
+      "volume": 1187582.84,
       "source": "Polymarket"
     },
     {
       "title": "Suns vs. Bulls",
-      "price": 0.945,
-      "volume": 984501.44,
+      "price": 0.815,
+      "volume": 1146736.92,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 15?",
       "price": 0.095,
-      "volume": 963439.62,
+      "volume": 965341.08,
       "source": "Polymarket"
     },
     {
       "title": "Jazz vs. Thunder",
-      "price": 0.0285,
-      "volume": 942726.04,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.605,
-      "volume": 939622.67,
+      "price": 0.0275,
+      "volume": 964619.04,
       "source": "Polymarket"
     },
     {
       "title": "Los Angeles Dodgers vs. Washington Na...",
-      "price": 0.11,
-      "volume": 867228.64,
+      "price": 0.145,
+      "volume": 955789.84,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the U.S. invade Iran before 2027?",
+      "price": 0.595,
+      "volume": 953305.14,
       "source": "Polymarket"
     }
   ],
