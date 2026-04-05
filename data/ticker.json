@@ -2,38 +2,44 @@
   "markets": [
     {
       "title": "US x Iran ceasefire by April 7?",
-      "price": 0.0295,
-      "volume": 2088762.12,
+      "price": 0.0315,
+      "volume": 2088760.12,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
-      "price": 0.0375,
-      "volume": 1486488.12,
+      "price": 0.0345,
+      "volume": 1493554.58,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Spread: Celtics (-9.5)",
+      "price": 0.475,
+      "volume": 1055762.39,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 15?",
-      "price": 0.105,
-      "volume": 923714.17,
+      "price": 0.095,
+      "volume": 956579.01,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.595,
-      "volume": 908691.8,
+      "price": 0.645,
+      "volume": 955084.13,
       "source": "Polymarket"
     },
     {
       "title": "Wild vs. Red Wings",
-      "price": 0.9765,
-      "volume": 904791.87,
+      "price": 0.955,
+      "volume": 921905.85,
       "source": "Polymarket"
     },
     {
-      "title": "US x Iran ceasefire by April 30?",
-      "price": 0.235,
-      "volume": 806403.97,
+      "title": "Spread: Suns (-10.5)",
+      "price": 0.535,
+      "volume": 901562.24,
       "source": "Polymarket"
     }
   ],
