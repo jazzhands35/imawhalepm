@@ -2,20 +2,38 @@
   "markets": [
     {
       "title": "Will the Iranian regime fall by April...",
-      "price": 0.0375,
-      "volume": 1046164.91,
+      "price": 0.045,
+      "volume": 1403273.02,
       "source": "Polymarket"
     },
     {
       "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.1935,
-      "volume": 874705.58,
+      "price": 0.1945,
+      "volume": 873051.03,
       "source": "Polymarket"
     },
     {
       "title": "Will Gavin Newsom win the 2028 US Pre...",
-      "price": 0.168,
-      "volume": 710351.51,
+      "price": 0.167,
+      "volume": 719826.99,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will England win the 2026 FIFA World ...",
+      "price": 0.1135,
+      "volume": 662502.01,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Norway win the 2026 FIFA World Cup?",
+      "price": 0.0275,
+      "volume": 653527.23,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will WTI Crude Oil (WTI) hit (HIGH) $...",
+      "price": 0.0295,
+      "volume": 592060.37,
       "source": "Polymarket"
     }
   ],
