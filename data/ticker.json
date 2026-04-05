@@ -2,44 +2,38 @@
   "markets": [
     {
       "title": "US x Iran ceasefire by April 7?",
-      "price": 0.0255,
-      "volume": 2075562.72,
+      "price": 0.0235,
+      "volume": 2091742.03,
       "source": "Polymarket"
     },
     {
       "title": "Hurricanes vs. Senators",
-      "price": 0.51,
-      "volume": 1519768.93,
+      "price": 0.305,
+      "volume": 1551420.45,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
       "price": 0.0345,
-      "volume": 1316505.99,
+      "volume": 1305418.48,
       "source": "Polymarket"
     },
     {
       "title": "Jazz vs. Thunder",
-      "price": 0.0245,
-      "volume": 1261307.95,
+      "price": 0.0205,
+      "volume": 1305162.53,
       "source": "Polymarket"
     },
     {
       "title": "Pacers vs. Cavaliers",
-      "price": 0.115,
-      "volume": 1015664.99,
+      "price": 0.285,
+      "volume": 1263816.6,
       "source": "Polymarket"
     },
     {
-      "title": "Los Angeles Dodgers vs. Washington Na...",
-      "price": 0.825,
-      "volume": 1007467.24,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran ceasefire by April 15?",
-      "price": 0.095,
-      "volume": 954433.33,
+      "title": "Hornets vs. Timberwolves",
+      "price": 0.625,
+      "volume": 1151732.54,
       "source": "Polymarket"
     }
   ],
