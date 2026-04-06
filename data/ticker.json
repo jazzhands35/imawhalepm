@@ -2,44 +2,32 @@
   "markets": [
     {
       "title": "US x Iran ceasefire by April 7?",
-      "price": 0.038,
-      "volume": 3744869.45,
+      "price": 0.0395,
+      "volume": 4122051.45,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 15?",
       "price": 0.165,
-      "volume": 2457700.2,
+      "volume": 2504323.22,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 30?",
-      "price": 0.285,
-      "volume": 1375980.18,
+      "price": 0.265,
+      "volume": 1288116.53,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
       "price": 0.0365,
-      "volume": 960933.41,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Como 1907 win on 2026-04-06?",
-      "price": 0.33,
-      "volume": 930175.21,
+      "volume": 948113.95,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.555,
-      "volume": 786856.17,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.1675,
-      "volume": 685637.76,
+      "price": 0.545,
+      "volume": 738322.84,
       "source": "Polymarket"
     }
   ],
