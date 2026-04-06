@@ -2,50 +2,44 @@
   "markets": [
     {
       "title": "US x Iran ceasefire by April 7?",
-      "price": 0.0245,
-      "volume": 4661060.63,
+      "price": 0.023,
+      "volume": 4786065.72,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 15?",
-      "price": 0.145,
-      "volume": 2627893.94,
+      "price": 0.15,
+      "volume": 2635814.52,
       "source": "Polymarket"
     },
     {
       "title": "Connecticut Huskies vs. Michigan Wolv...",
       "price": 0.265,
-      "volume": 2004586.48,
+      "volume": 2094443.49,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 30?",
       "price": 0.285,
-      "volume": 1680047.18,
+      "volume": 1710007.03,
       "source": "Polymarket"
     },
     {
       "title": "Pistons vs. Magic",
       "price": 0.535,
-      "volume": 1595223.31,
+      "volume": 1657289.79,
       "source": "Polymarket"
     },
     {
       "title": "Cavaliers vs. Grizzlies",
       "price": 0.885,
-      "volume": 1397219.35,
+      "volume": 1430583.63,
       "source": "Polymarket"
     },
     {
       "title": "Lightning vs. Sabres",
       "price": 0.515,
-      "volume": 1204077.61,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Villarreal CF win on 2026-04-06?",
-      "price": 0.0235,
-      "volume": 865131.49,
+      "volume": 1230791.92,
       "source": "Polymarket"
     }
   ],
