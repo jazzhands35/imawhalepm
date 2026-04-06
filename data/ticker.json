@@ -2,50 +2,44 @@
   "markets": [
     {
       "title": "US x Iran ceasefire by April 7?",
-      "price": 0.055,
-      "volume": 3195177.93,
+      "price": 0.0435,
+      "volume": 3347806.0,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 15?",
-      "price": 0.185,
-      "volume": 2162746.62,
+      "price": 0.165,
+      "volume": 2299064.17,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 30?",
       "price": 0.275,
-      "volume": 1209764.86,
+      "volume": 1309837.31,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
-      "price": 0.0405,
-      "volume": 953855.57,
+      "price": 0.0395,
+      "volume": 973037.75,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.555,
-      "volume": 770416.48,
+      "price": 0.565,
+      "volume": 773770.35,
       "source": "Polymarket"
     },
     {
       "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.1715,
-      "volume": 674520.32,
+      "price": 0.1725,
+      "volume": 681392.21,
       "source": "Polymarket"
     },
     {
       "title": "Will France win the 2026 FIFA World Cup?",
-      "price": 0.1365,
-      "volume": 621909.26,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the Iranian regime fall by June 30?",
-      "price": 0.135,
-      "volume": 576085.78,
+      "price": 0.137,
+      "volume": 649423.93,
       "source": "Polymarket"
     }
   ],
