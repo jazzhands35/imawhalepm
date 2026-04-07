@@ -2,62 +2,68 @@
   "markets": [
     {
       "title": "US x Iran ceasefire by April 7?",
-      "price": 0.1015,
-      "volume": 6203873.26,
+      "price": 0.1655,
+      "volume": 7165935.78,
       "source": "Polymarket"
     },
     {
       "title": "Will FC Bayern M\u00fcnchen win on 2026-04...",
-      "price": 0.845,
-      "volume": 4731104.23,
+      "price": 0.925,
+      "volume": 5274319.48,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 15?",
-      "price": 0.31,
-      "volume": 2424895.28,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Real Madrid CF win on 2026-04-07?",
-      "price": 0.045,
-      "volume": 2377914.22,
+      "price": 0.325,
+      "volume": 2753649.72,
       "source": "Polymarket"
     },
     {
       "title": "Will Arsenal FC win on 2026-04-07?",
-      "price": 0.435,
-      "volume": 1744236.93,
+      "price": 0.075,
+      "volume": 2101996.05,
       "source": "Polymarket"
     },
     {
       "title": "Oilers vs. Utah",
-      "price": 0.445,
-      "volume": 1739881.54,
+      "price": 0.435,
+      "volume": 1806445.74,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
-      "price": 0.0405,
-      "volume": 1240991.07,
+      "price": 0.0395,
+      "volume": 1268891.45,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire by April 30?",
-      "price": 0.395,
-      "volume": 1121068.49,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Baltimore Orioles vs. Chicago White Sox",
-      "price": 0.575,
-      "volume": 939810.22,
+      "price": 0.47,
+      "volume": 1248624.29,
       "source": "Polymarket"
     },
     {
       "title": "Iran x Israel/US conflict ends by Apr...",
+      "price": 0.0675,
+      "volume": 1163040.85,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Trump out as President by April 30?",
+      "price": 0.0215,
+      "volume": 1113290.25,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Baltimore Orioles vs. Chicago White Sox",
+      "price": 0.315,
+      "volume": 1017887.27,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Sporting CP win on 2026-04-07?",
       "price": 0.055,
-      "volume": 933012.4,
+      "volume": 922643.08,
       "source": "Polymarket"
     }
   ],
