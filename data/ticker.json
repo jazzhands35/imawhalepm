@@ -2,56 +2,50 @@
   "markets": [
     {
       "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.3775,
-      "volume": 5944874.34,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.5255,
-      "volume": 1713037.12,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.305,
-      "volume": 1643415.57,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the Iranian regime fall by April...",
-      "price": 0.03,
-      "volume": 1623019.96,
+      "price": 0.381,
+      "volume": 5485708.99,
       "source": "Polymarket"
     },
     {
       "title": "Thunder vs. Clippers",
       "price": 0.755,
-      "volume": 1378883.59,
+      "volume": 1657262.72,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Iran x Israel/US conflict ends by Apr...",
+      "price": 0.5675,
+      "volume": 1526103.45,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the U.S. invade Iran before 2027?",
+      "price": 0.295,
+      "volume": 1480177.68,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the Iranian regime fall by April...",
+      "price": 0.0295,
+      "volume": 1478432.76,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.235,
-      "volume": 1362538.75,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.0315,
-      "volume": 1231408.94,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Los Angeles Dodgers vs. Toronto Blue ...",
-      "price": 0.135,
-      "volume": 1202971.46,
+      "price": 0.245,
+      "volume": 1273205.6,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
       "price": 0.315,
-      "volume": 1142583.4,
+      "volume": 1132257.06,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Timberwolves vs. Magic",
+      "price": 0.185,
+      "volume": 1101852.7,
       "source": "Polymarket"
     }
   ],
