@@ -2,50 +2,56 @@
   "markets": [
     {
       "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.381,
-      "volume": 5485708.99,
+      "price": 0.38,
+      "volume": 4694435.46,
       "source": "Polymarket"
     },
     {
       "title": "Thunder vs. Clippers",
       "price": 0.755,
-      "volume": 1657262.72,
+      "volume": 1669478.69,
       "source": "Polymarket"
     },
     {
-      "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.5675,
-      "volume": 1526103.45,
+      "title": "Hawks vs. Cavaliers",
+      "price": 0.285,
+      "volume": 1588332.3,
       "source": "Polymarket"
     },
     {
-      "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.295,
-      "volume": 1480177.68,
+      "title": "Timberwolves vs. Magic",
+      "price": 0.215,
+      "volume": 1447123.14,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
-      "price": 0.0295,
-      "volume": 1478432.76,
+      "price": 0.03,
+      "volume": 1358106.27,
       "source": "Polymarket"
     },
     {
-      "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.245,
-      "volume": 1273205.6,
+      "title": "Iran x Israel/US conflict ends by Apr...",
+      "price": 0.549,
+      "volume": 1307806.43,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the U.S. invade Iran before 2027?",
+      "price": 0.305,
+      "volume": 1286312.67,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
       "price": 0.315,
-      "volume": 1132257.06,
+      "volume": 1123601.15,
       "source": "Polymarket"
     },
     {
-      "title": "Timberwolves vs. Magic",
-      "price": 0.185,
-      "volume": 1101852.7,
+      "title": "Strait of Hormuz traffic returns to n...",
+      "price": 0.235,
+      "volume": 1049837.34,
       "source": "Polymarket"
     }
   ],
