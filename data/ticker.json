@@ -2,50 +2,32 @@
   "markets": [
     {
       "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.5645,
-      "volume": 4008782.52,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Oilers vs. Utah",
-      "price": 0.54,
-      "volume": 2289950.02,
+      "price": 0.5065,
+      "volume": 4191218.64,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
-      "price": 0.0225,
-      "volume": 2069558.17,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Warriors (-14.5)",
-      "price": 0.11,
-      "volume": 2030451.75,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Rockets vs. Suns",
-      "price": 0.405,
-      "volume": 1722165.05,
+      "price": 0.0205,
+      "volume": 2158875.34,
       "source": "Polymarket"
     },
     {
       "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.646,
-      "volume": 1644477.69,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.0265,
-      "volume": 1595424.57,
+      "price": 0.6645,
+      "volume": 1689886.44,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.255,
-      "volume": 1408711.51,
+      "price": 0.265,
+      "volume": 1493149.67,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Strait of Hormuz traffic returns to n...",
+      "price": 0.535,
+      "volume": 1308998.72,
       "source": "Polymarket"
     }
   ],
