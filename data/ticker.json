@@ -2,86 +2,86 @@
   "markets": [
     {
       "title": "Maple Leafs vs. Islanders",
-      "price": 0.255,
-      "volume": 2756928.82,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Hurricanes vs. Blackhawks",
-      "price": 0.625,
-      "volume": 1522695.57,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Russia x Ukraine ceasefire by April 3...",
-      "price": 0.0415,
-      "volume": 1482092.97,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.5035,
-      "volume": 1447954.18,
+      "price": 0.155,
+      "volume": 2848611.12,
       "source": "Polymarket"
     },
     {
       "title": "Celtics vs. Knicks",
-      "price": 0.385,
-      "volume": 1314170.97,
+      "price": 0.405,
+      "volume": 1592315.75,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Hurricanes vs. Blackhawks",
+      "price": 0.615,
+      "volume": 1590310.32,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Russia x Ukraine ceasefire by April 3...",
+      "price": 0.0425,
+      "volume": 1490982.31,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Iran x Israel/US conflict ends by Apr...",
+      "price": 0.504,
+      "volume": 1441695.13,
       "source": "Polymarket"
     },
     {
       "title": "Panthers vs. Senators",
-      "price": 0.235,
-      "volume": 1273629.0,
+      "price": 0.145,
+      "volume": 1402288.21,
       "source": "Polymarket"
     },
     {
       "title": "76ers vs. Rockets",
       "price": 0.305,
-      "volume": 1080212.52,
+      "volume": 1173844.17,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Heat vs. Raptors",
+      "price": 0.415,
+      "volume": 1089504.06,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
-      "price": 0.0255,
-      "volume": 1010236.14,
+      "price": 0.025,
+      "volume": 1016082.97,
       "source": "Polymarket"
     },
     {
       "title": "Will Scottie Scheffler win the 2026 M...",
-      "price": 0.185,
-      "volume": 970707.85,
+      "price": 0.175,
+      "volume": 1011481.33,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
       "price": 0.305,
-      "volume": 953607.42,
+      "volume": 957290.58,
       "source": "Polymarket"
     },
     {
       "title": "Lakers vs. Warriors",
-      "price": 0.445,
-      "volume": 897772.47,
+      "price": 0.455,
+      "volume": 914678.61,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
       "price": 0.695,
-      "volume": 892255.07,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Heat vs. Raptors",
-      "price": 0.395,
-      "volume": 885282.96,
+      "volume": 892336.66,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
       "price": 0.027,
-      "volume": 858801.41,
+      "volume": 860411.27,
       "source": "Polymarket"
     }
   ],
