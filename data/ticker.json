@@ -2,62 +2,38 @@
   "markets": [
     {
       "title": "Russia x Ukraine ceasefire by April 3...",
-      "price": 0.0375,
-      "volume": 2015498.8,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Real Madrid CF win on 2026-04-10?",
-      "price": 0.325,
-      "volume": 1595283.57,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Olympique de Marseille win on 20...",
-      "price": 0.905,
-      "volume": 1266196.98,
+      "price": 0.0405,
+      "volume": 1776541.26,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
-      "price": 0.0325,
-      "volume": 1193104.92,
+      "price": 0.0305,
+      "volume": 1211064.62,
       "source": "Polymarket"
     },
     {
       "title": "Will there be no change in Fed intere...",
-      "price": 0.9775,
-      "volume": 1107496.2,
+      "price": 0.9785,
+      "volume": 1134118.46,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
       "price": 0.295,
-      "volume": 1066744.78,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Pittsburgh Pirates vs. Chicago Cubs",
-      "price": 0.885,
-      "volume": 975099.32,
+      "volume": 1064379.81,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
-      "price": 0.705,
-      "volume": 921627.56,
+      "price": 0.695,
+      "volume": 915854.82,
       "source": "Polymarket"
     },
     {
       "title": "Thunder vs. Nuggets",
       "price": 0.185,
-      "volume": 843856.22,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Girona FC win on 2026-04-10?",
-      "price": 0.0635,
-      "volume": 826736.22,
+      "volume": 869100.19,
       "source": "Polymarket"
     }
   ],
