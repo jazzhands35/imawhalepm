@@ -2,56 +2,32 @@
   "markets": [
     {
       "title": "Russia x Ukraine ceasefire by April 3...",
-      "price": 0.064,
-      "volume": 2388311.56,
+      "price": 0.054,
+      "volume": 2535905.94,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
       "price": 0.0275,
-      "volume": 1451853.16,
-      "source": "Polymarket"
-    },
-    {
-      "title": "LoL: Hanwha Life Esports vs BNK FEARX...",
-      "price": 0.915,
-      "volume": 1401699.68,
+      "volume": 1493182.33,
       "source": "Polymarket"
     },
     {
       "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.556,
-      "volume": 1162364.24,
+      "price": 0.565,
+      "volume": 1155126.96,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
-      "price": 0.705,
-      "volume": 1047667.23,
+      "price": 0.715,
+      "volume": 1117487.37,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
-      "price": 0.295,
-      "volume": 881361.8,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will there be no change in Fed intere...",
-      "price": 0.9715,
-      "volume": 751179.57,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Alexandria Ocasio-Cortez win the...",
-      "price": 0.0865,
-      "volume": 707019.16,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Gavin Newsom win the 2028 US Pre...",
-      "price": 0.1665,
-      "volume": 686304.48,
+      "price": 0.285,
+      "volume": 917603.56,
       "source": "Polymarket"
     }
   ],
