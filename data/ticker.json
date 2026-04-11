@@ -1,75 +1,57 @@
 {
   "markets": [
     {
-      "title": "Pistons vs. Hornets",
-      "price": 0.445,
-      "volume": 2548989.69,
+      "title": "Clippers vs. Trail Blazers",
+      "price": 0.435,
+      "volume": 2180084.39,
       "source": "Polymarket"
     },
     {
-      "title": "Thunder vs. Nuggets",
-      "price": 0.435,
-      "volume": 2241308.36,
+      "title": "Suns vs. Lakers",
+      "price": 0.315,
+      "volume": 1645082.68,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Timberwolves vs. Rockets",
+      "price": 0.32,
+      "volume": 1567596.38,
       "source": "Polymarket"
     },
     {
       "title": "Russia x Ukraine ceasefire by April 3...",
-      "price": 0.0385,
-      "volume": 1500729.39,
+      "price": 0.0395,
+      "volume": 1482441.42,
       "source": "Polymarket"
     },
     {
-      "title": "76ers vs. Pacers",
-      "price": 0.855,
-      "volume": 1355448.33,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Raptors vs. Knicks",
-      "price": 0.055,
-      "volume": 1253335.12,
+      "title": "Warriors vs. Kings",
+      "price": 0.685,
+      "volume": 1369311.33,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
       "price": 0.295,
-      "volume": 1186822.54,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will there be no change in Fed intere...",
-      "price": 0.9795,
-      "volume": 1121267.16,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the Iranian regime fall by April...",
-      "price": 0.0295,
-      "volume": 992872.68,
+      "volume": 1228798.26,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
       "price": 0.705,
-      "volume": 962324.87,
+      "volume": 1054687.17,
       "source": "Polymarket"
     },
     {
-      "title": "Spread: Magic (-15.5)",
-      "price": 0.525,
-      "volume": 947212.82,
+      "title": "Will there be no change in Fed intere...",
+      "price": 0.9795,
+      "volume": 1054412.59,
       "source": "Polymarket"
     },
     {
-      "title": "Spread: Heat (-15.5)",
-      "price": 0.675,
-      "volume": 939699.05,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Heat (-16.5)",
-      "price": 0.7,
-      "volume": 859584.16,
+      "title": "Texas Rangers vs. Los Angeles Dodgers",
+      "price": 0.355,
+      "volume": 1022543.2,
       "source": "Polymarket"
     }
   ],
