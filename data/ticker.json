@@ -2,74 +2,68 @@
   "markets": [
     {
       "title": "Will the next Prime Minister of Hunga...",
-      "price": 0.235,
-      "volume": 2063070.02,
+      "price": 0.225,
+      "volume": 2136061.15,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
-      "price": 0.77,
-      "volume": 1990236.73,
+      "price": 0.775,
+      "volume": 2054833.53,
       "source": "Polymarket"
     },
     {
       "title": "Will Rory McIlroy win the 2026 Master...",
       "price": 0.345,
-      "volume": 1503723.66,
+      "volume": 1498866.55,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
-      "price": 0.0345,
-      "volume": 1450489.01,
+      "price": 0.0305,
+      "volume": 1475304.3,
       "source": "Polymarket"
     },
     {
       "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.572,
-      "volume": 1111735.21,
+      "price": 0.543,
+      "volume": 1148962.81,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Nuggets vs. Spurs",
+      "price": 0.185,
+      "volume": 939442.91,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Kharg Island no longer under Iranian ...",
+      "price": 0.0305,
+      "volume": 938727.2,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
       "price": 0.165,
-      "volume": 971780.11,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.032,
-      "volume": 964478.68,
+      "volume": 927758.07,
       "source": "Polymarket"
     },
     {
       "title": "Will Portugal win the 2026 FIFA World...",
-      "price": 0.0695,
-      "volume": 919934.42,
+      "price": 0.07,
+      "volume": 914199.93,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by June 30?",
-      "price": 0.105,
-      "volume": 752176.4,
+      "price": 0.095,
+      "volume": 784798.56,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.345,
-      "volume": 750478.3,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Germany win the 2026 FIFA World ...",
-      "price": 0.0545,
-      "volume": 735391.0,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.177,
-      "volume": 696686.63,
+      "price": 0.355,
+      "volume": 764514.07,
       "source": "Polymarket"
     }
   ],
