@@ -2,68 +2,74 @@
   "markets": [
     {
       "title": "Will the next Prime Minister of Hunga...",
-      "price": 0.215,
-      "volume": 2139360.19,
+      "price": 0.825,
+      "volume": 2175241.79,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
-      "price": 0.785,
-      "volume": 2106894.19,
+      "price": 0.175,
+      "volume": 2135084.52,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
       "price": 0.0305,
-      "volume": 1478467.82,
+      "volume": 1518890.44,
       "source": "Polymarket"
     },
     {
       "title": "Will Rory McIlroy win the 2026 Master...",
-      "price": 0.35,
-      "volume": 1477320.3,
+      "price": 0.345,
+      "volume": 1485418.18,
       "source": "Polymarket"
     },
     {
       "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.553,
-      "volume": 1113463.66,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Nuggets vs. Spurs",
-      "price": 0.185,
-      "volume": 962031.44,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.028,
-      "volume": 948704.51,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.17,
-      "volume": 918519.84,
+      "price": 0.5355,
+      "volume": 1147771.85,
       "source": "Polymarket"
     },
     {
       "title": "Will Portugal win the 2026 FIFA World...",
       "price": 0.07,
-      "volume": 916794.1,
+      "volume": 1077257.13,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Nuggets vs. Spurs",
+      "price": 0.185,
+      "volume": 957608.03,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Kharg Island no longer under Iranian ...",
+      "price": 0.0285,
+      "volume": 949283.53,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Strait of Hormuz traffic returns to n...",
+      "price": 0.165,
+      "volume": 915130.51,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Argentina win the 2026 FIFA Worl...",
+      "price": 0.0925,
+      "volume": 845027.47,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will England win the 2026 FIFA World ...",
+      "price": 0.114,
+      "volume": 807960.05,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by June 30?",
       "price": 0.095,
-      "volume": 786258.44,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.365,
-      "volume": 772045.96,
+      "volume": 788056.54,
       "source": "Polymarket"
     }
   ],
