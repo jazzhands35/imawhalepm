@@ -2,74 +2,74 @@
   "markets": [
     {
       "title": "Rolex Monte Carlo Masters: Carlos Alc...",
-      "price": 0.455,
-      "volume": 3902408.96,
+      "price": 0.405,
+      "volume": 4359448.72,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
-      "price": 0.165,
-      "volume": 2480227.59,
+      "price": 0.145,
+      "volume": 2606546.38,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
-      "price": 0.835,
-      "volume": 2387256.02,
+      "price": 0.855,
+      "volume": 2461386.66,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
-      "price": 0.0295,
-      "volume": 1555649.01,
+      "price": 0.0315,
+      "volume": 1550368.26,
       "source": "Polymarket"
     },
     {
       "title": "Will France win the 2026 FIFA World Cup?",
-      "price": 0.1595,
-      "volume": 1523405.5,
+      "price": 0.1635,
+      "volume": 1547710.54,
       "source": "Polymarket"
     },
     {
       "title": "Will Rory McIlroy win the 2026 Master...",
       "price": 0.35,
-      "volume": 1468052.37,
+      "volume": 1460139.8,
       "source": "Polymarket"
     },
     {
       "title": "Will Nottingham Forest FC win on 2026...",
-      "price": 0.355,
-      "volume": 1361696.04,
+      "price": 0.305,
+      "volume": 1405424.16,
       "source": "Polymarket"
     },
     {
       "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.3755,
-      "volume": 1237955.22,
+      "price": 0.4235,
+      "volume": 1234814.89,
       "source": "Polymarket"
     },
     {
       "title": "Will Portugal win the 2026 FIFA World...",
       "price": 0.0675,
-      "volume": 1174773.2,
+      "volume": 1162266.34,
       "source": "Polymarket"
     },
     {
       "title": "Will Spain win the 2026 FIFA World Cup?",
       "price": 0.1705,
-      "volume": 1132934.72,
+      "volume": 1148659.57,
       "source": "Polymarket"
     },
     {
       "title": "Will Aston Villa FC win on 2026-04-12?",
-      "price": 0.295,
-      "volume": 1070393.78,
+      "price": 0.235,
+      "volume": 1130006.08,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.12,
-      "volume": 1055231.62,
+      "price": 0.135,
+      "volume": 1059600.36,
       "source": "Polymarket"
     }
   ],
