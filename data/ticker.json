@@ -2,56 +2,56 @@
   "markets": [
     {
       "title": "Will the next Prime Minister of Hunga...",
-      "price": 0.105,
-      "volume": 3749845.15,
+      "price": 0.125,
+      "volume": 3951820.4,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
       "price": 0.875,
-      "volume": 3098622.51,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Indian Premier League: Mumbai Indians...",
-      "price": 0.065,
-      "volume": 2050308.01,
+      "volume": 3255341.11,
       "source": "Polymarket"
     },
     {
       "title": "Hawks vs. Heat",
-      "price": 0.275,
-      "volume": 1808698.78,
+      "price": 0.255,
+      "volume": 1958687.7,
       "source": "Polymarket"
     },
     {
       "title": "Will France win the 2026 FIFA World Cup?",
-      "price": 0.1605,
-      "volume": 1586285.79,
+      "price": 0.1615,
+      "volume": 1596680.68,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
-      "price": 0.0325,
-      "volume": 1520251.23,
+      "price": 0.033,
+      "volume": 1558771.8,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Magic vs. Celtics",
+      "price": 0.845,
+      "volume": 1426310.97,
       "source": "Polymarket"
     },
     {
       "title": "Will Rory McIlroy win the 2026 Master...",
-      "price": 0.35,
-      "volume": 1364767.67,
+      "price": 0.345,
+      "volume": 1421978.93,
       "source": "Polymarket"
     },
     {
       "title": "Will Spain win the 2026 FIFA World Cup?",
-      "price": 0.1715,
-      "volume": 1309108.43,
+      "price": 0.172,
+      "volume": 1311510.41,
       "source": "Polymarket"
     },
     {
       "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.4785,
-      "volume": 1198061.21,
+      "price": 0.4855,
+      "volume": 1216838.98,
       "source": "Polymarket"
     }
   ],
