@@ -2,68 +2,62 @@
   "markets": [
     {
       "title": "Will the next Prime Minister of Hunga...",
-      "price": 0.235,
-      "volume": 1904508.24,
+      "price": 0.215,
+      "volume": 1887317.16,
       "source": "Polymarket"
     },
     {
       "title": "Will the next Prime Minister of Hunga...",
-      "price": 0.755,
-      "volume": 1615254.44,
+      "price": 0.785,
+      "volume": 1669140.81,
       "source": "Polymarket"
     },
     {
       "title": "Will Rory McIlroy win the 2026 Master...",
       "price": 0.355,
-      "volume": 1608405.53,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.454,
-      "volume": 1065132.89,
+      "volume": 1595864.74,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by April...",
-      "price": 0.0315,
-      "volume": 1029761.96,
+      "price": 0.031,
+      "volume": 1172645.68,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Iran x Israel/US conflict ends by Apr...",
+      "price": 0.5495,
+      "volume": 1117378.78,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.175,
-      "volume": 911769.28,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Canucks vs. Sharks",
-      "price": 0.415,
-      "volume": 796532.6,
+      "price": 0.185,
+      "volume": 912722.54,
       "source": "Polymarket"
     },
     {
       "title": "Trump announces end of military opera...",
       "price": 0.065,
-      "volume": 791810.07,
+      "volume": 798490.76,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the Iranian regime fall by June 30?",
+      "price": 0.105,
+      "volume": 746525.56,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.028,
-      "volume": 723875.06,
+      "price": 0.029,
+      "volume": 739010.56,
       "source": "Polymarket"
     },
     {
       "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.166,
-      "volume": 699948.48,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.345,
-      "volume": 667385.32,
+      "price": 0.1745,
+      "volume": 721586.86,
       "source": "Polymarket"
     }
   ],
