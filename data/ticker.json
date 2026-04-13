@@ -1,45 +1,39 @@
 {
   "markets": [
     {
-      "title": "Hawks vs. Heat",
-      "price": 0.1055,
-      "volume": 2877940.77,
+      "title": "Magic vs. Celtics",
+      "price": 0.185,
+      "volume": 3369852.69,
       "source": "Polymarket"
     },
     {
-      "title": "Magic vs. Celtics",
-      "price": 0.915,
-      "volume": 2712839.16,
+      "title": "Nuggets vs. Spurs",
+      "price": 0.215,
+      "volume": 1916248.3,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Wizards vs. Cavaliers",
+      "price": 0.0515,
+      "volume": 1674094.75,
       "source": "Polymarket"
     },
     {
       "title": "Will France win the 2026 FIFA World Cup?",
       "price": 0.1585,
-      "volume": 1641112.64,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Nuggets vs. Spurs",
-      "price": 0.195,
-      "volume": 1573730.88,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Wizards vs. Cavaliers",
-      "price": 0.1175,
-      "volume": 1524367.96,
+      "volume": 1656790.86,
       "source": "Polymarket"
     },
     {
       "title": "Bruins vs. Blue Jackets",
-      "price": 0.435,
-      "volume": 1395426.11,
+      "price": 0.695,
+      "volume": 1420298.85,
       "source": "Polymarket"
     },
     {
       "title": "Will Spain win the 2026 FIFA World Cup?",
-      "price": 0.178,
-      "volume": 1375296.38,
+      "price": 0.1785,
+      "volume": 1386213.27,
       "source": "Polymarket"
     }
   ],
