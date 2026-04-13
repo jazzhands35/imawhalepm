@@ -2,56 +2,38 @@
   "markets": [
     {
       "title": "US x Iran meeting by April 10, 2026?",
-      "price": 0.038,
-      "volume": 1439571.53,
+      "price": 0.0255,
+      "volume": 1479579.92,
       "source": "Polymarket"
     },
     {
-      "title": "LoL: Bilibili Gaming vs JD Gaming (BO...",
-      "price": 0.35,
-      "volume": 1378570.56,
+      "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
+      "price": 0.445,
+      "volume": 1064667.26,
       "source": "Polymarket"
     },
     {
       "title": "Will France win the 2026 FIFA World Cup?",
       "price": 0.1605,
-      "volume": 1194559.84,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Spain win the 2026 FIFA World Cup?",
-      "price": 0.1735,
-      "volume": 1079011.65,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Roberto S\u00e1nchez Palomino win the...",
-      "price": 0.0275,
-      "volume": 1078637.85,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
-      "price": 0.455,
-      "volume": 1051351.89,
+      "volume": 1054794.77,
       "source": "Polymarket"
     },
     {
       "title": "Will Keiko Fujimori win the 2026 Peru...",
-      "price": 0.455,
-      "volume": 981879.7,
+      "price": 0.43,
+      "volume": 993175.55,
       "source": "Polymarket"
     },
     {
       "title": "Will Jorge Nieto win the 2026 Peruvia...",
-      "price": 0.0425,
-      "volume": 920098.03,
+      "price": 0.0455,
+      "volume": 941478.51,
       "source": "Polymarket"
     },
     {
       "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.5335,
-      "volume": 901536.26,
+      "price": 0.505,
+      "volume": 918012.55,
       "source": "Polymarket"
     }
   ],
