@@ -1,39 +1,33 @@
 {
   "markets": [
     {
-      "title": "Magic vs. Celtics",
-      "price": 0.185,
-      "volume": 3369852.69,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Nuggets vs. Spurs",
-      "price": 0.215,
-      "volume": 1916248.3,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Wizards vs. Cavaliers",
-      "price": 0.0515,
-      "volume": 1674094.75,
-      "source": "Polymarket"
-    },
-    {
       "title": "Will France win the 2026 FIFA World Cup?",
-      "price": 0.1585,
-      "volume": 1656790.86,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Bruins vs. Blue Jackets",
-      "price": 0.695,
-      "volume": 1420298.85,
+      "price": 0.1605,
+      "volume": 1466004.41,
       "source": "Polymarket"
     },
     {
       "title": "Will Spain win the 2026 FIFA World Cup?",
-      "price": 0.1785,
-      "volume": 1386213.27,
+      "price": 0.1745,
+      "volume": 1250843.81,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the Iranian regime fall by April...",
+      "price": 0.0305,
+      "volume": 1182029.55,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran meeting by April 10, 2026?",
+      "price": 0.1995,
+      "volume": 1112458.34,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Portugal win the 2026 FIFA World...",
+      "price": 0.069,
+      "volume": 1040685.38,
       "source": "Polymarket"
     }
   ],
