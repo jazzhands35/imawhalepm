@@ -1,75 +1,33 @@
 {
   "markets": [
     {
-      "title": "Will La U win the third most seats in...",
-      "price": 0.058,
-      "volume": 2807918.76,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Hurricanes vs. Flyers",
-      "price": 0.465,
-      "volume": 2146027.25,
-      "source": "Polymarket"
-    },
-    {
       "title": "Will Roberto S\u00e1nchez Palomino win the...",
-      "price": 0.0905,
-      "volume": 1969300.95,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Wild vs. Blues",
-      "price": 0.765,
-      "volume": 1763746.84,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Miami Marlins vs. Atlanta Braves",
-      "price": 0.945,
-      "volume": 1599645.52,
+      "price": 0.169,
+      "volume": 1873743.73,
       "source": "Polymarket"
     },
     {
       "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
-      "price": 0.355,
-      "volume": 1120124.68,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Rangers vs. Panthers",
-      "price": 0.545,
-      "volume": 1115314.97,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Keiko Fujimori win the 2026 Peru...",
-      "price": 0.485,
-      "volume": 930166.8,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Arizona Diamondbacks vs. Baltimore Or...",
-      "price": 0.0405,
-      "volume": 921326.57,
+      "price": 0.245,
+      "volume": 954601.92,
       "source": "Polymarket"
     },
     {
       "title": "Will France win the 2026 FIFA World Cup?",
-      "price": 0.168,
-      "volume": 873896.57,
+      "price": 0.166,
+      "volume": 937487.5,
       "source": "Polymarket"
     },
     {
-      "title": "Will Jorge Nieto win the 2026 Peruvia...",
-      "price": 0.041,
-      "volume": 860916.23,
+      "title": "Avalanche vs. Oilers",
+      "price": 0.5,
+      "volume": 857441.47,
       "source": "Polymarket"
     },
     {
-      "title": "Trump announces end of military opera...",
-      "price": 0.0335,
-      "volume": 822685.72,
+      "title": "Will Keiko Fujimori win the 2026 Peru...",
+      "price": 0.535,
+      "volume": 829253.55,
       "source": "Polymarket"
     }
   ],
