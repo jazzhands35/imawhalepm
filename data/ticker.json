@@ -1,69 +1,57 @@
 {
   "markets": [
     {
-      "title": "Will PH win the third most seats in t...",
-      "price": 0.021,
-      "volume": 2803069.36,
-      "source": "Polymarket"
-    },
-    {
       "title": "Counter-Strike: Vitality vs G2 (BO3) ...",
-      "price": 0.695,
-      "volume": 2105955.47,
+      "price": 0.855,
+      "volume": 2924651.43,
       "source": "Polymarket"
     },
     {
       "title": "Will Roberto S\u00e1nchez Palomino win the...",
-      "price": 0.261,
-      "volume": 1874944.76,
+      "price": 0.263,
+      "volume": 1858825.18,
       "source": "Polymarket"
     },
     {
       "title": "Will Paris Saint-Germain FC win on 20...",
       "price": 0.365,
-      "volume": 1289705.2,
+      "volume": 1376118.59,
       "source": "Polymarket"
     },
     {
       "title": "Will FC Barcelona win on 2026-04-14?",
       "price": 0.545,
-      "volume": 919523.21,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.185,
-      "volume": 887499.04,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Liverpool FC win on 2026-04-14?",
-      "price": 0.415,
-      "volume": 884748.55,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Elon Musk post 280-299 tweets fr...",
-      "price": 0.4885,
-      "volume": 864342.79,
+      "volume": 1079055.31,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.215,
-      "volume": 845174.49,
+      "price": 0.225,
+      "volume": 1040950.98,
       "source": "Polymarket"
     },
     {
-      "title": "Will France win the 2026 FIFA World Cup?",
-      "price": 0.1655,
-      "volume": 843529.26,
+      "title": "Will Elon Musk post 280-299 tweets fr...",
+      "price": 0.7125,
+      "volume": 1003139.05,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Liverpool FC win on 2026-04-14?",
+      "price": 0.405,
+      "volume": 946104.04,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran permanent peace deal by Apr...",
+      "price": 0.235,
+      "volume": 943274.9,
       "source": "Polymarket"
     },
     {
       "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
-      "price": 0.175,
-      "volume": 830892.61,
+      "price": 0.195,
+      "volume": 902646.37,
       "source": "Polymarket"
     }
   ],
