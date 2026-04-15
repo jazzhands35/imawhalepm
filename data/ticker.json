@@ -2,44 +2,50 @@
   "markets": [
     {
       "title": "Trump announces end of military opera...",
-      "price": 0.0265,
-      "volume": 2097082.22,
+      "price": 0.026,
+      "volume": 2159671.76,
       "source": "Polymarket"
     },
     {
       "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
       "price": 0.075,
-      "volume": 1384608.91,
+      "volume": 1478671.18,
       "source": "Polymarket"
     },
     {
       "title": "Will Roberto S\u00e1nchez Palomino win the...",
-      "price": 0.2905,
-      "volume": 1374319.76,
+      "price": 0.278,
+      "volume": 1324296.51,
       "source": "Polymarket"
     },
     {
       "title": "Israel x Hezbollah ceasefire by April...",
-      "price": 0.057,
-      "volume": 1182107.88,
+      "price": 0.0515,
+      "volume": 1233449.76,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.265,
-      "volume": 1132912.26,
+      "price": 0.255,
+      "volume": 1081497.29,
       "source": "Polymarket"
     },
     {
       "title": "Will Keiko Fujimori win the 2026 Peru...",
       "price": 0.655,
-      "volume": 939179.28,
+      "volume": 1011173.1,
       "source": "Polymarket"
     },
     {
-      "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.245,
-      "volume": 705002.51,
+      "title": "Will Atletico Madrid win the 2025\u201326 ...",
+      "price": 0.104,
+      "volume": 690891.14,
+      "source": "Polymarket"
+    },
+    {
+      "title": "BMW Open: Fabian Marozsan vs Stefanos...",
+      "price": 0.425,
+      "volume": 606577.65,
       "source": "Polymarket"
     }
   ],
