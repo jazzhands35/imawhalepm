@@ -2,38 +2,38 @@
   "markets": [
     {
       "title": "Trump announces end of military opera...",
-      "price": 0.026,
-      "volume": 2107371.82,
+      "price": 0.0345,
+      "volume": 2114703.01,
       "source": "Polymarket"
     },
     {
       "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
-      "price": 0.06,
-      "volume": 1519773.35,
+      "price": 0.055,
+      "volume": 1563708.17,
       "source": "Polymarket"
     },
     {
       "title": "Israel x Hezbollah ceasefire by April...",
-      "price": 0.0545,
-      "volume": 1323584.71,
+      "price": 0.0595,
+      "volume": 1419976.85,
       "source": "Polymarket"
     },
     {
       "title": "Will Roberto S\u00e1nchez Palomino win the...",
-      "price": 0.2765,
-      "volume": 1256895.37,
+      "price": 0.303,
+      "volume": 1217988.63,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Keiko Fujimori win the 2026 Peru...",
+      "price": 0.645,
+      "volume": 1076805.23,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
       "price": 0.225,
-      "volume": 1043248.42,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Keiko Fujimori win the 2026 Peru...",
-      "price": 0.665,
-      "volume": 1016157.55,
+      "volume": 1069505.55,
       "source": "Polymarket"
     }
   ],
