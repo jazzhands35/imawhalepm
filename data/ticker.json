@@ -2,44 +2,50 @@
   "markets": [
     {
       "title": "Israel x Hezbollah ceasefire by April...",
-      "price": 0.04,
-      "volume": 5218755.38,
+      "price": 0.0395,
+      "volume": 5288280.09,
       "source": "Polymarket"
     },
     {
       "title": "Counter-Strike: FURIA vs MOUZ (BO3) -...",
-      "price": 0.785,
-      "volume": 1966427.18,
+      "price": 0.8,
+      "volume": 2130141.55,
       "source": "Polymarket"
     },
     {
-      "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
-      "price": 0.165,
-      "volume": 1685008.87,
+      "title": "Rangers vs. Lightning",
+      "price": 0.445,
+      "volume": 2043628.56,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.165,
-      "volume": 1679541.23,
+      "price": 0.205,
+      "volume": 1705496.22,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
+      "price": 0.175,
+      "volume": 1685665.41,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Red Wings vs. Panthers",
+      "price": 0.605,
+      "volume": 1529994.85,
       "source": "Polymarket"
     },
     {
       "title": "Warriors vs. Clippers",
       "price": 0.325,
-      "volume": 1286630.35,
+      "volume": 1327585.99,
       "source": "Polymarket"
     },
     {
-      "title": "Rangers vs. Lightning",
-      "price": 0.385,
-      "volume": 1142615.21,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Keiko Fujimori win the 2026 Peru...",
-      "price": 0.645,
-      "volume": 1108380.42,
+      "title": "Magic vs. 76ers",
+      "price": 0.485,
+      "volume": 1199862.79,
       "source": "Polymarket"
     }
   ],
