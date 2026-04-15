@@ -1,39 +1,45 @@
 {
   "markets": [
     {
-      "title": "Trail Blazers vs. Suns",
-      "price": 0.15,
-      "volume": 5416870.1,
-      "source": "Polymarket"
-    },
-    {
       "title": "Trump announces end of military opera...",
-      "price": 0.0355,
-      "volume": 2088778.72,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Roberto S\u00e1nchez Palomino win the...",
-      "price": 0.2525,
-      "volume": 1303599.9,
+      "price": 0.0265,
+      "volume": 2097082.22,
       "source": "Polymarket"
     },
     {
       "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
-      "price": 0.155,
-      "volume": 1182929.42,
+      "price": 0.075,
+      "volume": 1384608.91,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Roberto S\u00e1nchez Palomino win the...",
+      "price": 0.2905,
+      "volume": 1374319.76,
       "source": "Polymarket"
     },
     {
       "title": "Israel x Hezbollah ceasefire by April...",
-      "price": 0.0525,
-      "volume": 1164438.33,
+      "price": 0.057,
+      "volume": 1182107.88,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
       "price": 0.265,
-      "volume": 1108196.27,
+      "volume": 1132912.26,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Keiko Fujimori win the 2026 Peru...",
+      "price": 0.655,
+      "volume": 939179.28,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Strait of Hormuz traffic returns to n...",
+      "price": 0.245,
+      "volume": 705002.51,
       "source": "Polymarket"
     }
   ],
