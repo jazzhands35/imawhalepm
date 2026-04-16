@@ -2,32 +2,26 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.235,
-      "volume": 2117252.92,
+      "price": 0.23,
+      "volume": 2127010.25,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.265,
-      "volume": 1278335.46,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Nottingham Forest FC win on 2026...",
-      "price": 0.845,
-      "volume": 953945.93,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Real Betis Balompi\u00e9 win on 2026-...",
-      "price": 0.1225,
-      "volume": 807829.01,
+      "price": 0.255,
+      "volume": 1289443.41,
       "source": "Polymarket"
     },
     {
       "title": "Will the Detroit Pistons win the 2026...",
-      "price": 0.0515,
-      "volume": 792961.57,
+      "price": 0.05,
+      "volume": 832096.35,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Tampa Bay Rays vs. Chicago White Sox",
+      "price": 0.935,
+      "volume": 765664.81,
       "source": "Polymarket"
     }
   ],
