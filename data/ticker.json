@@ -2,44 +2,50 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.155,
-      "volume": 1673252.05,
+      "price": 0.165,
+      "volume": 1662967.87,
       "source": "Polymarket"
     },
     {
       "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
-      "price": 0.165,
-      "volume": 1214183.5,
+      "price": 0.145,
+      "volume": 1193789.27,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.205,
-      "volume": 842537.67,
+      "price": 0.195,
+      "volume": 871600.07,
       "source": "Polymarket"
     },
     {
       "title": "Israel x Hezbollah ceasefire by April...",
-      "price": 0.618,
-      "volume": 802361.36,
+      "price": 0.6075,
+      "volume": 825763.99,
       "source": "Polymarket"
     },
     {
       "title": "Will Bayern Munich win the 2025\u201326 Ch...",
       "price": 0.335,
-      "volume": 801765.62,
+      "volume": 770136.06,
+      "source": "Polymarket"
+    },
+    {
+      "title": "BMW Open: Daniel Altmaier vs Alex Molcan",
+      "price": 0.32,
+      "volume": 733880.94,
       "source": "Polymarket"
     },
     {
       "title": "Will Roberto S\u00e1nchez Palomino win the...",
-      "price": 0.1975,
-      "volume": 704551.22,
+      "price": 0.211,
+      "volume": 713183.63,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
       "price": 0.325,
-      "volume": 673909.87,
+      "volume": 638724.95,
       "source": "Polymarket"
     }
   ],
