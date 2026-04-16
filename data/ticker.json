@@ -1,39 +1,33 @@
 {
   "markets": [
     {
-      "title": "Israel x Hezbollah ceasefire by April...",
-      "price": 0.0295,
-      "volume": 5341218.2,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Magic vs. 76ers",
-      "price": 0.305,
-      "volume": 4563906.26,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Rangers vs. Lightning",
-      "price": 0.9125,
-      "volume": 2401223.46,
-      "source": "Polymarket"
-    },
-    {
       "title": "Warriors vs. Clippers",
-      "price": 0.325,
-      "volume": 1840065.61,
+      "price": 0.275,
+      "volume": 6738058.38,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.235,
-      "volume": 1681954.77,
+      "price": 0.215,
+      "volume": 1577498.43,
       "source": "Polymarket"
     },
     {
       "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
-      "price": 0.185,
-      "volume": 1665955.83,
+      "price": 0.155,
+      "volume": 1550767.1,
+      "source": "Polymarket"
+    },
+    {
+      "title": "New York Mets vs. Los Angeles Dodgers",
+      "price": 0.0335,
+      "volume": 1536095.16,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Spread: Clippers (-5.5)",
+      "price": 0.465,
+      "volume": 1123008.73,
       "source": "Polymarket"
     }
   ],
