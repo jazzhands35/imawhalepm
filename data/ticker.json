@@ -2,26 +2,32 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.245,
-      "volume": 1998377.8,
+      "price": 0.255,
+      "volume": 2004149.95,
       "source": "Polymarket"
     },
     {
       "title": "Baltimore Orioles vs. Cleveland Guard...",
-      "price": 0.215,
-      "volume": 1352463.74,
+      "price": 0.145,
+      "volume": 1426901.48,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
       "price": 0.285,
-      "volume": 1293688.97,
+      "volume": 1248586.3,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Blues vs. Utah",
+      "price": 0.465,
+      "volume": 1103197.77,
       "source": "Polymarket"
     },
     {
       "title": "Will the Detroit Pistons win the 2026...",
-      "price": 0.05,
-      "volume": 899606.91,
+      "price": 0.0485,
+      "volume": 907167.15,
       "source": "Polymarket"
     }
   ],
