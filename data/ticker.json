@@ -2,38 +2,44 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.155,
-      "volume": 1610674.04,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
-      "price": 0.165,
-      "volume": 932713.01,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.195,
-      "volume": 887360.0,
+      "price": 0.175,
+      "volume": 1306633.2,
       "source": "Polymarket"
     },
     {
       "title": "Israel x Hezbollah ceasefire by April...",
-      "price": 0.673,
-      "volume": 842594.92,
+      "price": 0.9455,
+      "volume": 1216172.58,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Indian Premier League: Mumbai Indians...",
+      "price": 0.455,
+      "volume": 1189090.86,
       "source": "Polymarket"
     },
     {
       "title": "Washington Nationals vs. Pittsburgh P...",
-      "price": 0.425,
-      "volume": 776832.84,
+      "price": 0.405,
+      "volume": 1038146.16,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Strait of Hormuz traffic returns to n...",
+      "price": 0.235,
+      "volume": 978844.01,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
+      "price": 0.155,
+      "volume": 829425.47,
       "source": "Polymarket"
     },
     {
       "title": "Will Bayern Munich win the 2025\u201326 Ch...",
       "price": 0.335,
-      "volume": 750027.04,
+      "volume": 719813.83,
       "source": "Polymarket"
     }
   ],
