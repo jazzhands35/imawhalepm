@@ -2,50 +2,56 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.215,
-      "volume": 1523855.47,
+      "price": 0.175,
+      "volume": 1657196.7,
       "source": "Polymarket"
     },
     {
       "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
-      "price": 0.185,
-      "volume": 1208279.54,
+      "price": 0.155,
+      "volume": 1246024.74,
       "source": "Polymarket"
     },
     {
       "title": "Will Bayern Munich win the 2025\u201326 Ch...",
       "price": 0.345,
-      "volume": 874861.74,
+      "volume": 818205.53,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
       "price": 0.235,
-      "volume": 801099.83,
+      "volume": 802300.48,
       "source": "Polymarket"
     },
     {
       "title": "Israel x Hezbollah ceasefire by April...",
-      "price": 0.6475,
-      "volume": 764825.99,
+      "price": 0.583,
+      "volume": 786368.99,
       "source": "Polymarket"
     },
     {
       "title": "Will Roberto S\u00e1nchez Palomino win the...",
-      "price": 0.1735,
-      "volume": 716243.74,
+      "price": 0.1825,
+      "volume": 741832.02,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
       "price": 0.325,
-      "volume": 696020.71,
+      "volume": 676101.7,
       "source": "Polymarket"
     },
     {
       "title": "Will Keiko Fujimori win the 2026 Peru...",
       "price": 0.645,
-      "volume": 592207.77,
+      "volume": 590341.63,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Gavin Newsom win the 2028 US Pre...",
+      "price": 0.1715,
+      "volume": 544174.32,
       "source": "Polymarket"
     }
   ],
