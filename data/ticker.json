@@ -2,44 +2,38 @@
   "markets": [
     {
       "title": "Israel x Hezbollah ceasefire by April...",
-      "price": 0.038,
-      "volume": 5307132.83,
+      "price": 0.0295,
+      "volume": 5341218.2,
       "source": "Polymarket"
     },
     {
       "title": "Magic vs. 76ers",
-      "price": 0.495,
-      "volume": 3530069.49,
+      "price": 0.305,
+      "volume": 4563906.26,
       "source": "Polymarket"
     },
     {
       "title": "Rangers vs. Lightning",
-      "price": 0.615,
-      "volume": 2245662.41,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
-      "price": 0.165,
-      "volume": 1678340.14,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.205,
-      "volume": 1646482.09,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Red Wings vs. Panthers",
-      "price": 0.405,
-      "volume": 1556792.83,
+      "price": 0.9125,
+      "volume": 2401223.46,
       "source": "Polymarket"
     },
     {
       "title": "Warriors vs. Clippers",
       "price": 0.325,
-      "volume": 1429382.92,
+      "volume": 1840065.61,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran permanent peace deal by Apr...",
+      "price": 0.235,
+      "volume": 1681954.77,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Rafael L\u00f3pez Aliaga win the 2026...",
+      "price": 0.185,
+      "volume": 1665955.83,
       "source": "Polymarket"
     }
   ],
