@@ -2,56 +2,56 @@
   "markets": [
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.52,
-      "volume": 2488349.85,
+      "price": 0.525,
+      "volume": 2792437.09,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.4,
-      "volume": 2187311.8,
+      "price": 0.415,
+      "volume": 2278590.45,
       "source": "Polymarket"
     },
     {
       "title": "US obtains Iranian enriched uranium b...",
-      "price": 0.285,
-      "volume": 1610917.57,
+      "price": 0.265,
+      "volume": 1654785.84,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Indian Premier League: Gujarat Titans...",
+      "price": 0.705,
+      "volume": 1331094.87,
       "source": "Polymarket"
     },
     {
       "title": "Hornets vs. Magic",
       "price": 0.595,
-      "volume": 1092487.59,
+      "volume": 1095813.54,
       "source": "Polymarket"
     },
     {
       "title": "Will Atletico Madrid win the 2025\u201326 ...",
       "price": 0.119,
-      "volume": 1052222.42,
+      "volume": 1001890.9,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
       "price": 0.225,
-      "volume": 968314.93,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.152,
-      "volume": 932679.54,
+      "volume": 997395.35,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.031,
-      "volume": 928831.83,
+      "price": 0.0315,
+      "volume": 954920.31,
       "source": "Polymarket"
     },
     {
-      "title": "Porsche Tennis Grand Prix: Karolina M...",
-      "price": 0.445,
-      "volume": 840870.84,
+      "title": "Will the San Antonio Spurs win the 20...",
+      "price": 0.148,
+      "volume": 944467.86,
       "source": "Polymarket"
     }
   ],
