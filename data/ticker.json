@@ -2,62 +2,74 @@
   "markets": [
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.365,
-      "volume": 3613129.11,
+      "price": 0.385,
+      "volume": 3642336.87,
       "source": "Polymarket"
     },
     {
       "title": "Hornets vs. Magic",
-      "price": 0.585,
-      "volume": 2281225.99,
+      "price": 0.515,
+      "volume": 3038016.19,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.305,
-      "volume": 2225021.03,
+      "price": 0.315,
+      "volume": 2253769.57,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
       "price": 0.435,
-      "volume": 1681615.59,
+      "volume": 1691562.22,
       "source": "Polymarket"
     },
     {
       "title": "US obtains Iranian enriched uranium b...",
       "price": 0.275,
-      "volume": 1664215.68,
+      "volume": 1665484.74,
       "source": "Polymarket"
     },
     {
       "title": "Warriors vs. Suns: O/U 219.5",
-      "price": 0.485,
-      "volume": 1222264.1,
+      "price": 0.495,
+      "volume": 1227204.39,
       "source": "Polymarket"
     },
     {
       "title": "Warriors vs. Suns",
       "price": 0.415,
-      "volume": 989557.66,
+      "volume": 1150036.74,
       "source": "Polymarket"
     },
     {
       "title": "Will Atletico Madrid win the 2025\u201326 ...",
       "price": 0.119,
-      "volume": 922690.49,
+      "volume": 928012.92,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.0305,
-      "volume": 863034.77,
+      "price": 0.032,
+      "volume": 873832.01,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
       "price": 0.235,
-      "volume": 862384.61,
+      "volume": 860091.54,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Marco Rubio win the 2028 US Pres...",
+      "price": 0.1155,
+      "volume": 851491.34,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the San Antonio Spurs win the 20...",
+      "price": 0.15,
+      "volume": 816967.28,
       "source": "Polymarket"
     }
   ],
