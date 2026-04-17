@@ -2,68 +2,62 @@
   "markets": [
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.355,
-      "volume": 3583526.0,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.295,
-      "volume": 2217622.95,
+      "price": 0.365,
+      "volume": 3613129.11,
       "source": "Polymarket"
     },
     {
       "title": "Hornets vs. Magic",
       "price": 0.585,
-      "volume": 2208050.98,
+      "volume": 2281225.99,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran permanent peace deal by Apr...",
+      "price": 0.305,
+      "volume": 2225021.03,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran permanent peace deal by Apr...",
+      "price": 0.435,
+      "volume": 1681615.59,
       "source": "Polymarket"
     },
     {
       "title": "US obtains Iranian enriched uranium b...",
       "price": 0.275,
-      "volume": 1690776.49,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.445,
-      "volume": 1671215.07,
+      "volume": 1664215.68,
       "source": "Polymarket"
     },
     {
       "title": "Warriors vs. Suns: O/U 219.5",
       "price": 0.485,
-      "volume": 1218953.22,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Atletico Madrid win the 2025\u201326 ...",
-      "price": 0.119,
-      "volume": 923050.84,
+      "volume": 1222264.1,
       "source": "Polymarket"
     },
     {
       "title": "Warriors vs. Suns",
       "price": 0.415,
-      "volume": 914641.61,
+      "volume": 989557.66,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Atletico Madrid win the 2025\u201326 ...",
+      "price": 0.119,
+      "volume": 922690.49,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.031,
-      "volume": 860855.89,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Marco Rubio win the 2028 US Pres...",
-      "price": 0.114,
-      "volume": 857928.49,
+      "price": 0.0305,
+      "volume": 863034.77,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
       "price": 0.235,
-      "volume": 853029.45,
+      "volume": 862384.61,
       "source": "Polymarket"
     }
   ],
