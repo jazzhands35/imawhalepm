@@ -2,62 +2,62 @@
   "markets": [
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.565,
-      "volume": 3050129.56,
+      "price": 0.535,
+      "volume": 3217544.32,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.435,
-      "volume": 2467361.56,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US obtains Iranian enriched uranium b...",
-      "price": 0.295,
-      "volume": 1748060.32,
+      "price": 0.465,
+      "volume": 2296612.4,
       "source": "Polymarket"
     },
     {
       "title": "Indian Premier League: Gujarat Titans...",
-      "price": 0.895,
-      "volume": 1670816.17,
+      "price": 0.965,
+      "volume": 2066171.54,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US obtains Iranian enriched uranium b...",
+      "price": 0.285,
+      "volume": 1784221.27,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Como 1907 win on 2026-04-17?",
+      "price": 0.315,
+      "volume": 1454671.22,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran permanent peace deal by Apr...",
+      "price": 0.675,
+      "volume": 1384809.3,
       "source": "Polymarket"
     },
     {
       "title": "Hornets vs. Magic",
       "price": 0.595,
-      "volume": 1120708.84,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Como 1907 win on 2026-04-17?",
-      "price": 0.655,
-      "volume": 1020038.46,
+      "volume": 1149593.84,
       "source": "Polymarket"
     },
     {
       "title": "Will Atletico Madrid win the 2025\u201326 ...",
-      "price": 0.118,
-      "volume": 997948.14,
+      "price": 0.1185,
+      "volume": 1007662.98,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
       "price": 0.0285,
-      "volume": 967229.07,
+      "volume": 977418.86,
       "source": "Polymarket"
     },
     {
       "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.148,
-      "volume": 942021.67,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Counter-Strike: Spirit vs MOUZ (BO3) ...",
-      "price": 0.915,
-      "volume": 923019.52,
+      "price": 0.1485,
+      "volume": 959143.94,
       "source": "Polymarket"
     }
   ],
