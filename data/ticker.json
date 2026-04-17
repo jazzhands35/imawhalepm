@@ -2,62 +2,62 @@
   "markets": [
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.465,
-      "volume": 3478322.51,
+      "price": 0.375,
+      "volume": 3395755.47,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.325,
-      "volume": 2403531.76,
+      "price": 0.295,
+      "volume": 2254633.52,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Counter-Strike: Vitality vs Natus Vin...",
+      "price": 0.965,
+      "volume": 1732795.8,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran permanent peace deal by Apr...",
+      "price": 0.425,
+      "volume": 1608505.91,
       "source": "Polymarket"
     },
     {
       "title": "US obtains Iranian enriched uranium b...",
-      "price": 0.275,
-      "volume": 1791638.94,
+      "price": 0.225,
+      "volume": 1607543.7,
       "source": "Polymarket"
     },
     {
-      "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.535,
-      "volume": 1543537.37,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Como 1907 win on 2026-04-17?",
-      "price": 0.115,
-      "volume": 1515516.26,
+      "title": "Will WTI Crude Oil (WTI) hit (LOW) $8...",
+      "price": 0.8825,
+      "volume": 1179291.52,
       "source": "Polymarket"
     },
     {
       "title": "Hornets vs. Magic",
       "price": 0.595,
-      "volume": 1147373.2,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will WTI Crude Oil (WTI) hit (LOW) $8...",
-      "price": 0.857,
-      "volume": 1046489.02,
+      "volume": 1175457.43,
       "source": "Polymarket"
     },
     {
       "title": "Will Atletico Madrid win the 2025\u201326 ...",
-      "price": 0.118,
-      "volume": 1015992.68,
+      "price": 0.119,
+      "volume": 1004171.27,
       "source": "Polymarket"
     },
     {
       "title": "Will the San Antonio Spurs win the 20...",
       "price": 0.1485,
-      "volume": 964506.48,
+      "volume": 914704.1,
       "source": "Polymarket"
     },
     {
-      "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.235,
-      "volume": 953727.53,
+      "title": "Kharg Island no longer under Iranian ...",
+      "price": 0.0295,
+      "volume": 889925.44,
       "source": "Polymarket"
     }
   ],
