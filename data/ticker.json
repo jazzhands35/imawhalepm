@@ -2,50 +2,56 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.235,
-      "volume": 2063675.87,
+      "price": 0.245,
+      "volume": 1953383.56,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.255,
-      "volume": 1245625.76,
+      "price": 0.275,
+      "volume": 1226685.07,
       "source": "Polymarket"
     },
     {
       "title": "Will Atletico Madrid win the 2025\u201326 ...",
-      "price": 0.118,
-      "volume": 955755.49,
+      "price": 0.114,
+      "volume": 1010426.37,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the San Antonio Spurs win the 20...",
+      "price": 0.1515,
+      "volume": 879029.89,
       "source": "Polymarket"
     },
     {
       "title": "Hornets vs. Magic",
       "price": 0.595,
-      "volume": 858914.55,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.1535,
-      "volume": 858208.39,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the Detroit Pistons win the 2026...",
-      "price": 0.047,
-      "volume": 815992.92,
+      "volume": 874604.06,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.0395,
-      "volume": 781488.55,
+      "price": 0.0445,
+      "volume": 848401.81,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the Detroit Pistons win the 2026...",
+      "price": 0.0485,
+      "volume": 823744.34,
       "source": "Polymarket"
     },
     {
       "title": "US obtains Iranian enriched uranium b...",
-      "price": 0.21,
-      "volume": 779180.32,
+      "price": 0.205,
+      "volume": 796287.92,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Marco Rubio win the 2028 US Pres...",
+      "price": 0.1045,
+      "volume": 766239.71,
       "source": "Polymarket"
     }
   ],
