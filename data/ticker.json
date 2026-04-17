@@ -2,62 +2,50 @@
   "markets": [
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.375,
-      "volume": 3395755.47,
+      "price": 0.395,
+      "volume": 3416799.24,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
       "price": 0.295,
-      "volume": 2254633.52,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Counter-Strike: Vitality vs Natus Vin...",
-      "price": 0.965,
-      "volume": 1732795.8,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.425,
-      "volume": 1608505.91,
+      "volume": 2265150.79,
       "source": "Polymarket"
     },
     {
       "title": "US obtains Iranian enriched uranium b...",
-      "price": 0.225,
-      "volume": 1607543.7,
+      "price": 0.235,
+      "volume": 1649173.15,
       "source": "Polymarket"
     },
     {
-      "title": "Will WTI Crude Oil (WTI) hit (LOW) $8...",
-      "price": 0.8825,
-      "volume": 1179291.52,
+      "title": "US x Iran permanent peace deal by Apr...",
+      "price": 0.465,
+      "volume": 1614607.24,
       "source": "Polymarket"
     },
     {
       "title": "Hornets vs. Magic",
-      "price": 0.595,
-      "volume": 1175457.43,
+      "price": 0.585,
+      "volume": 1403471.13,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Porsche Tennis Grand Prix: Elena Ryba...",
+      "price": 0.825,
+      "volume": 1092602.58,
       "source": "Polymarket"
     },
     {
       "title": "Will Atletico Madrid win the 2025\u201326 ...",
       "price": 0.119,
-      "volume": 1004171.27,
+      "volume": 1004343.46,
       "source": "Polymarket"
     },
     {
       "title": "Will the San Antonio Spurs win the 20...",
       "price": 0.1485,
-      "volume": 914704.1,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.0295,
-      "volume": 889925.44,
+      "volume": 909923.29,
       "source": "Polymarket"
     }
   ],
