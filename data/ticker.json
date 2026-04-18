@@ -2,44 +2,50 @@
   "markets": [
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.285,
-      "volume": 3272334.66,
+      "price": 0.265,
+      "volume": 3280088.12,
       "source": "Polymarket"
     },
     {
       "title": "Will Jon Stewart win the 2028 Democra...",
       "price": 0.0215,
-      "volume": 3010395.45,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.225,
-      "volume": 1990731.12,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.395,
-      "volume": 1530572.61,
+      "volume": 2986806.18,
       "source": "Polymarket"
     },
     {
       "title": "Counter-Strike: Team Falcons vs Spiri...",
-      "price": 0.365,
-      "volume": 1408834.75,
+      "price": 0.255,
+      "volume": 2222245.87,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran permanent peace deal by Apr...",
+      "price": 0.195,
+      "volume": 1966373.97,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran permanent peace deal by Apr...",
+      "price": 0.355,
+      "volume": 1528910.89,
       "source": "Polymarket"
     },
     {
       "title": "Will France win the 2026 FIFA World Cup?",
-      "price": 0.1525,
-      "volume": 1376440.59,
+      "price": 0.1515,
+      "volume": 1410546.18,
       "source": "Polymarket"
     },
     {
       "title": "Timberwolves vs. Nuggets",
       "price": 0.275,
-      "volume": 1315748.09,
+      "volume": 1320840.61,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Indian Premier League: Sunrisers Hyde...",
+      "price": 0.205,
+      "volume": 992634.36,
       "source": "Polymarket"
     }
   ],
