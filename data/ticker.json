@@ -2,44 +2,44 @@
   "markets": [
     {
       "title": "Timberwolves vs. Nuggets",
-      "price": 0.065,
-      "volume": 3440698.8,
+      "price": 0.115,
+      "volume": 3817286.75,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
       "price": 0.235,
-      "volume": 2550237.33,
+      "volume": 2559299.07,
       "source": "Polymarket"
     },
     {
       "title": "Will Jon Stewart win the 2028 Democra...",
       "price": 0.0215,
-      "volume": 2512781.37,
+      "volume": 2477656.99,
       "source": "Polymarket"
     },
     {
       "title": "Will France win the 2026 FIFA World Cup?",
-      "price": 0.1575,
-      "volume": 1493052.86,
+      "price": 0.1585,
+      "volume": 1496970.75,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
       "price": 0.175,
-      "volume": 1353018.17,
+      "volume": 1345581.42,
       "source": "Polymarket"
     },
     {
       "title": "Will Spain win the 2026 FIFA World Cup?",
       "price": 0.1605,
-      "volume": 866012.78,
+      "volume": 866510.29,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.047,
-      "volume": 822616.96,
+      "price": 0.046,
+      "volume": 821283.57,
       "source": "Polymarket"
     }
   ],
