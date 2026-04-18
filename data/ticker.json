@@ -1,45 +1,45 @@
 {
   "markets": [
     {
-      "title": "Will Jon Stewart win the 2028 Democra...",
-      "price": 0.0215,
-      "volume": 2725113.72,
+      "title": "Strait of Hormuz traffic returns to n...",
+      "price": 0.245,
+      "volume": 2683823.77,
       "source": "Polymarket"
     },
     {
-      "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.245,
-      "volume": 2709139.43,
+      "title": "Will Jon Stewart win the 2028 Democra...",
+      "price": 0.0215,
+      "volume": 2670958.39,
       "source": "Polymarket"
     },
     {
       "title": "Timberwolves vs. Nuggets",
-      "price": 0.325,
-      "volume": 2135505.03,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will France win the 2026 FIFA World Cup?",
-      "price": 0.1575,
-      "volume": 1472001.94,
+      "price": 0.485,
+      "volume": 2586951.41,
       "source": "Polymarket"
     },
     {
       "title": "Counter-Strike: FURIA vs Vitality (BO...",
-      "price": 0.105,
-      "volume": 1438149.45,
+      "price": 0.14,
+      "volume": 1510659.06,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will France win the 2026 FIFA World Cup?",
+      "price": 0.1565,
+      "volume": 1481139.64,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
       "price": 0.175,
-      "volume": 1298217.97,
+      "volume": 1299476.37,
       "source": "Polymarket"
     },
     {
       "title": "Will Chelsea FC win on 2026-04-18?",
-      "price": 0.195,
-      "volume": 1015270.69,
+      "price": 0.155,
+      "volume": 1084419.16,
       "source": "Polymarket"
     }
   ],
