@@ -2,44 +2,50 @@
   "markets": [
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.395,
-      "volume": 3891662.36,
+      "price": 0.45,
+      "volume": 3944602.15,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
       "price": 0.305,
-      "volume": 2188324.46,
+      "volume": 2165463.84,
       "source": "Polymarket"
     },
     {
       "title": "Will Jon Stewart win the 2028 Democra...",
       "price": 0.0225,
-      "volume": 1791930.09,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.455,
-      "volume": 1713623.58,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US obtains Iranian enriched uranium b...",
-      "price": 0.295,
-      "volume": 1556763.51,
+      "volume": 1955706.77,
       "source": "Polymarket"
     },
     {
       "title": "Dota 2: Xtreme Gaming vs Natus Vincer...",
-      "price": 0.535,
-      "volume": 1546693.09,
+      "price": 0.33,
+      "volume": 1833707.44,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran permanent peace deal by Apr...",
+      "price": 0.465,
+      "volume": 1700400.14,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US obtains Iranian enriched uranium b...",
+      "price": 0.305,
+      "volume": 1610443.39,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Roberto S\u00e1nchez Palomino win the...",
+      "price": 0.2325,
+      "volume": 884265.87,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
       "price": 0.245,
-      "volume": 867558.2,
+      "volume": 872619.47,
       "source": "Polymarket"
     }
   ],
