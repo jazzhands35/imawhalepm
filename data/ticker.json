@@ -1,57 +1,57 @@
 {
   "markets": [
     {
-      "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.265,
-      "volume": 3145554.63,
-      "source": "Polymarket"
-    },
-    {
       "title": "Will Jon Stewart win the 2028 Democra...",
       "price": 0.0215,
-      "volume": 2951410.24,
+      "volume": 2909141.31,
       "source": "Polymarket"
     },
     {
-      "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.185,
-      "volume": 1860193.69,
+      "title": "Strait of Hormuz traffic returns to n...",
+      "price": 0.26,
+      "volume": 2879473.37,
       "source": "Polymarket"
     },
     {
       "title": "Will RB Leipzig win on 2026-04-18?",
-      "price": 0.62,
-      "volume": 1805512.4,
+      "price": 0.355,
+      "volume": 1922947.24,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Indian Premier League: Sunrisers Hyde...",
+      "price": 0.895,
+      "volume": 1786220.16,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.355,
-      "volume": 1488120.28,
+      "price": 0.175,
+      "volume": 1700580.42,
       "source": "Polymarket"
     },
     {
       "title": "Will France win the 2026 FIFA World Cup?",
-      "price": 0.1545,
-      "volume": 1418871.1,
+      "price": 0.151,
+      "volume": 1457902.49,
       "source": "Polymarket"
     },
     {
       "title": "Timberwolves vs. Nuggets",
       "price": 0.275,
-      "volume": 1372477.75,
+      "volume": 1394311.14,
       "source": "Polymarket"
     },
     {
-      "title": "Indian Premier League: Sunrisers Hyde...",
-      "price": 0.215,
-      "volume": 1305500.74,
+      "title": "Raptors vs. Cavaliers",
+      "price": 0.205,
+      "volume": 1370784.74,
       "source": "Polymarket"
     },
     {
       "title": "Will Brighton & Hove Albion FC win on...",
-      "price": 0.385,
-      "volume": 1144096.03,
+      "price": 0.355,
+      "volume": 1232924.35,
       "source": "Polymarket"
     }
   ],
