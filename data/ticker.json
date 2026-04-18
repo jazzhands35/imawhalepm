@@ -1,81 +1,63 @@
 {
   "markets": [
     {
-      "title": "Hornets vs. Magic",
-      "price": 0.0245,
-      "volume": 5139168.31,
+      "title": "Warriors vs. Suns",
+      "price": 0.265,
+      "volume": 7119339.41,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.365,
-      "volume": 3710511.09,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Warriors vs. Suns",
-      "price": 0.425,
-      "volume": 2339566.95,
+      "price": 0.375,
+      "volume": 3797001.23,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.315,
-      "volume": 2208164.18,
+      "price": 0.325,
+      "volume": 2178862.9,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.455,
-      "volume": 1707998.17,
+      "price": 0.475,
+      "volume": 1714747.02,
       "source": "Polymarket"
     },
     {
       "title": "US obtains Iranian enriched uranium b...",
-      "price": 0.285,
-      "volume": 1593881.69,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Warriors vs. Suns: O/U 219.5",
-      "price": 0.505,
-      "volume": 1292941.76,
+      "price": 0.295,
+      "volume": 1585937.06,
       "source": "Polymarket"
     },
     {
       "title": "Will Jon Stewart win the 2028 Democra...",
       "price": 0.0225,
-      "volume": 1021871.78,
+      "volume": 1473518.45,
       "source": "Polymarket"
     },
     {
-      "title": "Baltimore Orioles vs. Cleveland Guard...",
-      "price": 0.904,
-      "volume": 960922.92,
+      "title": "Warriors vs. Suns: O/U 219.5",
+      "price": 0.095,
+      "volume": 1457106.4,
       "source": "Polymarket"
     },
     {
       "title": "Will Atletico Madrid win the 2025\u201326 ...",
-      "price": 0.1185,
-      "volume": 931815.01,
+      "price": 0.12,
+      "volume": 901434.65,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
       "price": 0.245,
-      "volume": 876489.96,
+      "volume": 849078.72,
       "source": "Polymarket"
     },
     {
-      "title": "Will Marco Rubio win the 2028 US Pres...",
-      "price": 0.1125,
-      "volume": 842169.27,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.031,
-      "volume": 806034.35,
+      "title": "Texas Rangers vs. Seattle Mariners",
+      "price": 0.875,
+      "volume": 814962.98,
       "source": "Polymarket"
     }
   ],
