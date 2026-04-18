@@ -2,38 +2,50 @@
   "markets": [
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.315,
-      "volume": 4616438.03,
+      "price": 0.305,
+      "volume": 4652946.09,
       "source": "Polymarket"
     },
     {
       "title": "Will Jon Stewart win the 2028 Democra...",
       "price": 0.0225,
-      "volume": 2461027.26,
+      "volume": 2540335.2,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.285,
-      "volume": 2320403.14,
+      "price": 0.265,
+      "volume": 2356433.21,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.455,
-      "volume": 1670849.79,
+      "price": 0.445,
+      "volume": 1642827.18,
       "source": "Polymarket"
     },
     {
       "title": "US obtains Iranian enriched uranium b...",
-      "price": 0.295,
-      "volume": 1531783.3,
+      "price": 0.29,
+      "volume": 1541566.83,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Timberwolves vs. Nuggets",
+      "price": 0.265,
+      "volume": 968881.97,
       "source": "Polymarket"
     },
     {
       "title": "Will Roberto S\u00e1nchez Palomino win the...",
-      "price": 0.2225,
-      "volume": 901102.48,
+      "price": 0.2245,
+      "volume": 904982.94,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the U.S. invade Iran before 2027?",
+      "price": 0.255,
+      "volume": 859456.41,
       "source": "Polymarket"
     }
   ],
