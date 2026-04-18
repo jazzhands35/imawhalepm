@@ -2,38 +2,50 @@
   "markets": [
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.295,
-      "volume": 3666414.24,
+      "price": 0.275,
+      "volume": 3506810.74,
       "source": "Polymarket"
     },
     {
       "title": "Will Jon Stewart win the 2028 Democra...",
       "price": 0.0215,
-      "volume": 3022096.2,
+      "volume": 3018681.92,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.255,
-      "volume": 2189722.5,
+      "price": 0.245,
+      "volume": 2073048.87,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.435,
-      "volume": 1575759.37,
+      "price": 0.43,
+      "volume": 1547160.97,
       "source": "Polymarket"
     },
     {
       "title": "Will France win the 2026 FIFA World Cup?",
-      "price": 0.152,
-      "volume": 1316553.21,
+      "price": 0.1535,
+      "volume": 1343692.8,
       "source": "Polymarket"
     },
     {
       "title": "Timberwolves vs. Nuggets",
       "price": 0.285,
-      "volume": 1169128.73,
+      "volume": 1293201.25,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Bayer 04 Leverkusen win on 2026-...",
+      "price": 0.565,
+      "volume": 1015529.39,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Counter-Strike: Team Falcons vs Spiri...",
+      "price": 0.595,
+      "volume": 976574.44,
       "source": "Polymarket"
     }
   ],
