@@ -2,38 +2,38 @@
   "markets": [
     {
       "title": "Hawks vs. Knicks",
-      "price": 0.245,
-      "volume": 2789595.93,
+      "price": 0.275,
+      "volume": 3097191.17,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
       "price": 0.235,
-      "volume": 2538450.86,
+      "volume": 2497792.23,
       "source": "Polymarket"
     },
     {
       "title": "Will Jon Stewart win the 2028 Democra...",
       "price": 0.0215,
-      "volume": 2404220.9,
+      "volume": 2353977.8,
       "source": "Polymarket"
     },
     {
       "title": "Will France win the 2026 FIFA World Cup?",
       "price": 0.1575,
-      "volume": 1478384.19,
+      "volume": 1481279.53,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
       "price": 0.185,
-      "volume": 1314881.66,
+      "volume": 1300117.27,
       "source": "Polymarket"
     },
     {
       "title": "Will Spain win the 2026 FIFA World Cup?",
       "price": 0.1625,
-      "volume": 872411.2,
+      "volume": 872703.88,
       "source": "Polymarket"
     }
   ],
