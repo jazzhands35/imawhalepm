@@ -1,45 +1,45 @@
 {
   "markets": [
     {
-      "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.245,
-      "volume": 2683823.77,
+      "title": "Timberwolves vs. Nuggets",
+      "price": 0.305,
+      "volume": 3026994.39,
       "source": "Polymarket"
     },
     {
       "title": "Will Jon Stewart win the 2028 Democra...",
       "price": 0.0215,
-      "volume": 2670958.39,
+      "volume": 2566932.9,
       "source": "Polymarket"
     },
     {
-      "title": "Timberwolves vs. Nuggets",
-      "price": 0.485,
-      "volume": 2586951.41,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Counter-Strike: FURIA vs Vitality (BO...",
-      "price": 0.14,
-      "volume": 1510659.06,
+      "title": "Strait of Hormuz traffic returns to n...",
+      "price": 0.235,
+      "volume": 2560351.16,
       "source": "Polymarket"
     },
     {
       "title": "Will France win the 2026 FIFA World Cup?",
-      "price": 0.1565,
-      "volume": 1481139.64,
+      "price": 0.1575,
+      "volume": 1488004.74,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.175,
-      "volume": 1299476.37,
+      "price": 0.195,
+      "volume": 1324430.85,
       "source": "Polymarket"
     },
     {
-      "title": "Will Chelsea FC win on 2026-04-18?",
-      "price": 0.155,
-      "volume": 1084419.16,
+      "title": "Will Spain win the 2026 FIFA World Cup?",
+      "price": 0.1605,
+      "volume": 859065.0,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Kharg Island no longer under Iranian ...",
+      "price": 0.044,
+      "volume": 850648.97,
       "source": "Polymarket"
     }
   ],
