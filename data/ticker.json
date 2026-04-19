@@ -2,50 +2,56 @@
   "markets": [
     {
       "title": "Magic vs. Pistons",
-      "price": 0.395,
-      "volume": 4321918.39,
+      "price": 0.405,
+      "volume": 4700376.19,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
       "price": 0.165,
-      "volume": 2624928.48,
+      "volume": 2633847.05,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Pistons (-8.5)",
-      "price": 0.35,
-      "volume": 2214425.75,
+      "price": 0.275,
+      "volume": 2232691.37,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Trail Blazers vs. Spurs",
+      "price": 0.155,
+      "volume": 2177078.54,
       "source": "Polymarket"
     },
     {
       "title": "Will PH win the third most seats in t...",
-      "price": 0.1435,
-      "volume": 2050574.71,
+      "price": 0.142,
+      "volume": 2050580.71,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
       "price": 0.225,
-      "volume": 1500596.29,
+      "volume": 1501392.1,
       "source": "Polymarket"
     },
     {
       "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.757,
-      "volume": 1136901.23,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.065,
-      "volume": 978451.12,
+      "price": 0.7725,
+      "volume": 1159135.39,
       "source": "Polymarket"
     },
     {
       "title": "Will Bitcoin reach $80,000 in April?",
-      "price": 0.305,
-      "volume": 952941.88,
+      "price": 0.295,
+      "volume": 1006790.45,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Kharg Island no longer under Iranian ...",
+      "price": 0.0585,
+      "volume": 993401.47,
       "source": "Polymarket"
     }
   ],
