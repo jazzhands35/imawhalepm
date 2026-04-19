@@ -2,56 +2,50 @@
   "markets": [
     {
       "title": "76ers vs. Celtics",
-      "price": 0.125,
-      "volume": 3430410.59,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Manchester City FC win on 2026-0...",
-      "price": 0.825,
-      "volume": 2401285.69,
+      "price": 0.0365,
+      "volume": 3928289.19,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.205,
-      "volume": 2290981.77,
+      "price": 0.195,
+      "volume": 2267700.44,
       "source": "Polymarket"
     },
     {
       "title": "Magic vs. Pistons",
       "price": 0.205,
-      "volume": 2179147.06,
+      "volume": 2189563.87,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.305,
-      "volume": 1522231.41,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Arsenal FC win on 2026-04-19?",
-      "price": 0.023,
-      "volume": 1238362.3,
+      "price": 0.275,
+      "volume": 1574746.41,
       "source": "Polymarket"
     },
     {
       "title": "Counter-Strike: Spirit vs Vitality (B...",
       "price": 0.325,
-      "volume": 1225696.71,
+      "volume": 1407030.67,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.053,
-      "volume": 935615.88,
+      "price": 0.0515,
+      "volume": 941749.36,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.295,
-      "volume": 875623.19,
+      "price": 0.315,
+      "volume": 831427.23,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Spread: Celtics (-13.5)",
+      "price": 0.685,
+      "volume": 780695.19,
       "source": "Polymarket"
     }
   ],
