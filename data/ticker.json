@@ -2,50 +2,50 @@
   "markets": [
     {
       "title": "Magic vs. Pistons",
-      "price": 0.225,
-      "volume": 3058100.33,
+      "price": 0.215,
+      "volume": 3147477.54,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.165,
-      "volume": 2456969.41,
+      "price": 0.145,
+      "volume": 2451852.33,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.235,
-      "volume": 1541889.41,
+      "price": 0.225,
+      "volume": 1544404.51,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Thunder (-15.5)",
-      "price": 0.825,
-      "volume": 922742.3,
+      "price": 0.835,
+      "volume": 957671.62,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Thunder (-13.5)",
-      "price": 0.825,
-      "volume": 915393.33,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.766,
-      "volume": 894860.17,
+      "price": 0.885,
+      "volume": 940802.15,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.073,
-      "volume": 891417.13,
+      "price": 0.0765,
+      "volume": 929744.4,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Iran x Israel/US conflict ends by Apr...",
+      "price": 0.7765,
+      "volume": 918234.31,
       "source": "Polymarket"
     },
     {
       "title": "Will the Los Angeles Lakers win the 2...",
-      "price": 0.024,
-      "volume": 890661.27,
+      "price": 0.0235,
+      "volume": 901327.1,
       "source": "Polymarket"
     }
   ],
