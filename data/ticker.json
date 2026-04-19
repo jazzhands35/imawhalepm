@@ -2,50 +2,56 @@
   "markets": [
     {
       "title": "Magic vs. Pistons",
-      "price": 0.215,
-      "volume": 2919147.86,
+      "price": 0.225,
+      "volume": 2994679.71,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.205,
-      "volume": 2319286.74,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Counter-Strike: Spirit vs Vitality (B...",
-      "price": 0.055,
-      "volume": 2146052.03,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.275,
-      "volume": 1451438.17,
+      "price": 0.155,
+      "volume": 2469938.51,
       "source": "Polymarket"
     },
     {
       "title": "Suns vs. Thunder",
       "price": 0.095,
-      "volume": 969849.74,
+      "volume": 1717600.35,
       "source": "Polymarket"
     },
     {
-      "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.0535,
-      "volume": 912599.9,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the Los Angeles Lakers win the 2...",
-      "price": 0.0245,
-      "volume": 866772.58,
+      "title": "Strait of Hormuz traffic returns to n...",
+      "price": 0.225,
+      "volume": 1532558.09,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Thunder (-13.5)",
-      "price": 0.595,
-      "volume": 825416.78,
+      "price": 0.6,
+      "volume": 912158.48,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Kharg Island no longer under Iranian ...",
+      "price": 0.066,
+      "volume": 910743.82,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Spread: Thunder (-15.5)",
+      "price": 0.56,
+      "volume": 894509.45,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the Los Angeles Lakers win the 2...",
+      "price": 0.024,
+      "volume": 880535.44,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Iran x Israel/US conflict ends by Apr...",
+      "price": 0.757,
+      "volume": 850762.92,
       "source": "Polymarket"
     }
   ],
