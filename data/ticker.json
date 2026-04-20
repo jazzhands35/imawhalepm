@@ -2,50 +2,56 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.135,
-      "volume": 3244635.63,
+      "price": 0.125,
+      "volume": 3383247.56,
       "source": "Polymarket"
     },
     {
       "title": "Hawks vs. Knicks",
       "price": 0.305,
-      "volume": 1674919.5,
+      "volume": 1783340.84,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Raptors vs. Cavaliers",
+      "price": 0.155,
+      "volume": 1170656.49,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.265,
-      "volume": 1029313.96,
+      "price": 0.255,
+      "volume": 1072737.6,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.325,
-      "volume": 974588.21,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.057,
-      "volume": 920539.71,
+      "price": 0.335,
+      "volume": 995246.66,
       "source": "Polymarket"
     },
     {
       "title": "Trump announces end of military opera...",
       "price": 0.045,
-      "volume": 915975.62,
+      "volume": 942940.75,
       "source": "Polymarket"
     },
     {
-      "title": "US x Iran diplomatic meeting by April...",
-      "price": 0.255,
-      "volume": 805795.09,
+      "title": "Kharg Island no longer under Iranian ...",
+      "price": 0.0565,
+      "volume": 929288.87,
       "source": "Polymarket"
     },
     {
       "title": "Senators vs. Hurricanes",
-      "price": 0.425,
-      "volume": 785272.1,
+      "price": 0.415,
+      "volume": 914872.95,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran diplomatic meeting by April...",
+      "price": 0.23,
+      "volume": 823417.52,
       "source": "Polymarket"
     }
   ],
