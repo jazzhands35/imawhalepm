@@ -2,56 +2,50 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.155,
-      "volume": 3239635.23,
+      "price": 0.145,
+      "volume": 3265583.63,
       "source": "Polymarket"
     },
     {
       "title": "Hawks vs. Knicks",
       "price": 0.305,
-      "volume": 1432393.39,
+      "volume": 1512484.23,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.27,
-      "volume": 1027374.65,
+      "price": 0.265,
+      "volume": 1042371.89,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.325,
-      "volume": 982091.72,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Bitcoin reach $80,000 in April?",
-      "price": 0.455,
-      "volume": 960788.67,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.937,
-      "volume": 915258.47,
+      "price": 0.315,
+      "volume": 994358.49,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.0645,
-      "volume": 912687.57,
+      "price": 0.0665,
+      "volume": 933801.57,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Iran x Israel/US conflict ends by Apr...",
+      "price": 0.926,
+      "volume": 872107.04,
       "source": "Polymarket"
     },
     {
       "title": "Trump announces end of military opera...",
-      "price": 0.055,
-      "volume": 849735.4,
+      "price": 0.045,
+      "volume": 858747.54,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran diplomatic meeting by April...",
-      "price": 0.315,
-      "volume": 800934.86,
+      "price": 0.255,
+      "volume": 808425.24,
       "source": "Polymarket"
     }
   ],
