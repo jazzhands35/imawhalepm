@@ -2,44 +2,50 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.165,
-      "volume": 2437635.65,
+      "price": 0.145,
+      "volume": 2266232.62,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.245,
-      "volume": 1473620.86,
+      "price": 0.255,
+      "volume": 1461111.68,
       "source": "Polymarket"
     },
     {
       "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.8075,
-      "volume": 1202767.22,
+      "price": 0.829,
+      "volume": 1163535.33,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Hawks vs. Knicks",
+      "price": 0.295,
+      "volume": 1138852.61,
       "source": "Polymarket"
     },
     {
       "title": "Will Bitcoin reach $80,000 in April?",
       "price": 0.355,
-      "volume": 1065357.93,
+      "volume": 1019007.13,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the Los Angeles Lakers win the 2...",
+      "price": 0.0205,
+      "volume": 1009624.39,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.076,
-      "volume": 918453.05,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.335,
-      "volume": 688499.04,
+      "price": 0.0715,
+      "volume": 876724.94,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.31,
-      "volume": 674884.47,
+      "price": 0.335,
+      "volume": 636691.18,
       "source": "Polymarket"
     }
   ],
