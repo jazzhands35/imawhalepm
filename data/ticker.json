@@ -2,56 +2,50 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.155,
-      "volume": 2437886.13,
+      "price": 0.185,
+      "volume": 2655809.5,
       "source": "Polymarket"
     },
     {
       "title": "Hawks vs. Knicks",
       "price": 0.305,
-      "volume": 1304288.35,
+      "volume": 1323661.0,
       "source": "Polymarket"
     },
     {
       "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.923,
-      "volume": 1186562.0,
+      "price": 0.927,
+      "volume": 1193022.01,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.295,
-      "volume": 1176405.14,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Indian Premier League: Gujarat Titans...",
-      "price": 0.025,
-      "volume": 985699.32,
+      "price": 0.285,
+      "volume": 1061910.47,
       "source": "Polymarket"
     },
     {
       "title": "Will Bitcoin reach $80,000 in April?",
-      "price": 0.375,
-      "volume": 955502.82,
+      "price": 0.395,
+      "volume": 959616.53,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.0595,
-      "volume": 939241.9,
+      "price": 0.067,
+      "volume": 918299.59,
       "source": "Polymarket"
     },
     {
       "title": "Trump announces end of military opera...",
-      "price": 0.065,
-      "volume": 778838.04,
+      "price": 0.055,
+      "volume": 827863.69,
       "source": "Polymarket"
     },
     {
-      "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.9345,
-      "volume": 767555.3,
+      "title": "Will ACF Fiorentina win on 2026-04-20?",
+      "price": 0.445,
+      "volume": 751720.44,
       "source": "Polymarket"
     }
   ],
