@@ -2,56 +2,62 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.125,
-      "volume": 3442502.06,
+      "price": 0.175,
+      "volume": 4495027.39,
       "source": "Polymarket"
     },
     {
-      "title": "Hawks vs. Knicks",
-      "price": 0.315,
-      "volume": 2227813.17,
+      "title": "Timberwolves vs. Nuggets",
+      "price": 0.165,
+      "volume": 2657827.0,
       "source": "Polymarket"
     },
     {
-      "title": "Raptors vs. Cavaliers",
-      "price": 0.125,
-      "volume": 1615118.44,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.255,
-      "volume": 1092391.21,
+      "title": "Senators vs. Hurricanes",
+      "price": 0.435,
+      "volume": 1352956.88,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.345,
-      "volume": 988719.07,
+      "price": 0.385,
+      "volume": 1252255.52,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Strait of Hormuz traffic returns to n...",
+      "price": 0.285,
+      "volume": 1115932.82,
       "source": "Polymarket"
     },
     {
       "title": "Trump announces end of military opera...",
       "price": 0.045,
-      "volume": 950161.06,
+      "volume": 1054904.46,
       "source": "Polymarket"
     },
     {
-      "title": "Senators vs. Hurricanes",
-      "price": 0.265,
-      "volume": 944856.54,
+      "title": "Iran x Israel/US conflict ends by Apr...",
+      "price": 0.965,
+      "volume": 1005508.42,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Ducks vs. Oilers",
+      "price": 0.375,
+      "volume": 1000797.41,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.061,
-      "volume": 930706.41,
+      "price": 0.0725,
+      "volume": 945737.02,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran diplomatic meeting by April...",
-      "price": 0.265,
-      "volume": 827000.81,
+      "price": 0.26,
+      "volume": 882530.78,
       "source": "Polymarket"
     }
   ],
