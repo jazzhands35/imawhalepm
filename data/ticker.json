@@ -2,44 +2,44 @@
   "markets": [
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.145,
-      "volume": 2871423.35,
+      "price": 0.125,
+      "volume": 2958615.67,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire extended by April...",
-      "price": 0.335,
-      "volume": 2701611.39,
+      "price": 0.2,
+      "volume": 2956343.49,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.255,
-      "volume": 2105603.2,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.285,
-      "volume": 1653215.23,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran diplomatic meeting by April...",
-      "price": 0.0325,
-      "volume": 1193137.18,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.064,
-      "volume": 1189138.25,
+      "price": 0.205,
+      "volume": 2184430.4,
       "source": "Polymarket"
     },
     {
       "title": "76ers vs. Celtics",
       "price": 0.125,
-      "volume": 1064872.29,
+      "volume": 2161793.53,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the U.S. invade Iran before 2027?",
+      "price": 0.275,
+      "volume": 1678294.36,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran diplomatic meeting by April...",
+      "price": 0.0245,
+      "volume": 1201711.27,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Kharg Island no longer under Iranian ...",
+      "price": 0.0645,
+      "volume": 1172281.94,
       "source": "Polymarket"
     }
   ],
