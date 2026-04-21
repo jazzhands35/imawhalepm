@@ -2,62 +2,50 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.175,
-      "volume": 4495027.39,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Timberwolves vs. Nuggets",
-      "price": 0.165,
-      "volume": 2657827.0,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Senators vs. Hurricanes",
-      "price": 0.435,
-      "volume": 1352956.88,
+      "price": 0.195,
+      "volume": 4746074.26,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.385,
-      "volume": 1252255.52,
+      "price": 0.415,
+      "volume": 1322146.41,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
       "price": 0.285,
-      "volume": 1115932.82,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Trump announces end of military opera...",
-      "price": 0.045,
-      "volume": 1054904.46,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Iran x Israel/US conflict ends by Apr...",
-      "price": 0.965,
-      "volume": 1005508.42,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Ducks vs. Oilers",
-      "price": 0.375,
-      "volume": 1000797.41,
+      "volume": 1175620.85,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.0725,
-      "volume": 945737.02,
+      "price": 0.0865,
+      "volume": 1096479.16,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Trump announces end of military opera...",
+      "price": 0.055,
+      "volume": 1066473.51,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Iran x Israel/US conflict ends by Apr...",
+      "price": 0.9615,
+      "volume": 1011658.59,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran diplomatic meeting by April...",
-      "price": 0.26,
-      "volume": 882530.78,
+      "price": 0.245,
+      "volume": 885726.84,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Mark Kelly win the 2028 Democrat...",
+      "price": 0.0275,
+      "volume": 715065.72,
       "source": "Polymarket"
     }
   ],
