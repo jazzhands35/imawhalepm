@@ -2,32 +2,38 @@
   "markets": [
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.095,
-      "volume": 3072235.86,
+      "price": 0.085,
+      "volume": 2832364.1,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.205,
-      "volume": 2108311.77,
+      "price": 0.165,
+      "volume": 2006956.51,
       "source": "Polymarket"
     },
     {
       "title": "Will the U.S. invade Iran before 2027?",
       "price": 0.295,
-      "volume": 2103938.19,
+      "volume": 1980110.76,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran ceasefire extended by April...",
-      "price": 0.245,
-      "volume": 1687220.94,
+      "price": 0.295,
+      "volume": 1834274.59,
       "source": "Polymarket"
     },
     {
       "title": "Will Roberto S\u00e1nchez Palomino win the...",
-      "price": 0.2465,
-      "volume": 1111958.71,
+      "price": 0.2485,
+      "volume": 1145872.07,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the Boston Celtics win the 2026 ...",
+      "price": 0.121,
+      "volume": 1086895.39,
       "source": "Polymarket"
     }
   ],
