@@ -2,32 +2,32 @@
   "markets": [
     {
       "title": "US x Iran ceasefire extended by April...",
-      "price": 0.095,
-      "volume": 3862173.59,
+      "price": 0.105,
+      "volume": 3879360.24,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.0325,
-      "volume": 1605475.31,
+      "price": 0.031,
+      "volume": 1639349.19,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.145,
-      "volume": 1417070.49,
+      "price": 0.125,
+      "volume": 1449511.53,
       "source": "Polymarket"
     },
     {
       "title": "Will Roberto S\u00e1nchez Palomino win the...",
       "price": 0.245,
-      "volume": 1161588.53,
+      "volume": 1109482.47,
       "source": "Polymarket"
     },
     {
       "title": "Will Kevin Warsh be confirmed as Fed ...",
-      "price": 0.945,
-      "volume": 882682.32,
+      "price": 0.944,
+      "volume": 842272.85,
       "source": "Polymarket"
     }
   ],
