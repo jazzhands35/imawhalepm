@@ -1,33 +1,27 @@
 {
   "markets": [
     {
-      "title": "Knicks vs. Hawks",
-      "price": 0.315,
-      "volume": 3885326.29,
-      "source": "Polymarket"
-    },
-    {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.075,
-      "volume": 2168962.2,
+      "price": 0.065,
+      "volume": 2025520.49,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.031,
-      "volume": 1559174.34,
+      "price": 0.0285,
+      "volume": 1419986.52,
       "source": "Polymarket"
     },
     {
-      "title": "Nuggets vs. Timberwolves",
-      "price": 0.485,
-      "volume": 1247350.2,
+      "title": "Avalanche vs. Kings",
+      "price": 0.785,
+      "volume": 1254352.1,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by May...",
-      "price": 0.305,
-      "volume": 1109771.27,
+      "price": 0.285,
+      "volume": 1107483.36,
       "source": "Polymarket"
     }
   ],
