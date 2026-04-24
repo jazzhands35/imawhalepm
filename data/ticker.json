@@ -2,38 +2,32 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.065,
-      "volume": 2037025.28,
+      "price": 0.055,
+      "volume": 2018129.3,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.0295,
-      "volume": 1442524.38,
+      "price": 0.0275,
+      "volume": 1441411.19,
       "source": "Polymarket"
     },
     {
       "title": "Spurs vs. Trail Blazers",
       "price": 0.575,
-      "volume": 1268893.28,
+      "volume": 1285268.58,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by May 31?",
-      "price": 0.0445,
-      "volume": 973348.61,
+      "price": 0.0415,
+      "volume": 946039.98,
       "source": "Polymarket"
     },
     {
       "title": "Will MegaETH launch a token by April ...",
-      "price": 0.913,
-      "volume": 913801.5,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran permanent peace deal by May...",
-      "price": 0.285,
-      "volume": 888397.77,
+      "price": 0.936,
+      "volume": 912772.12,
       "source": "Polymarket"
     }
   ],
