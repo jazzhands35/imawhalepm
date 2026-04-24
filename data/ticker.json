@@ -2,44 +2,38 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.115,
-      "volume": 3584236.66,
+      "price": 0.105,
+      "volume": 3455970.15,
       "source": "Polymarket"
     },
     {
       "title": "Spurs vs. Trail Blazers",
-      "price": 0.565,
-      "volume": 2352389.93,
+      "price": 0.575,
+      "volume": 2624483.52,
       "source": "Polymarket"
     },
     {
       "title": "Will Real Madrid CF win on 2026-04-24?",
-      "price": 0.705,
-      "volume": 2196651.07,
+      "price": 0.895,
+      "volume": 2612053.79,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.0225,
-      "volume": 2120420.32,
+      "price": 0.0215,
+      "volume": 2137237.59,
       "source": "Polymarket"
     },
     {
       "title": "Lakers vs. Rockets",
-      "price": 0.265,
-      "volume": 1768177.66,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Dota 2: Team Liquid vs BetBoom Team (...",
-      "price": 0.445,
-      "volume": 1210397.73,
+      "price": 0.255,
+      "volume": 1769534.21,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by May...",
-      "price": 0.405,
-      "volume": 1191846.31,
+      "price": 0.385,
+      "volume": 1171564.89,
       "source": "Polymarket"
     }
   ],
