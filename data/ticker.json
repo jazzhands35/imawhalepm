@@ -2,20 +2,26 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.065,
-      "volume": 3260825.97,
+      "price": 0.095,
+      "volume": 3707087.11,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Strait of Hormuz traffic returns to n...",
+      "price": 0.0275,
+      "volume": 2130289.3,
       "source": "Polymarket"
     },
     {
       "title": "Spurs vs. Trail Blazers",
-      "price": 0.565,
-      "volume": 1411474.8,
+      "price": 0.555,
+      "volume": 1646624.18,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by May...",
-      "price": 0.315,
-      "volume": 1092075.41,
+      "price": 0.365,
+      "volume": 1216058.43,
       "source": "Polymarket"
     }
   ],
