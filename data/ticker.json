@@ -2,26 +2,26 @@
   "markets": [
     {
       "title": "Spurs vs. Trail Blazers",
-      "price": 0.585,
-      "volume": 6418617.41,
+      "price": 0.955,
+      "volume": 7575579.82,
       "source": "Polymarket"
     },
     {
       "title": "Lakers vs. Rockets",
       "price": 0.445,
-      "volume": 2522295.44,
+      "volume": 2565829.95,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
       "price": 0.0215,
-      "volume": 1338059.91,
+      "volume": 1345692.37,
       "source": "Polymarket"
     },
     {
       "title": "Celtics vs. 76ers",
-      "price": 0.735,
-      "volume": 839145.34,
+      "price": 0.685,
+      "volume": 1272779.1,
       "source": "Polymarket"
     }
   ],
