@@ -2,26 +2,20 @@
   "markets": [
     {
       "title": "Spurs vs. Trail Blazers",
-      "price": 0.735,
-      "volume": 3646341.48,
+      "price": 0.305,
+      "volume": 5075285.72,
       "source": "Polymarket"
     },
     {
       "title": "Lakers vs. Rockets",
       "price": 0.435,
-      "volume": 2195464.79,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Olympique de Marseille win on 20...",
-      "price": 0.525,
-      "volume": 1699301.75,
+      "volume": 2426241.51,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
       "price": 0.0215,
-      "volume": 1343080.87,
+      "volume": 1285990.52,
       "source": "Polymarket"
     }
   ],
