@@ -2,32 +2,32 @@
   "markets": [
     {
       "title": "Celtics vs. 76ers",
-      "price": 0.665,
-      "volume": 4241264.44,
+      "price": 0.915,
+      "volume": 4791702.86,
       "source": "Polymarket"
     },
     {
       "title": "Lakers vs. Rockets",
-      "price": 0.445,
-      "volume": 2836843.63,
+      "price": 0.435,
+      "volume": 3351615.96,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by Apr...",
       "price": 0.0205,
-      "volume": 1422487.12,
+      "volume": 1419339.91,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Celtics (-7.5)",
-      "price": 0.42,
-      "volume": 1172253.33,
+      "price": 0.78,
+      "volume": 1310657.91,
       "source": "Polymarket"
     },
     {
       "title": "Los Angeles Angels vs. Kansas City Ro...",
-      "price": 0.728,
-      "volume": 814348.92,
+      "price": 0.755,
+      "volume": 822857.42,
       "source": "Polymarket"
     }
   ],
