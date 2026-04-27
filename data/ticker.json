@@ -1,21 +1,21 @@
 {
   "markets": [
     {
-      "title": "Will Manchester United FC win on 2026...",
-      "price": 0.865,
-      "volume": 1610566.98,
+      "title": "Spread: Pistons (-3.5)",
+      "price": 0.505,
+      "volume": 1180412.81,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Timberwolves vs. Nuggets",
+      "price": 0.185,
+      "volume": 1163352.14,
       "source": "Polymarket"
     },
     {
       "title": "Pistons vs. Magic",
-      "price": 0.585,
-      "volume": 816699.95,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Nuggets (-11.5)",
-      "price": 0.495,
-      "volume": 776665.45,
+      "price": 0.595,
+      "volume": 937623.54,
       "source": "Polymarket"
     }
   ],
