@@ -2,26 +2,26 @@
   "markets": [
     {
       "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.0205,
-      "volume": 1803182.13,
+      "price": 0.0215,
+      "volume": 1860351.59,
       "source": "Polymarket"
     },
     {
       "title": "Israel x Hezbollah Ceasefire extended...",
-      "price": 0.425,
-      "volume": 771351.89,
+      "price": 0.375,
+      "volume": 799341.13,
       "source": "Polymarket"
     },
     {
       "title": "Will Manchester United FC win on 2026...",
       "price": 0.495,
-      "volume": 712665.22,
+      "volume": 730045.95,
       "source": "Polymarket"
     },
     {
       "title": "Will the San Antonio Spurs win the 20...",
-      "price": 0.157,
-      "volume": 653853.14,
+      "price": 0.1585,
+      "volume": 715182.49,
       "source": "Polymarket"
     }
   ],
