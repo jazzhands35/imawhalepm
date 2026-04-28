@@ -1,93 +1,9 @@
 {
   "markets": [
     {
-      "title": "US x Iran ceasefire extended by April...",
-      "price": 0.4955,
-      "volume": 14118642.79,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Israel x Hezbollah Ceasefire extended...",
-      "price": 0.498,
-      "volume": 4307698.25,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the Fed increase interest rates ...",
-      "price": 0.5015,
-      "volume": 4220350.47,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will USA win the 2026 FIFA World Cup?",
-      "price": 0.5055,
-      "volume": 3626004.16,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the Fed decrease interest rates ...",
-      "price": 0.4955,
-      "volume": 3013897.67,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Trump dance today?",
-      "price": 0.4985,
-      "volume": 2861367.13,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will there be no change in Fed intere...",
-      "price": 0.505,
-      "volume": 2585760.48,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the Fed decrease interest rates ...",
-      "price": 0.495,
-      "volume": 2222407.38,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the Iranian regime fall by April...",
-      "price": 0.501,
-      "volume": 2008706.01,
-      "source": "Polymarket"
-    },
-    {
-      "title": "US x Iran permanent peace deal by Apr...",
-      "price": 0.5075,
-      "volume": 1539198.58,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Paris Saint-Germain FC win on 20...",
-      "price": 0.5,
-      "volume": 1092888.74,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Clavicular pregnancy in 2026?",
-      "price": 0.501,
-      "volume": 953631.87,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Trump out as President by April 30?",
-      "price": 0.502,
-      "volume": 935371.43,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Ghana win the 2026 FIFA World Cup?",
-      "price": 0.499,
-      "volume": 855615.12,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Esteban Ocon be the 2026 F1 Driv...",
-      "price": 0.499,
-      "volume": 798056.64,
+      "title": "Will France win the 2026 FIFA World Cup?",
+      "price": 0.1585,
+      "volume": 3249033.84,
       "source": "Polymarket"
     }
   ],
