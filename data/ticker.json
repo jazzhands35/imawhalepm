@@ -1,39 +1,33 @@
 {
   "markets": [
     {
-      "title": "Pistons vs. Magic",
-      "price": 0.595,
-      "volume": 1761525.95,
+      "title": "Timberwolves vs. Nuggets",
+      "price": 0.125,
+      "volume": 4131781.16,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Nuggets (-11.5)",
-      "price": 0.505,
-      "volume": 1400452.66,
+      "price": 0.555,
+      "volume": 2787294.97,
       "source": "Polymarket"
     },
     {
-      "title": "Spread: Pistons (-3.5)",
-      "price": 0.505,
-      "volume": 1383596.1,
+      "title": "Golden Knights vs. Utah",
+      "price": 0.535,
+      "volume": 1524422.73,
       "source": "Polymarket"
     },
     {
-      "title": "Timberwolves vs. Nuggets",
-      "price": 0.185,
-      "volume": 1381436.76,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Flyers vs. Penguins",
-      "price": 0.305,
-      "volume": 1113861.59,
+      "title": "Spread: Thunder (-11.5)",
+      "price": 0.555,
+      "volume": 1249747.42,
       "source": "Polymarket"
     },
     {
       "title": "Will Paris Saint-Germain FC win on 20...",
-      "price": 0.405,
-      "volume": 993158.07,
+      "price": 0.395,
+      "volume": 1030222.37,
       "source": "Polymarket"
     }
   ],
