@@ -2,32 +2,38 @@
   "markets": [
     {
       "title": "Clavicular pregnancy in 2026?",
-      "price": 0.98,
-      "volume": 1825464.42,
+      "price": 0.9785,
+      "volume": 1812201.07,
       "source": "Polymarket"
     },
     {
       "title": "Will Arsenal win the 2025\u201326 Champion...",
       "price": 0.285,
-      "volume": 654972.44,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will WTI Crude Oil (WTI) hit (HIGH) $...",
-      "price": 0.0295,
-      "volume": 582364.58,
+      "volume": 653798.47,
       "source": "Polymarket"
     },
     {
       "title": "Over $3M committed to the Printr publ...",
-      "price": 0.1375,
-      "volume": 543076.5,
+      "price": 0.027,
+      "volume": 627797.8,
       "source": "Polymarket"
     },
     {
-      "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.075,
-      "volume": 484736.47,
+      "title": "Spread: Celtics (-5.5)",
+      "price": 0.535,
+      "volume": 589042.29,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Norway win the 2026 FIFA World Cup?",
+      "price": 0.0235,
+      "volume": 540440.07,
+      "source": "Polymarket"
+    },
+    {
+      "title": "LoL: ThunderTalk Gaming vs LGD Gaming...",
+      "price": 0.6,
+      "volume": 534576.71,
       "source": "Polymarket"
     }
   ],
