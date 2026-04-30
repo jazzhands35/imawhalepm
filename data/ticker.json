@@ -1,27 +1,27 @@
 {
   "markets": [
     {
-      "title": "MegaETH market cap (FDV) >$2B one day...",
-      "price": 0.255,
-      "volume": 680792.28,
+      "title": "Spread: Celtics (-5.5)",
+      "price": 0.535,
+      "volume": 1184696.56,
       "source": "Polymarket"
     },
     {
       "title": "Nuggets vs. Timberwolves: O/U 224.5",
-      "price": 0.525,
-      "volume": 630348.49,
+      "price": 0.515,
+      "volume": 1135348.35,
       "source": "Polymarket"
     },
     {
       "title": "Will Norway win the 2026 FIFA World Cup?",
       "price": 0.0235,
-      "volume": 604966.95,
+      "volume": 1091097.21,
       "source": "Polymarket"
     },
     {
-      "title": "Spread: Celtics (-5.5)",
-      "price": 0.535,
-      "volume": 597914.88,
+      "title": "MegaETH market cap (FDV) >$1B one day...",
+      "price": 0.9635,
+      "volume": 987323.42,
       "source": "Polymarket"
     }
   ],
