@@ -1,57 +1,33 @@
 {
   "markets": [
     {
-      "title": "Nuggets vs. Timberwolves",
-      "price": 0.475,
-      "volume": 6941050.11,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Oilers vs. Ducks",
-      "price": 0.055,
-      "volume": 1148437.1,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Nuggets vs. Timberwolves: O/U 224.5",
-      "price": 0.145,
-      "volume": 1045482.96,
-      "source": "Polymarket"
-    },
-    {
       "title": "MegaETH market cap (FDV) >$2B one day...",
-      "price": 0.125,
-      "volume": 850440.33,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Trump announces end of military opera...",
-      "price": 0.02,
-      "volume": 790776.98,
+      "price": 0.045,
+      "volume": 845466.34,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by May 31?",
-      "price": 0.042,
-      "volume": 684580.78,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Nuggets (-6.5)",
-      "price": 0.085,
-      "volume": 639751.39,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Nuggets (-5.5)",
-      "price": 0.115,
-      "volume": 614473.37,
+      "price": 0.0355,
+      "volume": 685149.52,
       "source": "Polymarket"
     },
     {
       "title": "MegaETH market cap (FDV) >$1.5B one d...",
-      "price": 0.655,
-      "volume": 590545.18,
+      "price": 0.635,
+      "volume": 636339.73,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Over $3M committed to the Printr publ...",
+      "price": 0.0605,
+      "volume": 482449.26,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran permanent peace deal by May...",
+      "price": 0.185,
+      "volume": 455374.14,
       "source": "Polymarket"
     }
   ],
