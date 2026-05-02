@@ -2,80 +2,86 @@
   "markets": [
     {
       "title": "Pistons vs. Magic",
-      "price": 0.605,
-      "volume": 2119688.77,
+      "price": 0.095,
+      "volume": 2770250.21,
       "source": "Polymarket"
     },
     {
       "title": "Cavaliers vs. Raptors",
-      "price": 0.635,
-      "volume": 1428738.29,
+      "price": 0.695,
+      "volume": 1609610.95,
       "source": "Polymarket"
     },
     {
       "title": "Lakers vs. Rockets",
       "price": 0.395,
-      "volume": 1174969.85,
+      "volume": 1274604.96,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Sabres vs. Bruins",
+      "price": 0.825,
+      "volume": 920065.08,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
       "price": 0.055,
-      "volume": 918404.57,
+      "volume": 918509.36,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by May...",
       "price": 0.225,
-      "volume": 882134.73,
+      "volume": 886937.92,
       "source": "Polymarket"
     },
     {
-      "title": "Sabres vs. Bruins",
-      "price": 0.535,
-      "volume": 866720.65,
+      "title": "Spread: Cavaliers (-4.5)",
+      "price": 0.575,
+      "volume": 867685.33,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by May 31?",
       "price": 0.028,
-      "volume": 781919.05,
+      "volume": 861022.89,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by May...",
       "price": 0.085,
-      "volume": 678649.61,
+      "volume": 677846.25,
       "source": "Polymarket"
     },
     {
       "title": "Lightning vs. Canadiens",
-      "price": 0.515,
-      "volume": 548495.06,
+      "price": 0.505,
+      "volume": 612572.82,
       "source": "Polymarket"
     },
     {
       "title": "Kharg Island no longer under Iranian ...",
-      "price": 0.085,
-      "volume": 494687.36,
+      "price": 0.075,
+      "volume": 496387.31,
       "source": "Polymarket"
     },
     {
       "title": "Will the Fed decrease interest rates ...",
-      "price": 0.04,
-      "volume": 473118.09,
+      "price": 0.0405,
+      "volume": 473421.76,
       "source": "Polymarket"
     },
     {
-      "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.205,
-      "volume": 465335.21,
+      "title": "US obtains Iranian enriched uranium b...",
+      "price": 0.095,
+      "volume": 466004.48,
       "source": "Polymarket"
     },
     {
-      "title": "Russia x Ukraine ceasefire by May 31,...",
-      "price": 0.064,
-      "volume": 459293.03,
+      "title": "Pistons vs. Magic: O/U 210.5",
+      "price": 0.275,
+      "volume": 462288.44,
       "source": "Polymarket"
     }
   ],
