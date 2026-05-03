@@ -2,56 +2,50 @@
   "markets": [
     {
       "title": "Magic vs. Pistons",
-      "price": 0.265,
-      "volume": 1480631.72,
+      "price": 0.335,
+      "volume": 1854814.41,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by May 31?",
-      "price": 0.0295,
-      "volume": 1379969.05,
+      "price": 0.0285,
+      "volume": 1402067.75,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will Real Madrid CF win on 2026-05-03?",
+      "price": 0.974,
+      "volume": 1270906.7,
       "source": "Polymarket"
     },
     {
       "title": "Raptors vs. Cavaliers",
       "price": 0.265,
-      "volume": 1280776.37,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Counter-Strike: Natus Vincere vs Vita...",
-      "price": 0.035,
-      "volume": 1257828.56,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will Real Madrid CF win on 2026-05-03?",
-      "price": 0.455,
-      "volume": 968400.93,
+      "volume": 1258541.8,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.195,
-      "volume": 886384.75,
+      "price": 0.26,
+      "volume": 1092720.11,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Pistons (-8.5)",
-      "price": 0.47,
-      "volume": 843597.49,
+      "price": 0.5,
+      "volume": 890544.56,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.055,
-      "volume": 837994.37,
+      "price": 0.045,
+      "volume": 859774.74,
       "source": "Polymarket"
     },
     {
       "title": "Los Angeles Dodgers vs. St. Louis Car...",
-      "price": 0.925,
-      "volume": 667122.52,
+      "price": 0.9795,
+      "volume": 702905.73,
       "source": "Polymarket"
     }
   ],
