@@ -1,69 +1,45 @@
 {
   "markets": [
     {
-      "title": "76ers vs. Celtics",
-      "price": 0.545,
-      "volume": 5993444.3,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Celtics (-8.5)",
-      "price": 0.22,
-      "volume": 1069188.42,
-      "source": "Polymarket"
-    },
-    {
       "title": "Will the Iranian regime fall by May 31?",
-      "price": 0.0265,
-      "volume": 934119.35,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Celtics (-7.5)",
-      "price": 0.245,
-      "volume": 785627.05,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Spread: Celtics (-6.5)",
-      "price": 0.27,
-      "volume": 689068.57,
-      "source": "Polymarket"
-    },
-    {
-      "title": "76ers vs. Celtics: O/U 205.5",
-      "price": 0.485,
-      "volume": 626151.56,
+      "price": 0.0245,
+      "volume": 941309.66,
       "source": "Polymarket"
     },
     {
       "title": "Will the Philadelphia 76ers win the 2...",
-      "price": 0.0405,
-      "volume": 565814.56,
+      "price": 0.0345,
+      "volume": 710427.1,
       "source": "Polymarket"
     },
     {
-      "title": "Will the Detroit Pistons win the 2026...",
-      "price": 0.0305,
-      "volume": 514308.38,
+      "title": "Chicago White Sox vs. San Diego Padres",
+      "price": 0.925,
+      "volume": 647202.61,
       "source": "Polymarket"
     },
     {
-      "title": "Flyers vs. Hurricanes",
-      "price": 0.315,
-      "volume": 492140.66,
+      "title": "Spread: Hurricanes (-1.5)",
+      "price": 0.93,
+      "volume": 503412.29,
       "source": "Polymarket"
     },
     {
-      "title": "San Francisco Giants vs. Tampa Bay Rays",
-      "price": 0.065,
-      "volume": 422255.99,
+      "title": "New York Mets vs. Los Angeles Angels",
+      "price": 0.54,
+      "volume": 468994.12,
       "source": "Polymarket"
     },
     {
-      "title": "US x Iran diplomatic meeting by May 5...",
-      "price": 0.0255,
-      "volume": 392627.96,
+      "title": "Will the Los Angeles Lakers win the 2...",
+      "price": 0.031,
+      "volume": 400155.42,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the U.S. invade Iran before 2027?",
+      "price": 0.295,
+      "volume": 378512.6,
       "source": "Polymarket"
     }
   ],
