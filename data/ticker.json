@@ -2,62 +2,68 @@
   "markets": [
     {
       "title": "Raptors vs. Cavaliers",
-      "price": 0.255,
-      "volume": 2741011.22,
+      "price": 0.175,
+      "volume": 4832331.55,
       "source": "Polymarket"
     },
     {
       "title": "Spread: Cavaliers (-8.5)",
-      "price": 0.505,
-      "volume": 1715187.18,
+      "price": 0.525,
+      "volume": 2071870.94,
       "source": "Polymarket"
     },
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.075,
-      "volume": 1367693.28,
+      "price": 0.065,
+      "volume": 1384401.97,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Strait of Hormuz traffic returns to n...",
+      "price": 0.215,
+      "volume": 1294651.46,
       "source": "Polymarket"
     },
     {
       "title": "Will the Detroit Pistons win the 2026...",
-      "price": 0.0525,
-      "volume": 1278092.93,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.205,
-      "volume": 1268257.86,
+      "price": 0.054,
+      "volume": 1274951.5,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by May 31?",
-      "price": 0.0325,
-      "volume": 1226320.62,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Canadiens vs. Lightning",
-      "price": 0.435,
-      "volume": 842426.32,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Canadiens vs. Lightning: O/U 5.5",
-      "price": 0.26,
-      "volume": 657301.01,
+      "price": 0.0305,
+      "volume": 1215014.17,
       "source": "Polymarket"
     },
     {
       "title": "Iran closes its airspace by May 8?",
       "price": 0.165,
-      "volume": 591345.05,
+      "volume": 586425.9,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by May...",
-      "price": 0.225,
-      "volume": 505207.56,
+      "price": 0.195,
+      "volume": 549753.93,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Wild vs. Avalanche",
+      "price": 0.355,
+      "volume": 478306.83,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will the U.S. invade Iran before 2027?",
+      "price": 0.305,
+      "volume": 439736.43,
+      "source": "Polymarket"
+    },
+    {
+      "title": "US x Iran permanent peace deal by May...",
+      "price": 0.045,
+      "volume": 426728.0,
       "source": "Polymarket"
     }
   ],
