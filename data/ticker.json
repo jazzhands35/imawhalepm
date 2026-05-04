@@ -2,56 +2,50 @@
   "markets": [
     {
       "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.065,
-      "volume": 1542593.82,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Strait of Hormuz traffic returns to n...",
-      "price": 0.215,
-      "volume": 1326471.23,
+      "price": 0.055,
+      "volume": 1661052.59,
       "source": "Polymarket"
     },
     {
       "title": "Will the Detroit Pistons win the 2026...",
-      "price": 0.0605,
-      "volume": 1296797.97,
+      "price": 0.0545,
+      "volume": 1299372.29,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Strait of Hormuz traffic returns to n...",
+      "price": 0.205,
+      "volume": 1197493.63,
       "source": "Polymarket"
     },
     {
       "title": "Will the Iranian regime fall by May 31?",
-      "price": 0.0275,
-      "volume": 832853.28,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will JD Vance win the 2028 US Preside...",
-      "price": 0.21,
-      "volume": 778749.59,
+      "price": 0.0305,
+      "volume": 1138948.13,
       "source": "Polymarket"
     },
     {
       "title": "US x Iran permanent peace deal by May...",
-      "price": 0.055,
-      "volume": 772469.09,
+      "price": 0.045,
+      "volume": 873147.19,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Iran closes its airspace by May 8?",
+      "price": 0.23,
+      "volume": 838793.92,
+      "source": "Polymarket"
+    },
+    {
+      "title": "Will JD Vance win the 2028 US Preside...",
+      "price": 0.2105,
+      "volume": 779937.45,
       "source": "Polymarket"
     },
     {
       "title": "Will Manchester City FC win on 2026-0...",
       "price": 0.655,
-      "volume": 566491.96,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Iran closes its airspace by May 8?",
-      "price": 0.125,
-      "volume": 561907.81,
-      "source": "Polymarket"
-    },
-    {
-      "title": "Will the U.S. invade Iran before 2027?",
-      "price": 0.305,
-      "volume": 480654.49,
+      "volume": 626812.56,
       "source": "Polymarket"
     }
   ],
